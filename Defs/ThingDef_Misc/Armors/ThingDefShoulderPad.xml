@@ -202,7 +202,7 @@
 					<layer>75</layer>
 				</dataEast>
 				<dataWest>
-					<offset>(0,0,0)</offset>
+					<offset>(0,0,-0.2)</offset>
 					<layer>75</layer>
 				</dataWest>
                 <scale>0.8</scale>

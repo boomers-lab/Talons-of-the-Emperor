@@ -384,11 +384,11 @@
 				<dataSouth>
 				</dataSouth>
 				<dataEast>
-					<offset>(-0.05,0,0.15)</offset>
+					<offset>(-0.05,0,0)</offset>
 				</dataEast>
 				<dataWest>
 				</dataWest>
-                <scale>0.9</scale>
+                <scale>1</scale>
             </drawData>
 		</apparel>		
 		<equippedStatOffsets>

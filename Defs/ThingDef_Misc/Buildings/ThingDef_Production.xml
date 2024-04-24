@@ -1,0 +1,29 @@
+<Defs>
+	<ThingDef ParentName="GrimworldFabricationBenchBase">
+		<defName>GW_SM_TalonOfTheEmperor_ArmorBench</defName>
+		<label>Talon of the Emperor armor workbench</label>
+		<description>workbench used to make Talon of the Emperor armor set.</description>
+		<graphicData>
+			<texPath>Things/Buildings/Production/40KBenches_Astartes_Armor</texPath>
+		</graphicData>
+		<costList>
+			<Steel>100</Steel>
+			<Plasteel>50</Plasteel>
+			<ComponentIndustrial>6</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+			<HP_Ceramite>15</HP_Ceramite>
+		</costList>
+		<recipes>
+		
+        </recipes>
+		<researchPrerequisites>
+			<li>GW_TotE_Custodes</li>
+		</researchPrerequisites>
+	</ThingDef>
+	<WorkGiverDef ParentName="GWFabricationWorkGiverBase">
+		<defName>DoBillsTalonOfTheEmperorArmorBench</defName>
+		<fixedBillGiverDefs>
+			<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+		</fixedBillGiverDefs>
+	</WorkGiverDef>
+</Defs>

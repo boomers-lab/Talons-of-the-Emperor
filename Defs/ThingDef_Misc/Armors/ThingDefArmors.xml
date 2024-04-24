@@ -1,0 +1,207 @@
+<Defs>
+
+	<ApparelLayerDef>
+		<defName>Backpack</defName>
+		<label>backpack</label>
+		<drawOrder>220</drawOrder>
+	</ApparelLayerDef>
+	
+	<ThingDef Abstract="true" Name="GW_TalonOfTheEmperor_ArmorBase" ParentName="ArmorMachineableBase">
+        <techLevel>Spacer</techLevel>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>20</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<thingCategories>
+			<li>ApparelArmor</li>
+		</thingCategories>
+		<uiIconScale>1</uiIconScale>
+		<equippedStatOffsets>
+			<Beauty>50</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>true</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>Torso</li>
+				<li>Neck</li>
+				<li>Shoulders</li>
+				<li>Arms</li>
+				<li>Legs</li>
+				<li MayRequire="ceteam.combatextended">Hands</li>
+				<li MayRequire="ceteam.combatextended">Feet</li>
+			</bodyPartGroups>
+			<layers>
+				<li>Middle</li>
+				<li>Shell</li>
+				<!-- <li>Backpack</li> -->
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>		
+	    <modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+            <li Class="CombatExtended.PartialArmorExt" MayRequire="ceteam.combatextended">
+                <stats>		  				  
+                    <li>
+                        <ArmorRating_Sharp>0.8</ArmorRating_Sharp>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                    <li>
+                        <ArmorRating_Blunt>0.8</ArmorRating_Blunt>
+                        <parts>
+                            <li>Hand</li>
+                        </parts>
+                    </li>
+                </stats>
+            </li>
+	    </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="GW_TalonOfTheEmperor_ArmorBase">
+		<defName>GW_TotE_CustodesArmors</defName>
+		<label>Custodes Armors</label>
+        <description>armor.</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/Custodes/Custodes_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>3.50</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>40</ComponentSpacer>
+			<ComponentIndustrial>70</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>400</HP_Ceramite>
+			<HP_Adamantium>300</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<apparel>
+			<drawData>
+				<dataWest>
+					<layer>70</layer>
+				</dataWest>
+				<dataEast>
+					<layer>70</layer>
+				</dataEast>
+			</drawData>
+			<layers>
+				<li>Backpack</li>
+			</layers>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/Custodes/Custodes</wornGraphicPath>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+    </ThingDef>	
+	
+	<ThingDef ParentName="GW_TalonOfTheEmperor_ArmorBase">
+		<defName>GW_TotE_CustodesCaptainArmors</defName>
+		<label>Custodes Captain Armors</label>
+        <description>armor.</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/CustodesCaptain/CustodesCaptain_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>11</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>4.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>3.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>3.50</ArmorRating_Heat>
+			<Insulation_Cold>30</Insulation_Cold>
+			<Insulation_Heat>30</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>40</ComponentSpacer>
+			<ComponentIndustrial>70</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>400</HP_Ceramite>
+			<HP_Adamantium>300</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<apparel>
+			<drawData>
+				<dataWest>
+					<!-- <layer>65</layer> -->
+				</dataWest>
+				<dataEast>
+					<!-- <layer>65</layer> -->
+				</dataEast>
+			</drawData>
+			<layers>
+				<li>Backpack</li>
+			</layers>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/CustodesCaptain/CustodesCaptain</wornGraphicPath>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_SM_TorsoChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+    </ThingDef>		
+
+</Defs>

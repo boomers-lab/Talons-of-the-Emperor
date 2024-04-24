@@ -1,0 +1,333 @@
+<Defs>
+
+	<ThingDef ParentName="BaseMeleeWeapon_Sharp_Quality" Name="GW_TotE_BaseMakeableMelee" Abstract="True">
+		<techLevel>Spacer</techLevel>
+		<weaponClasses>
+		  <li>Melee</li>
+		</weaponClasses>
+		<thingSetMakerTags>
+			<li>RewardStandardQualitySuper</li>
+		</thingSetMakerTags>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+		</weaponTags>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>10</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+			<displayPriority>410</displayPriority>
+		</recipeMaker>
+	</ThingDef>
+
+	<!-- Misericordia -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_Misericordia</defName>
+		<label>Misericordia</label>
+		<description>a sword</description>
+		<graphicData>
+			<texPath>Things/Weapons/Misericordia</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>				
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<equippedAngleOffset>-90</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<tools>
+			<li>
+			<label>handle</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>		
+	</ThingDef>
+
+	<!-- Sentinel_Blade -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_Sentinel_Blade</defName>
+		<label>Sentinel Blade</label>
+		<description>a sword</description>
+		<graphicData>
+			<texPath>Things/Weapons/Sentinel_Blade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>				
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<equippedAngleOffset>-90</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<tools>
+			<li>
+			<label>handle</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>		
+	</ThingDef>
+
+	<!-- Vaultsword -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_Vaultsword</defName>
+		<label>Vaultsword</label>
+		<description>a sword</description>
+		<graphicData>
+			<texPath>Things/Weapons/Vaultsword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<uiIconScale>1.2</uiIconScale>				
+		<statBases>
+			<WorkToMake>12000</WorkToMake>
+			<Mass>0.85</Mass>
+		</statBases>
+		<equippedAngleOffset>-90</equippedAngleOffset>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
+		<tools>
+			<li>
+			<label>handle</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>9</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>16</power>
+			<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>		
+	</ThingDef>
+
+	<!-- Vexilla -->
+	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee"> -->
+		<!-- <defName>GW_TotE_Vexilla</defName> -->
+		<!-- <label>Vexilla</label> -->
+		<!-- <description>a flag</description> -->
+		<!-- <graphicData> -->
+			<!-- <texPath>Things/Weapons/Vexilla</texPath> -->
+			<!-- <graphicClass>Graphic_Single</graphicClass> -->
+		<!-- </graphicData> -->
+		<!-- <uiIconScale>1.2</uiIconScale>				 -->
+		<!-- <statBases> -->
+			<!-- <WorkToMake>12000</WorkToMake> -->
+			<!-- <Mass>0.85</Mass> -->
+		<!-- </statBases> -->
+		<!-- <stuffCategories> -->
+			<!-- <li>Metallic</li> -->
+		<!-- </stuffCategories> -->
+		<!-- <costStuffCount>50</costStuffCount> -->
+		<!-- <tools> -->
+			<!-- <li> -->
+			<!-- <label>handle</label> -->
+			<!-- <capacities> -->
+				<!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>9</power> -->
+			<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+			<!-- <li> -->
+			<!-- <label>point</label> -->
+			<!-- <capacities> -->
+				<!-- <li>Blunt</li> -->
+			<!-- </capacities> -->
+			<!-- <power>16</power> -->
+			<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+			<!-- <li> -->
+			<!-- <label>Wings</label> -->
+			<!-- <capacities> -->
+				<!-- <li>Cut</li> -->
+			<!-- </capacities> -->
+			<!-- <power>16</power> -->
+			<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+		<!-- </tools>		 -->
+	<!-- </ThingDef> -->
+	
+	<ThingCategoryDef>
+		<defName>GW_TotE_Shields</defName>
+		<label>shields</label>
+		<parent>ApparelArmor</parent>
+	</ThingCategoryDef>
+	
+	<ThingDef Name="GW_TotEBaseShield" ParentName="BaseMeleeWeapon_Blunt_Quality" Abstract="True">
+        <techLevel>Spacer</techLevel>
+        <thingCategories Inherit="False">
+            <li>GW_TotE_Shields</li>
+        </thingCategories>
+        <equippedStatOffsets>
+            <ShootingAccuracyPawn>-2</ShootingAccuracyPawn>
+            <MeleeHitChance>-2</MeleeHitChance>
+            <MeleeDodgeChance>-5</MeleeDodgeChance>
+        </equippedStatOffsets>
+		<thingClass>VFECore.Apparel_Shield</thingClass>
+		<apparel>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+			<bodyPartGroups>
+				<li>LeftHand</li>
+			</bodyPartGroups>
+			<layers>
+				<li>VFEC_OuterShell</li>
+			</layers>
+		<countsAsClothingForNudity>false</countsAsClothingForNudity>
+		<canBeDesiredForIdeo>false</canBeDesiredForIdeo>
+		</apparel>
+        <comps>
+            <li>
+                <compClass>CompColorable</compClass>
+            </li>
+        </comps>
+        <equippedAngleOffset>-30</equippedAngleOffset>
+        <stuffCategories>
+            <li>Leathery</li>
+        </stuffCategories>
+        <tools>
+            <li>
+                <label>base</label>
+                <capacities>
+                    <li>Poke</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+            <li>
+                <label>centre</label>
+                <labelUsedInLogging>false</labelUsedInLogging>
+                <capacities>
+                    <li>Blunt</li>
+                </capacities>
+                <power>9</power>
+                <cooldownTime>2</cooldownTime>
+            </li>
+        </tools>
+    </ThingDef>
+	<!-- PShield -->
+	<!-- <ThingDef ParentName="GW_TotEBaseShield"> -->
+        <!-- <defName>GW_TotE_PShield</defName> -->
+        <!-- <label>P Shield</label> -->
+        <!-- <description>A large shield</description> -->
+        <!-- <graphicData> -->
+            <!-- <texPath>Things/Weapons/PShield</texPath> -->
+            <!-- <graphicClass>Graphic_Single</graphicClass> -->
+			<!-- <shaderType>CutoutComplex</shaderType> -->
+            <!-- <drawSize>1</drawSize> -->
+        <!-- </graphicData> -->
+        <!-- <costStuffCount>50</costStuffCount> -->
+        <!-- <costList> -->
+        <!-- </costList> -->
+        <!-- <statBases> -->
+            <!-- <MaxHitPoints>120</MaxHitPoints> -->
+            <!-- <Flammability>1.0</Flammability> -->
+            <!-- <ArmorRating_Sharp>0.45</ArmorRating_Sharp> -->
+            <!-- <ArmorRating_Blunt>0.35</ArmorRating_Blunt> -->
+            <!-- <ArmorRating_Heat>0.65</ArmorRating_Heat> -->
+            <!-- <WorkToMake>3000</WorkToMake> -->
+            <!-- <Mass>2.5</Mass> -->
+        <!-- </statBases> -->
+        <!-- <comps> -->
+            <!-- <li Class="VFECore.CompProperties_Shield"> -->
+                <!-- <shieldTags> -->
+                    <!-- <li>SpacerBasic</li> -->
+                <!-- </shieldTags> -->
+                <!-- <useDeflectMetalEffect>true</useDeflectMetalEffect> -->
+                <!-- <coveredBodyPartGroups> -->
+                    <!-- <li>Neck</li> -->
+                    <!-- <li>Torso</li> -->
+                    <!-- <li>Arms</li> -->
+                    <!-- <li>Hands</li> -->
+                <!-- </coveredBodyPartGroups> -->
+                <!-- <offHandGraphicData> -->
+                    <!-- <texPath>Things/Weapons/PShield</texPath> -->
+					<!-- <graphicClass>Graphic_Single</graphicClass> -->
+					<!-- <shaderType>CutoutComplex</shaderType> -->
+                    <!-- <drawSize>1.0</drawSize> -->
+                <!-- </offHandGraphicData> -->
+                <!-- <offHandHoldOffset> -->
+                    <!-- <northDefault> -->
+                        <!-- <offset>(0, 0, 0.2)</offset> -->
+                        <!-- <behind>true</behind> -->
+                    <!-- </northDefault> -->
+                    <!-- <east> -->
+                        <!-- <offset>(-0.1, 0, 0.2)</offset> -->
+                        <!-- <behind>true</behind> -->
+                    <!-- </east> -->
+                    <!-- <south> -->
+                        <!-- <offset>(-0.1, -0.04, 0.2)</offset> -->
+                    <!-- </south> -->
+                    <!-- <west> -->
+                        <!-- <offset>(0.1, 0, 0.2)</offset> -->
+                    <!-- </west> -->
+                <!-- </offHandHoldOffset> -->
+            <!-- </li> -->
+        <!-- </comps> -->
+    <!-- </ThingDef> -->
+
+</Defs>

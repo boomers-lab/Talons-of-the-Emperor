@@ -1,0 +1,419 @@
+<Defs>
+
+	<ThingDef Abstract="true" Name="GW_TotEHelmetBase" ParentName="ArmorHelmetMakeableBase">
+		<techLevel>Spacer</techLevel>
+		<graphicData>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>1</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
+			<skillRequirements>
+				<Crafting>20</Crafting>
+			</skillRequirements>
+			<recipeUsers Inherit="False">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<uiIconScale>1.6</uiIconScale>
+		<equippedStatOffsets>
+			<Beauty>50</Beauty>
+		</equippedStatOffsets>
+		<apparel>
+			<tags>
+				<li>Spacer</li>
+				<li>EVA</li>
+			</tags>
+			<drawData>
+				<defaultData>
+					<layer>65</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+				<dataNorth>
+					<!-- <offset>(0,0,-0.2)</offset> -->
+					<layer>65</layer>
+				</dataNorth>
+				<dataSouth>
+					<!-- <offset>(0,0,-0.2)</offset> -->
+				</dataSouth>
+				<dataEast>
+					<!-- <offset>(0,0,-0.2)</offset> -->
+					<!-- <layer>70</layer> -->
+				</dataEast>
+				<dataWest>
+					<!-- <offset>(0,0,-0.2)</offset> -->
+					<!-- <layer>70</layer> -->
+				</dataWest>
+                <scale>0.9</scale>
+            </drawData>
+			<useWornGraphicMask>true</useWornGraphicMask>
+			<countsAsClothingForNudity>false</countsAsClothingForNudity>
+			<bodyPartGroups>
+				<li>FullHead</li>
+			</bodyPartGroups>
+			<layers>
+				<li>EyeCover</li>
+				<li MayRequire="ceteam.combatextended">StrappedHead</li>
+				<li MayRequire="ceteam.combatextended">OnHead</li>
+				<li>Overhead</li> <!--Needs to be last for the tool to properly label this a helmet-->
+			</layers>
+			<defaultOutfitTags>
+				<li>Soldier</li>
+			</defaultOutfitTags>
+		</apparel>		
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+			</li>
+		</modExtensions>
+    </ThingDef>
+	
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_CustodesTermHelmetA</defName>
+		<label>Custodes Terminator helmet A</label>
+		<description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmA_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmA_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmA</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_CustodesTermHelmetB</defName>
+		<label>Custodes Terminator helmet B</label>
+		<description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmB_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmB_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmB</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_CustodesHelmA</defName>
+		<label>Custodes helmet A</label>
+		<description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmA_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmA_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmA</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_CustodesHelmB</defName>
+		<label>Custodes helmet B</label>
+		<description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmB_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmB_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmB</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_CustodesHelmC</defName>
+		<label>Custodes helmet C</label>
+		<description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmC_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmC_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmC</wornGraphicPath>
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_CustodesHelmD</defName>
+		<label>Custodes helmet D</label>
+		<description>. . .</description>
+		<graphicData>
+			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmD_south</texPath>
+		</graphicData>
+		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmD_south</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmD</wornGraphicPath>			
+		</apparel>		
+		<equippedStatOffsets>
+			<ToxicEnvironmentResistance>1</ToxicEnvironmentResistance>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>240</HP_Adamantium>
+			<HP_Auramite>110</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+		</comps>
+	</ThingDef>
+</Defs>

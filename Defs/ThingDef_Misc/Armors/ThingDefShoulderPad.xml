@@ -99,7 +99,7 @@
 		<label>Custodes shoulder pads</label>
 		<description>The Imperial Regent Shoulderpads in Warhammer 40,000 are iconic components of the power armor worn by elite soldiers in the service of the Imperium. Crafted with a combination of durable materials and intricate design, these shoulderpads serve both functional and symbolic purposes on the battlefield.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/Custodes/CustodesShoulder_south</texPath>
+			<texPath>Things/CustodesArmors/Custodes/CustodesShoulder_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -154,7 +154,7 @@
 		<label>Custodes Captain shoulder pads</label>
 		<description>The Imperial Regent Shoulderpads in Warhammer 40,000 are iconic components of the power armor worn by elite soldiers in the service of the Imperium. Crafted with a combination of durable materials and intricate design, these shoulderpads serve both functional and symbolic purposes on the battlefield.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/CustodesCaptain/CustodesCaptainShoulder_south</texPath>
+			<texPath>Things/CustodesArmors/CustodesCaptain/CustodesCaptainShoulder_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>

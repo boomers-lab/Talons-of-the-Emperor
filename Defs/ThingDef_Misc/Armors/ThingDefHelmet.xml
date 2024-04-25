@@ -82,7 +82,7 @@
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmA</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Helmets/CusTermHelmA</wornGraphicPath>
 			<drawData>
 				<defaultData>
 				</defaultData>
@@ -155,7 +155,7 @@
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmB</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Helmets/CusTermHelmB</wornGraphicPath>
 			<drawData>
 				<defaultData>
 				</defaultData>
@@ -228,7 +228,7 @@
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmA</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Helmets/CustodesHelmA</wornGraphicPath>
 			<drawData>
 				<defaultData>
 				</defaultData>
@@ -301,7 +301,7 @@
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmB</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Helmets/CustodesHelmB</wornGraphicPath>
 			<drawData>
 				<defaultData>
 				</defaultData>
@@ -374,7 +374,7 @@
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmC</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Helmets/CustodesHelmC</wornGraphicPath>
 			<drawData>
 				<defaultData>
 				</defaultData>
@@ -447,7 +447,7 @@
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmD</wornGraphicPath>		
+			<wornGraphicPath>Things/CustodesArmors/Helmets/CustodesHelmD</wornGraphicPath>		
 			<drawData>
 				<defaultData>
 				</defaultData>

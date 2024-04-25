@@ -127,7 +127,7 @@
 			<layers>
 				<li>Backpack</li>
 			</layers>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Custodes/Custodes</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Custodes/Custodes</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
@@ -194,7 +194,7 @@
 			<layers>
 				<li>Backpack</li>
 			</layers>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/CustodesCaptain/CustodesCaptain</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/CustodesCaptain/CustodesCaptain</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>

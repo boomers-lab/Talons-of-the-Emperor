@@ -131,7 +131,7 @@
 			<HP_Auramite>80</HP_Auramite>
 		</costList>
 		<apparel>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/Custodes/CustodesShoulder</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Custodes/CustodesShoulder</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
@@ -186,7 +186,7 @@
 			<HP_Auramite>80</HP_Auramite>
 		</costList>
 		<apparel>
-			<wornGraphicPath>Things/Apparels/CustodesArmors/CustodesCaptain/CustodesCaptainShoulder</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/CustodesCaptain/CustodesCaptainShoulder</wornGraphicPath>
 			<drawData>
 				<defaultData>
 					<layer>72</layer> <!--70-77 is over helmet and under gun-->

@@ -75,7 +75,7 @@
 		<label>Custodes Terminator helmet A</label>
 		<description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmA_south</texPath>
+			<texPath>Things/CustodesArmors/Helmets/CusTermHelmA_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmA_south</uiIconPath>
 		<apparel>
@@ -148,7 +148,7 @@
 		<label>Custodes Terminator helmet B</label>
 		<description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmB_south</texPath>
+			<texPath>Things/CustodesArmors/Helmets/CusTermHelmB_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmB_south</uiIconPath>
 		<apparel>
@@ -221,7 +221,7 @@
 		<label>Custodes helmet A</label>
 		<description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmA_south</texPath>
+			<texPath>Things/CustodesArmors/Helmets/CustodesHelmA_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmA_south</uiIconPath>
 		<apparel>
@@ -294,7 +294,7 @@
 		<label>Custodes helmet B</label>
 		<description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmB_south</texPath>
+			<texPath>Things/CustodesArmors/Helmets/CustodesHelmB_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmB_south</uiIconPath>
 		<apparel>
@@ -367,7 +367,7 @@
 		<label>Custodes helmet C</label>
 		<description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmC_south</texPath>
+			<texPath>Things/CustodesArmors/Helmets/CustodesHelmC_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmC_south</uiIconPath>
 		<apparel>
@@ -440,7 +440,7 @@
 		<label>Custodes helmet D</label>
 		<description>. . .</description>
 		<graphicData>
-			<texPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmD_south</texPath>
+			<texPath>Things/CustodesArmors/Helmets/CustodesHelmD_south</texPath>
 		</graphicData>
 		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmD_south</uiIconPath>
 		<apparel>

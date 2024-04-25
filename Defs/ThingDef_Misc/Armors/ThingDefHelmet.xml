@@ -77,7 +77,7 @@
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CusTermHelmA_south</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmA_south</uiIconPath>
+		<uiIconPath>Things/CustodesArmors/Helmets/CusTermHelmA_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>
@@ -150,7 +150,7 @@
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CusTermHelmB_south</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CusTermHelmB_south</uiIconPath>
+		<uiIconPath>Things/CustodesArmors/Helmets/CusTermHelmB_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>
@@ -223,7 +223,7 @@
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmA_south</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmA_south</uiIconPath>
+		<uiIconPath>Things/CustodesArmors/Helmets/CustodesHelmA_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>
@@ -296,7 +296,7 @@
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmB_south</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmB_south</uiIconPath>
+		<uiIconPath>Things/CustodesArmors/Helmets/CustodesHelmB_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>
@@ -369,7 +369,7 @@
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmC_south</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmC_south</uiIconPath>
+		<uiIconPath>Things/CustodesArmors/Helmets/CustodesHelmC_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>
@@ -442,7 +442,7 @@
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmD_south</texPath>
 		</graphicData>
-		<uiIconPath>Things/Apparels/CustodesArmors/Helmets/CustodesHelmD_south</uiIconPath>
+		<uiIconPath>Things/CustodesArmors/Helmets/CustodesHelmD_south</uiIconPath>
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>

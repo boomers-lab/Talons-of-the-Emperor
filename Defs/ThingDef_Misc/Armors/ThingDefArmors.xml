@@ -185,10 +185,10 @@
 					<layer>71</layer>
 				</dataNorth>
 				<dataWest>
-					<!-- <layer>65</layer> -->
+					<layer>70</layer>
 				</dataWest>
 				<dataEast>
-					<!-- <layer>65</layer> -->
+					<layer>70</layer>
 				</dataEast>
 			</drawData>
 			<layers>

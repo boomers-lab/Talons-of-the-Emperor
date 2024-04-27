@@ -6,8 +6,8 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_Custodes</defName>
-		<label>Custodes</label>
-		<description>. . .</description>
+		<label>Legio Custodes</label>
+		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
         <baseCost>8500</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>

@@ -13,6 +13,7 @@
 	
 	<ThingDef Abstract="true" Name="GW_TalonOfTheEmperor_ShoulderBase" ParentName="ArmorMachineableBase">
 		<techLevel>Spacer</techLevel>
+		<description>Custodes Shoulder Pads: Exuding strength and regal authority, our shoulder pads feature sleek design and reinforced plating, embodying the elite status of the Custodes.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -25,7 +26,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1</drawSize>
+			<drawSize>1.1</drawSize>
 		</graphicData>
 		<uiIconScale>1.6</uiIconScale>
 		<equippedStatOffsets>
@@ -97,7 +98,6 @@
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_CustodesShoulder</defName>
 		<label>Custodes shoulder pads</label>
-		<description>The Imperial Regent Shoulderpads in Warhammer 40,000 are iconic components of the power armor worn by elite soldiers in the service of the Imperium. Crafted with a combination of durable materials and intricate design, these shoulderpads serve both functional and symbolic purposes on the battlefield.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/CustodesShoulder_south</texPath>
 		</graphicData>
@@ -152,7 +152,6 @@
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_CustodesCaptainShoulder</defName>
 		<label>Custodes Captain shoulder pads</label>
-		<description>The Imperial Regent Shoulderpads in Warhammer 40,000 are iconic components of the power armor worn by elite soldiers in the service of the Imperium. Crafted with a combination of durable materials and intricate design, these shoulderpads serve both functional and symbolic purposes on the battlefield.\n\nThe left shoulderpad often bears the chapter's symbol, while the right may display personal or campaign-specific markings.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/CustodesCaptain/CustodesCaptainShoulder_south</texPath>
 		</graphicData>

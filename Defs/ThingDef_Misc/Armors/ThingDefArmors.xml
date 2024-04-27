@@ -80,8 +80,8 @@
 	
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ArmorBase">
 		<defName>GW_TotE_CustodesArmors</defName>
-		<label>Custodes Armors</label>
-        <description>armor.</description>
+		<label>Custodian Armor</label>
+        <description>Custodian Armor: Immaculately crafted and renowned for its unmatched resilience, Custodes Armor embodies the pinnacle of Adeptus Custodes craftsmanship. Each piece is a testament to the elite guardians of the Imperium, providing unparalleled protection while exuding regal authority and martial prowess on the battlefield.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/Custodes_south</texPath>
 		</graphicData>
@@ -91,7 +91,7 @@
         <statBases>
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>11</Mass>
+			<Mass>5</Mass>
 			<Flammability>0.0</Flammability>
 			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
 			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
@@ -107,9 +107,8 @@
 			<Plasteel>500</Plasteel>
 			<Steel>900</Steel>
 			<Uranium>190</Uranium>
-			<HP_Ceramite>400</HP_Ceramite>
-			<HP_Adamantium>300</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
+			<HP_Ceramite>320</HP_Ceramite>
+			<HP_Auramite>250</HP_Auramite>
 		</costList>
 		<apparel>
 			<drawData>
@@ -147,8 +146,8 @@
 	
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ArmorBase">
 		<defName>GW_TotE_CustodesCaptainArmors</defName>
-		<label>Custodes Captain Armors</label>
-        <description>armor.</description>
+		<label>Shield-Captain</label>
+        <description>Shield-Captain Armor: A pinnacle of Custodes craftsmanship, the Shield-Captain's armor combines peerless protection with agile versatility. Designed for the elite leaders of the Adeptus Custodes, it radiates authority and strength, inspiring awe on the battlefield as they lead their comrades with unyielding resolve.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/CustodesCaptain/CustodesCaptain_south</texPath>
 		</graphicData>
@@ -158,7 +157,7 @@
         <statBases>
 			<WorkToMake>150000</WorkToMake>
 			<MaxHitPoints>4000</MaxHitPoints>
-			<Mass>11</Mass>
+			<Mass>5</Mass>
 			<Flammability>0.0</Flammability>
 			<ArmorRating_Sharp>3.50</ArmorRating_Sharp>
 			<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
@@ -178,8 +177,7 @@
 			<Steel>900</Steel>
 			<Uranium>190</Uranium>
 			<HP_Ceramite>400</HP_Ceramite>
-			<HP_Adamantium>300</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
+			<HP_Auramite>300</HP_Auramite>
 		</costList>
 		<apparel>
 			<drawData>

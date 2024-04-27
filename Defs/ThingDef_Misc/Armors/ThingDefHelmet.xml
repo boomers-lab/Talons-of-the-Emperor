@@ -7,6 +7,7 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
 		</graphicData>
+		<description>Custodes Helmet: A pinnacle of craftsmanship and resilience, our helmet combines sleek design with formidable protection. Inspired by the noble guardians of the Imperium, it embodies strength, regality, and unwavering dedication to duty.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -73,7 +74,6 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesTermHelmetA</defName>
 		<label>Custodes Terminator helmet A</label>
-		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CusTermHelmA_south</texPath>
 		</graphicData>
@@ -146,7 +146,6 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesTermHelmetB</defName>
 		<label>Custodes Terminator helmet B</label>
-		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CusTermHelmB_south</texPath>
 		</graphicData>
@@ -219,7 +218,6 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesHelmA</defName>
 		<label>Custodes helmet A</label>
-		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmA_south</texPath>
 		</graphicData>
@@ -292,7 +290,6 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesHelmB</defName>
 		<label>Custodes helmet B</label>
-		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmB_south</texPath>
 		</graphicData>
@@ -365,7 +362,6 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesHelmC</defName>
 		<label>Custodes helmet C</label>
-		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmC_south</texPath>
 		</graphicData>
@@ -438,7 +434,6 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesHelmD</defName>
 		<label>Custodes helmet D</label>
-		<description>. . .</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Helmets/CustodesHelmD_south</texPath>
 		</graphicData>

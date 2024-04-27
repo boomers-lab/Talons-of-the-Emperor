@@ -8,7 +8,7 @@
 		<defName>GW_TotE_Custodes</defName>
 		<label>Custodes</label>
 		<description>. . .</description>
-        <baseCost>5000</baseCost>
+        <baseCost>8500</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
@@ -21,7 +21,7 @@
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
                         <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>5</NumberRequired>
+                        <NumberRequired>6</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>

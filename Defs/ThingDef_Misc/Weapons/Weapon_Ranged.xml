@@ -46,8 +46,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+		<ComponentSpacer>9</ComponentSpacer>
+			<ComponentIndustrial>27</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>300</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
+			<HP_Auramite>60</HP_Auramite>
     </costList>
     <verbs>
 		<li>
@@ -128,8 +135,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+		<ComponentSpacer>13</ComponentSpacer>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
     </costList>
     <verbs>
 		<li>
@@ -210,8 +224,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>45</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>550</Steel>
+			<Uranium>300</Uranium>
+			<HP_Ceramite>230</HP_Ceramite>
+			<HP_Adamantium>180</HP_Adamantium>
+			<HP_Auramite>75</HP_Auramite>
     </costList>
     <verbs>
 		<li>
@@ -277,8 +298,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>200</Uranium>
+			<HP_Ceramite>350</HP_Ceramite>
+			<HP_Adamantium>290</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
     </costList>
     <verbs>
 		<li>
@@ -367,8 +395,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
     </costList>
     <verbs>
 		<li>
@@ -457,8 +492,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
     </costList>
     <verbs>
 		<li>
@@ -547,8 +589,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
     </costList>
     <verbs>
 		<li>
@@ -637,8 +686,15 @@
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-		<Steel>150</Steel>
-		<ComponentIndustrial>5</ComponentIndustrial>
+			<ComponentSpacer>13</ComponentSpacer>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
     </costList>
     <verbs>
 		<li>

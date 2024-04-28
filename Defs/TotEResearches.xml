@@ -13,8 +13,8 @@
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
 		</prerequisites>
-		<researchViewX>5.00</researchViewX>
-		<researchViewY>2.00</researchViewY>
+			<researchViewX>11.00</researchViewX>
+			<researchViewY>1.20</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>

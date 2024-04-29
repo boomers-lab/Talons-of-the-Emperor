@@ -280,6 +280,7 @@
     <graphicData>
 		<texPath>Things/Weapons/Castellan_Axe</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.50</drawSize>
     </graphicData>
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -377,6 +378,7 @@
     <graphicData>
 		<texPath>Things/Weapons/GSpear_Adrathic</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.45</drawSize>
     </graphicData>
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -474,6 +476,7 @@
     <graphicData>
 		<texPath>Things/Weapons/GSpear_Bolter</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.45</drawSize>
     </graphicData>
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -571,6 +574,7 @@
     <graphicData>
 		<texPath>Things/Weapons/GSpear_Melta</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.45</drawSize>
     </graphicData>
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>

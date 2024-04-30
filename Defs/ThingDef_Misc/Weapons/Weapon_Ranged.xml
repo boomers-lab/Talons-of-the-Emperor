@@ -20,8 +20,8 @@
 	<!-- Adrathic Destructor -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
     <defName>GW_TotE_Adrathic_Destructor</defName>
-    <label>Adrathic Destructor</label>
-    <description>A gun</description>
+    <label>Adrathic destructor</label>
+    <description>The Adrathic Destructor wielded by the Custodes is a compact yet formidable weapon, designed for precision and annihilation. Its sleek design and lethal capabilities make it a fearsome asset on the battlefield. Built to embody the essence of both power and elegance, it stands as a testament to the Custodes' commitment to protecting the Imperium.</description>
     <graphicData>
 		<texPath>Things/Weapons/Adrathic_Destructor</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -29,26 +29,26 @@
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>6</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<recipeUsers Inherit="false">
 				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
+		</recipeUsers>
 		<displayPriority>445</displayPriority>
     </recipeMaker>
     <statBases>
-		<WorkToMake>34000</WorkToMake>
-		<Mass>8.5</Mass>
-		<AccuracyTouch>0.40</AccuracyTouch>
-		<AccuracyShort>0.48</AccuracyShort>
+		<WorkToMake>55000</WorkToMake>
+		<Mass>7.5</Mass>
+		<AccuracyTouch>0.90</AccuracyTouch>
+		<AccuracyShort>0.75</AccuracyShort>
 		<AccuracyMedium>0.35</AccuracyMedium>
-		<AccuracyLong>0.26</AccuracyLong>
-		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		<AccuracyLong>0.20</AccuracyLong>
+		<RangedWeapon_Cooldown>4</RangedWeapon_Cooldown>
     </statBases>
     <costList>
 		<ComponentSpacer>9</ComponentSpacer>
 			<ComponentIndustrial>27</ComponentIndustrial>
-			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<GW_ComponentRelic>4</GW_ComponentRelic>
 			<Plasteel>300</Plasteel>
 			<Steel>500</Steel>
 			<Uranium>100</Uranium>
@@ -61,13 +61,13 @@
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>GW_TotE_Adrathic_Destructor_Bullet</defaultProjectile>
-			<warmupTime>1.8</warmupTime>
-			<range>25.9</range>
-			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-			<burstShotCount>6</burstShotCount>
+			<warmupTime>3</warmupTime>
+			<range>20</range>
+			<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+			<burstShotCount>1</burstShotCount>
 			<soundCast>Shot_Minigun</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
+			<muzzleFlashScale>20</muzzleFlashScale>
 		</li>
     </verbs>
     <weaponTags>
@@ -102,10 +102,10 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>15</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
-			<speed>46</speed>
+			<damageAmountBase>80</damageAmountBase>
+			<armorPenetrationBase>1.50</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
+			<speed>30</speed>
 		</projectile>
 	</ThingDef>
   
@@ -113,7 +113,7 @@
   <ThingDef ParentName="GW_TotE_BaseMakeableGun">
     <defName>GW_TotE_Bolt_Caliver</defName>
     <label>Bolt Caliver</label>
-    <description>A gun</description>
+    <description>The Bolt Caliver wielded by the Custodes is a compact yet lethal firearm, designed for precision and devastating firepower. It's ergonomically crafted for superior handling and integrates advanced targeting systems for deadly accuracy. Whether in close combat or at range, it's a versatile weapon trusted by the Custodes to vanquish threats to the Imperium.</description>
     <graphicData>
 		<texPath>Things/Weapons/Bolt_Caliver</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -121,17 +121,20 @@
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>6</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<displayPriority>445</displayPriority>
+		<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+		</recipeUsers>
     </recipeMaker>
     <statBases>
 		<WorkToMake>34000</WorkToMake>
-		<Mass>8.5</Mass>
-		<AccuracyTouch>0.40</AccuracyTouch>
-		<AccuracyShort>0.48</AccuracyShort>
-		<AccuracyMedium>0.35</AccuracyMedium>
-		<AccuracyLong>0.26</AccuracyLong>
+		<Mass>4.5</Mass>
+		<AccuracyTouch>0.90</AccuracyTouch>
+		<AccuracyShort>0.85</AccuracyShort>
+		<AccuracyMedium>0.70</AccuracyMedium>
+		<AccuracyLong>0.50</AccuracyLong>
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -151,12 +154,12 @@
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>GW_TotE_Bolt_Caliver_Bullet</defaultProjectile>
 			<warmupTime>1.8</warmupTime>
-			<range>25.9</range>
+			<range>55</range>
 			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
 			<burstShotCount>6</burstShotCount>
-			<soundCast>Shot_Minigun</soundCast>
+			<soundCast>HP_Bolt_Gun_Sound</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
-			<muzzleFlashScale>9</muzzleFlashScale>
+			<muzzleFlashScale>11</muzzleFlashScale>
 		</li>
     </verbs>
     <weaponTags>
@@ -186,13 +189,13 @@
 		<defName>GW_TotE_Bolt_Caliver_Bullet</defName>
 		<label>Bolt bullet</label>
 		<graphicData>
-		<texPath>Things/Projectile/Bullet_Small</texPath>
+		<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>15</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
+			<damageAmountBase>45</damageAmountBase>
+			<armorPenetrationBase>1.10</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<speed>46</speed>
 		</projectile>
@@ -201,8 +204,8 @@
   <!-- Firepike -->
   <ThingDef ParentName="GW_TotE_BaseMakeableGun">
     <defName>GW_TotE_Firepike</defName>
-    <label>Firepike</label>
-    <description>A gun</description>
+    <label>Infernus firepike</label>
+    <description>The Infernus Firepike, gripped firmly by the Custodes, is a weapon of fiery wrath. With a mere thrust, it transforms the battlefield into a blazing spectacle, engulfing adversaries in relentless flames that leave no escape from the Emperor's judgment.</description>
     <graphicData>
 		<texPath>Things/Weapons/Firepike</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -210,13 +213,16 @@
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>6</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<displayPriority>445</displayPriority>
+		<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+		</recipeUsers>
     </recipeMaker>
     <statBases>
 		<WorkToMake>34000</WorkToMake>
-		<Mass>8.5</Mass>
+		<Mass>3.5</Mass>
 		<AccuracyTouch>0.40</AccuracyTouch>
 		<AccuracyShort>0.48</AccuracyShort>
 		<AccuracyMedium>0.35</AccuracyMedium>
@@ -226,26 +232,29 @@
     <costList>
 			<ComponentSpacer>20</ComponentSpacer>
 			<ComponentIndustrial>45</ComponentIndustrial>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
 			<Plasteel>450</Plasteel>
 			<Steel>550</Steel>
 			<Uranium>300</Uranium>
-			<HP_Ceramite>230</HP_Ceramite>
-			<HP_Adamantium>180</HP_Adamantium>
-			<HP_Auramite>75</HP_Auramite>
+			<HP_Ceramite>300</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
+			<HP_Auramite>70</HP_Auramite>
     </costList>
     <verbs>
 		<li>
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>Bullet_IncendiaryLauncher</defaultProjectile>
+			<defaultProjectile>GW_SM_Bullet_Flamer</defaultProjectile>
+			<ai_AvoidFriendlyFireRadius>3</ai_AvoidFriendlyFireRadius>
 			<warmupTime>3.5</warmupTime>
-			<range>23.9</range>
-			<forcedMissRadius>1.9</forcedMissRadius>
+			<range>40</range>
 			<burstShotCount>5</burstShotCount>
-			<soundCast>Shot_IncendiaryLauncher</soundCast>
-			<soundCastTail>GunTail_Medium</soundCastTail>
+			<soundCast>GW_SM_Flamer_Sound</soundCast>
+			<soundCastTail>GunTail_Light</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
+			<targetParams>
+				<canTargetLocations>true</canTargetLocations>
+			</targetParams>
 		</li>
     </verbs>
     <weaponTags>
@@ -276,7 +285,7 @@
   <ThingDef ParentName="GW_TotE_BaseMakeableGun">
     <defName>GW_TotE_Castellan_Axe</defName>
     <label>Castellan Axe</label>
-    <description>A gun</description>
+    <description>The Castellan Axe, wielded by the Custodes with unyielding might, is a symbol of righteous fury on the battlefield. Its imposing blade, etched with ancient sigils, cleaves through enemy ranks with relentless precision. In the hands of a Custodian, it becomes an instrument of swift justice, laying low any who dare to oppose the Imperium with its thunderous strikes.</description>
     <graphicData>
 		<texPath>Things/Weapons/Castellan_Axe</texPath>
 		<graphicClass>Graphic_Single</graphicClass>
@@ -285,9 +294,12 @@
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>6</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<displayPriority>445</displayPriority>
+		<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+		</recipeUsers>
     </recipeMaker>
     <statBases>
 		<WorkToMake>34000</WorkToMake>
@@ -313,12 +325,12 @@
 		<li>
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
-			<defaultProjectile>GW_TotE_Bolt_Castellan_Axe</defaultProjectile>
-			<warmupTime>3.5</warmupTime>
-			<range>23.9</range>
-			<!-- <forcedMissRadius>1.9</forcedMissRadius> -->
+			<defaultProjectile>HP_Bullet_Bolter</defaultProjectile>
+			<warmupTime>1.5</warmupTime>
+			<range>30</range>
+			<ticksBetweenBurstShots>2</ticksBetweenBurstShots>
 			<burstShotCount>1</burstShotCount>
-			<soundCast>Shot_IncendiaryLauncher</soundCast>
+			<soundCast>HP_Bolt_Gun_Sound</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>14</muzzleFlashScale>
 		</li>
@@ -332,7 +344,7 @@
 		<capacities>
 		<li>Blunt</li>
 		</capacities>
-		<power>9</power>
+		<power>40</power>
 		<cooldownTime>2</cooldownTime>
 	</li>
 	<li>
@@ -341,7 +353,7 @@
 		<li>Blunt</li>
 		<li>Poke</li>
 		</capacities>
-		<power>9</power>
+		<power>45</power>
 		<cooldownTime>2</cooldownTime>
 	</li>
 	<li>
@@ -349,8 +361,8 @@
 		<capacities>
 			<li>Cut</li>
 		</capacities>
-		<power>16</power>
-		<cooldownTime>2</cooldownTime>
+		<power>70</power>
+		<cooldownTime>1</cooldownTime>
 	</li>
     </tools>
   </ThingDef>
@@ -383,9 +395,12 @@
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>6</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<displayPriority>445</displayPriority>
+		<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+		</recipeUsers>
     </recipeMaker>
     <statBases>
 		<WorkToMake>34000</WorkToMake>
@@ -484,6 +499,9 @@
 			<Crafting>6</Crafting>
 		</skillRequirements>
 		<displayPriority>445</displayPriority>
+		<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+		</recipeUsers>
     </recipeMaker>
     <statBases>
 		<WorkToMake>34000</WorkToMake>
@@ -579,9 +597,12 @@
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>6</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<displayPriority>445</displayPriority>
+		<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+		</recipeUsers>
     </recipeMaker>
     <statBases>
 		<WorkToMake>34000</WorkToMake>
@@ -676,7 +697,7 @@
     <recipeMaker>
 		<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 		<skillRequirements>
-			<Crafting>6</Crafting>
+			<Crafting>18</Crafting>
 		</skillRequirements>
 		<displayPriority>445</displayPriority>
     </recipeMaker>

@@ -69,6 +69,7 @@
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
+				<li>PrestigeCombatGear</li>
 			</defaultOutfitTags>
 		</apparel>
 		<modExtensions>

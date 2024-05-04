@@ -102,9 +102,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>80</damageAmountBase>
+			<damageAmountBase>53</damageAmountBase>
 			<armorPenetrationBase>1.50</armorPenetrationBase>
-			<stoppingPower>3</stoppingPower>
+			<stoppingPower>2</stoppingPower>
 			<speed>30</speed>
 		</projectile>
 	</ThingDef>
@@ -134,7 +134,7 @@
 		<AccuracyTouch>0.90</AccuracyTouch>
 		<AccuracyShort>0.85</AccuracyShort>
 		<AccuracyMedium>0.70</AccuracyMedium>
-		<AccuracyLong>0.50</AccuracyLong>
+		<AccuracyLong>0.60</AccuracyLong>
 		<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <costList>
@@ -153,10 +153,10 @@
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>GW_TotE_Bolt_Caliver_Bullet</defaultProjectile>
-			<warmupTime>1.8</warmupTime>
+			<warmupTime>2.5</warmupTime>
 			<range>55</range>
-			<ticksBetweenBurstShots>7</ticksBetweenBurstShots>
-			<burstShotCount>6</burstShotCount>
+			<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+			<burstShotCount>3</burstShotCount>
 			<soundCast>HP_Bolt_Gun_Sound</soundCast>
 			<soundCastTail>GunTail_Medium</soundCastTail>
 			<muzzleFlashScale>11</muzzleFlashScale>
@@ -195,7 +195,7 @@
 		<projectile>
 			<damageDef>Bullet</damageDef>
 			<damageAmountBase>45</damageAmountBase>
-			<armorPenetrationBase>1.10</armorPenetrationBase>
+			<armorPenetrationBase>0.8</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<speed>46</speed>
 		</projectile>
@@ -302,8 +302,8 @@
 		</recipeUsers>
     </recipeMaker>
     <statBases>
-		<WorkToMake>34000</WorkToMake>
-		<Mass>8.5</Mass>
+		<WorkToMake>40000</WorkToMake>
+		<Mass>4</Mass>
 		<AccuracyTouch>0.40</AccuracyTouch>
 		<AccuracyShort>0.48</AccuracyShort>
 		<AccuracyMedium>0.35</AccuracyMedium>
@@ -313,7 +313,7 @@
     <costList>
 			<ComponentSpacer>20</ComponentSpacer>
 			<ComponentIndustrial>50</ComponentIndustrial>
-			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
 			<Plasteel>500</Plasteel>
 			<Steel>900</Steel>
 			<Uranium>200</Uranium>
@@ -375,7 +375,7 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
+			<damageAmountBase>40</damageAmountBase>
 			<armorPenetrationBase>0.75</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<speed>46</speed>
@@ -427,8 +427,8 @@
 			<verbClass>Verb_Shoot</verbClass>
 			<hasStandardCommand>true</hasStandardCommand>
 			<defaultProjectile>GW_TotE_Bolt_GSpear_Adrathic</defaultProjectile>
-			<warmupTime>3.5</warmupTime>
-			<range>23.9</range>
+			<warmupTime>2</warmupTime>
+			<range>20</range>
 			<!-- <forcedMissRadius>1.9</forcedMissRadius> -->
 			<burstShotCount>1</burstShotCount>
 			<soundCast>Shot_IncendiaryLauncher</soundCast>

@@ -321,7 +321,7 @@
 			<HP_Adamantium>290</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
-		<comps>
+		<comps Inherit="False">
 			<li Class="CompProperties_EquippableAbilityReloadable">
 				<abilityDef>GW_SM_CastellanShot</abilityDef>
 				<maxCharges>10</maxCharges>
@@ -330,6 +330,17 @@
 				<ammoDef>Steel</ammoDef>
 				<ammoCountPerCharge>10</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
 		</comps>
 		<weaponTags>
@@ -419,7 +430,7 @@
 			<HP_Adamantium>250</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
-		<comps>
+		<comps Inherit="False">
 			<li Class="CompProperties_EquippableAbilityReloadable">
 				<abilityDef>GW_SM_AdrathicShot</abilityDef>
 				<maxCharges>10</maxCharges>
@@ -428,6 +439,17 @@
 				<ammoDef>Steel</ammoDef>
 				<ammoCountPerCharge>10</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
 		</comps>
 		<weaponTags>
@@ -517,7 +539,7 @@
 			<HP_Adamantium>250</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
-		<comps>
+		<comps Inherit="False">
 			<li Class="CompProperties_EquippableAbilityReloadable">
 				<abilityDef>GW_SM_BolterShot</abilityDef>
 				<maxCharges>10</maxCharges>
@@ -526,6 +548,17 @@
 				<ammoDef>Steel</ammoDef>
 				<ammoCountPerCharge>10</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
 		</comps>
 		<weaponTags>
@@ -615,7 +648,7 @@
 			<HP_Adamantium>250</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
-		<comps>
+		<comps Inherit="False">
 			<li Class="CompProperties_EquippableAbilityReloadable">
 				<abilityDef>GW_SM_MeltaShot</abilityDef>
 				<maxCharges>10</maxCharges>
@@ -624,6 +657,17 @@
 				<ammoDef>Steel</ammoDef>
 				<ammoCountPerCharge>10</ammoCountPerCharge>
 				<baseReloadTicks>60</baseReloadTicks>
+			</li>
+			<li Class="CompProperties_Forbiddable"/>
+			<li Class="CompProperties_Styleable"/>
+			<li Class="CompProperties_Biocodable"/>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtWeaponGun</nameMaker>
+				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
+				<minQualityForArtistic>Excellent</minQualityForArtistic>
 			</li>
 		</comps>
 		<weaponTags>

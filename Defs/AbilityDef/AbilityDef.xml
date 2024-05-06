@@ -13,9 +13,9 @@
 			<requireLineOfSight>true</requireLineOfSight>
 			<range>9.9</range>
 			<warmupTime>0.5</warmupTime>
-			<soundCast>HP_Bolt_Gun_Sound</soundCast>
+			<soundCast>Shot_AssaultRifle</soundCast>
 			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</verbProperties>
 		<comps>
@@ -30,7 +30,7 @@
                 <!-- </projectileList> -->
                 <burstCount>6</burstCount>
                 <tickBetweenShot>30</tickBetweenShot>
-                <shotSound>HP_Bolt_Gun_Sound</shotSound>
+                <shotSound>Shot_AssaultRifle</shotSound>
             </li>
 		</comps>
 	</AbilityDef>
@@ -48,9 +48,9 @@
 			<requireLineOfSight>true</requireLineOfSight>
 			<range>9.9</range>
 			<warmupTime>0.5</warmupTime>
-			<soundCast>HP_Bolt_Gun_Sound</soundCast>
+			<soundCast>Shot_AssaultRifle</soundCast>
 			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</verbProperties>
 		<comps>
@@ -76,9 +76,9 @@
 			<requireLineOfSight>true</requireLineOfSight>
 			<range>9.9</range>
 			<warmupTime>0.5</warmupTime>
-			<soundCast>HP_Bolt_Gun_Sound</soundCast>
+			<soundCast>Shot_AssaultRifle</soundCast>
 			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</verbProperties>
 		<comps>
@@ -104,9 +104,9 @@
 			<requireLineOfSight>true</requireLineOfSight>
 			<range>9.9</range>
 			<warmupTime>0.5</warmupTime>
-			<soundCast>HP_Bolt_Gun_Sound</soundCast>
+			<soundCast>Shot_AssaultRifle</soundCast>
 			<targetParams>
-				<canTargetLocations>true</canTargetLocations>
+				<canTargetLocations>false</canTargetLocations>
 			</targetParams>
 		</verbProperties>
 		<comps>

@@ -279,7 +279,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
-	</ThingDef>
+	</ThingDef>	
 	
 	<!-- Kinetic_Destructor -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">

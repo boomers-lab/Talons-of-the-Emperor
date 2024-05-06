@@ -163,6 +163,294 @@
 			</li>
 		</tools>		
 	</ThingDef>
+	
+	<!-- Castellan_Axe -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_Castellan_Axe</defName>
+		<label>Castellan Axe</label>
+		<description>The Castellan Axe, wielded by the Custodes with unyielding might, is a symbol of righteous fury on the battlefield. Its imposing blade, etched with ancient sigils, cleaves through enemy ranks with relentless precision. In the hands of a Custodian, it becomes an instrument of swift justice, laying low any who dare to oppose the Imperium with its thunderous strikes.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Castellan_Axe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>4</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.26</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>200</Uranium>
+			<HP_Ceramite>350</HP_Ceramite>
+			<HP_Adamantium>290</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>axe head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!-- GSpear_Adrathic -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_GSpear_Adrathic</defName>
+		<label>GSpear Adrathic</label>
+		<description>A gun</description>
+		<graphicData>
+			<texPath>Things/Weapons/GSpear_Adrathic</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.26</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>axe head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!-- GSpear_Bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_GSpear_Bolter</defName>
+		<label>GSpear Bolter</label>
+		<description>A gun</description>
+		<graphicData>
+			<texPath>Things/Weapons/GSpear_Bolter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>6</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.26</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>axe head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!-- GSpear_Melta -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_GSpear_Melta</defName>
+		<label>GSpear Melta</label>
+		<description>A gun</description>
+		<graphicData>
+			<texPath>Things/Weapons/GSpear_Melta</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+			<AccuracyTouch>0.40</AccuracyTouch>
+			<AccuracyShort>0.48</AccuracyShort>
+			<AccuracyMedium>0.35</AccuracyMedium>
+			<AccuracyLong>0.26</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>axe head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>16</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
 
 	<!-- Vexilla -->
 	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee"> -->
@@ -269,442 +557,6 @@
             </li>
         </tools>
     </ThingDef>
-	<!-- Castellan_Axe -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
-		<defName>GW_TotE_Castellan_Axe</defName>
-		<label>Castellan Axe</label>
-		<description>The Castellan Axe, wielded by the Custodes with unyielding might, is a symbol of righteous fury on the battlefield. Its imposing blade, etched with ancient sigils, cleaves through enemy ranks with relentless precision. In the hands of a Custodian, it becomes an instrument of swift justice, laying low any who dare to oppose the Imperium with its thunderous strikes.</description>
-		<graphicData>
-			<texPath>Things/Weapons/Castellan_Axe</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.50</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<Mass>4</Mass>
-			<AccuracyTouch>0.40</AccuracyTouch>
-			<AccuracyShort>0.48</AccuracyShort>
-			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.26</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-		</statBases>
-		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>50</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>200</Uranium>
-			<HP_Ceramite>350</HP_Ceramite>
-			<HP_Adamantium>290</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<comps Inherit="False">
-			<li Class="CompProperties_EquippableAbilityReloadable">
-				<abilityDef>GW_SM_CastellanShot</abilityDef>
-				<maxCharges>10</maxCharges>
-				<soundReload>Standard_Reload</soundReload>
-				<chargeNoun>bolter ammo</chargeNoun>
-				<ammoDef>Steel</ammoDef>
-				<ammoCountPerCharge>10</ammoCountPerCharge>
-				<baseReloadTicks>60</baseReloadTicks>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>40</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>45</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>70</power>
-				<cooldownTime>1</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
-	<ThingDef ParentName="BaseBullet">
-		<defName>GW_TotE_Bolt_Castellan_Axe</defName>
-		<label>Bolt bullet</label>
-		<graphicData>
-			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>40</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
-			<speed>46</speed>
-		</projectile>
-	</ThingDef>
-	
-	<!-- GSpear_Adrathic -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
-		<defName>GW_TotE_GSpear_Adrathic</defName>
-		<label>GSpear Adrathic</label>
-		<description>A gun</description>
-		<graphicData>
-			<texPath>Things/Weapons/GSpear_Adrathic</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-			<AccuracyTouch>0.40</AccuracyTouch>
-			<AccuracyShort>0.48</AccuracyShort>
-			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.26</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-		</statBases>
-		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<comps Inherit="False">
-			<li Class="CompProperties_EquippableAbilityReloadable">
-				<abilityDef>GW_SM_AdrathicShot</abilityDef>
-				<maxCharges>10</maxCharges>
-				<soundReload>Standard_Reload</soundReload>
-				<chargeNoun>bolter ammo</chargeNoun>
-				<ammoDef>Steel</ammoDef>
-				<ammoCountPerCharge>10</ammoCountPerCharge>
-				<baseReloadTicks>60</baseReloadTicks>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
-	<ThingDef ParentName="BaseBullet">
-		<defName>GW_TotE_Bolt_GSpear_Adrathic</defName>
-		<label>Bolt bullet</label>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
-			<speed>46</speed>
-		</projectile>
-	</ThingDef>
-	
-	<!-- GSpear_Bolter -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
-		<defName>GW_TotE_GSpear_Bolter</defName>
-		<label>GSpear Bolter</label>
-		<description>A gun</description>
-		<graphicData>
-			<texPath>Things/Weapons/GSpear_Bolter</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>6</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-			<AccuracyTouch>0.40</AccuracyTouch>
-			<AccuracyShort>0.48</AccuracyShort>
-			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.26</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-		</statBases>
-		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<comps Inherit="False">
-			<li Class="CompProperties_EquippableAbilityReloadable">
-				<abilityDef>GW_SM_BolterShot</abilityDef>
-				<maxCharges>10</maxCharges>
-				<soundReload>Standard_Reload</soundReload>
-				<chargeNoun>bolter ammo</chargeNoun>
-				<ammoDef>Steel</ammoDef>
-				<ammoCountPerCharge>10</ammoCountPerCharge>
-				<baseReloadTicks>60</baseReloadTicks>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
-	<ThingDef ParentName="BaseBullet">
-		<defName>GW_TotE_Bolt_GSpear_Bolter</defName>
-		<label>Bolt bullet</label>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
-			<speed>46</speed>
-		</projectile>
-	</ThingDef>
-	
-	<!-- GSpear_Melta -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
-		<defName>GW_TotE_GSpear_Melta</defName>
-		<label>GSpear Melta</label>
-		<description>A gun</description>
-		<graphicData>
-			<texPath>Things/Weapons/GSpear_Melta</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-			<AccuracyTouch>0.40</AccuracyTouch>
-			<AccuracyShort>0.48</AccuracyShort>
-			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.26</AccuracyLong>
-			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
-		</statBases>
-		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<comps Inherit="False">
-			<li Class="CompProperties_EquippableAbilityReloadable">
-				<abilityDef>GW_SM_MeltaShot</abilityDef>
-				<maxCharges>10</maxCharges>
-				<soundReload>Standard_Reload</soundReload>
-				<chargeNoun>bolter ammo</chargeNoun>
-				<ammoDef>Steel</ammoDef>
-				<ammoCountPerCharge>10</ammoCountPerCharge>
-				<baseReloadTicks>60</baseReloadTicks>
-			</li>
-			<li Class="CompProperties_Forbiddable"/>
-			<li Class="CompProperties_Styleable"/>
-			<li Class="CompProperties_Biocodable"/>
-			<li>
-				<compClass>CompQuality</compClass>
-			</li>
-			<li Class="CompProperties_Art">
-				<nameMaker>NamerArtWeaponGun</nameMaker>
-				<descriptionMaker>ArtDescription_WeaponGun</descriptionMaker>
-				<minQualityForArtistic>Excellent</minQualityForArtistic>
-			</li>
-		</comps>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
-	
-	<ThingDef ParentName="BaseBullet">
-		<defName>GW_TotE_Bolt_GSpear_Melta</defName>
-		<label>Bolt bullet</label>
-		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
-		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
-			<speed>46</speed>
-		</projectile>
-	</ThingDef>
 	<!-- PShield -->
 	<!-- <ThingDef ParentName="GW_TotEBaseShield"> -->
         <!-- <defName>GW_TotE_PShield</defName> -->

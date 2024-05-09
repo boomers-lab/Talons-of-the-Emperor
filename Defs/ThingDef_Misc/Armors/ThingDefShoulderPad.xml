@@ -140,7 +140,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_ShoulderChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
@@ -214,7 +214,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_ShoulderChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_ShoulderChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>

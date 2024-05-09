@@ -134,7 +134,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
@@ -206,7 +206,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
@@ -278,7 +278,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
@@ -350,7 +350,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
@@ -422,7 +422,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>
@@ -494,7 +494,7 @@
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
 				<maskCount>1</maskCount>
-				<palettePresets>GW_SM_HelmetChapterPalettes</palettePresets>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
 				<defaultPalette>
 					<colorA>(250, 176, 67)</colorA>
 					<colorB>(250, 176, 67)</colorB>

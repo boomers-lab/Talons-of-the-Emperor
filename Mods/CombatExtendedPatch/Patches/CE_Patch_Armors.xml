@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+			<!-- Custodes Light -->
+				<!-- Helmets -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[@defName="GW_TotE_CustodesHelmA" or defName="GW_TotE_CustodesHelmB" or defName="GW_TotE_CustodesHelmC" or defName="GW_TotE_CustodesHelmD"]/apparel/layers/li[text()="EyeCover"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesHelmA" or defName="GW_TotE_CustodesHelmB" or defName="GW_TotE_CustodesHelmC" or defName="GW_TotE_CustodesHelmD"]/statBases</xpath>
+		<value>
+			<Bulk>9</Bulk>
+			<WornBulk>2</WornBulk>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesHelmA" or defName="GW_TotE_CustodesHelmB" or defName="GW_TotE_CustodesHelmC" or defName="GW_TotE_CustodesHelmD"]/statBases/Mass</xpath>
+		<value>
+			<Mass>9.6</Mass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesHelmA" or defName="GW_TotE_CustodesHelmB" or defName="GW_TotE_CustodesHelmC" or defName="GW_TotE_CustodesHelmD"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>46</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesHelmA" or defName="GW_TotE_CustodesHelmB" or defName="GW_TotE_CustodesHelmC" or defName="GW_TotE_CustodesHelmD"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>460</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesHelmA" or defName="GW_TotE_CustodesHelmB" or defName="GW_TotE_CustodesHelmC" or defName="GW_TotE_CustodesHelmD"]/equippedStatOffsets</xpath>
+		<value>
+			<AimingAccuracy>0.50</AimingAccuracy>
+			<SmokeSensitivity>-1</SmokeSensitivity>
+		</value>
+	</Operation>
+	
+				<!-- Armors -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesArmors"]/statBases</xpath>
+		<value>
+			<Bulk>135</Bulk>
+			<WornBulk>20</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesArmors"]/statBases/Mass</xpath>
+		<value>
+			<Mass>100</Mass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesArmors"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>70</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesArmors"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>700</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesArmors"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>200.0</CarryWeight>
+			<CarryBulk>70</CarryBulk>
+		</value>
+	</Operation>
+	
+					<!-- Shoulder Pads -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesShoulder"]/statBases</xpath>
+		<value>
+			<Bulk>11</Bulk>
+			<WornBulk>2.5</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesShoulder"]/statBases/Mass</xpath>
+		<value>
+			<Mass>13</Mass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesShoulder"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>27</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesShoulder"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>270</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<!-- Custodes Terminator -->
+				<!-- Helmets -->
+	<Operation Class="PatchOperationRemove">
+		<xpath>Defs/ThingDef[@defName="GW_TotE_CustodesTermHelmetA" or defName="GW_TotE_CustodesTermHelmetB"]/apparel/layers/li[text()="EyeCover"]</xpath>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesTermHelmetA" or defName="GW_TotE_CustodesTermHelmetB"]/statBases</xpath>
+		<value>
+			<Bulk>15</Bulk>
+			<WornBulk>4</WornBulk>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="defName="GW_TotE_CustodesTermHelmetA" or defName="GW_TotE_CustodesTermHelmetB"]/statBases/Mass</xpath>
+		<value>
+			<Mass>13</Mass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDefdefName="GW_TotE_CustodesTermHelmetA" or defName="GW_TotE_CustodesTermHelmetB"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>55</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="defName="GW_TotE_CustodesTermHelmetA" or defName="GW_TotE_CustodesTermHelmetB"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>550</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesTermHelmetA" or defName="GW_TotE_CustodesTermHelmetB"]/equippedStatOffsets</xpath>
+		<value>
+			<AimingAccuracy>0.51</AimingAccuracy>
+			<SmokeSensitivity>-1</SmokeSensitivity>
+		</value>
+	</Operation>
+	
+				<!-- Armor -->
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesCaptainArmors"]/statBases</xpath>
+		<value>
+			<Bulk>170</Bulk>
+			<WornBulk>34</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesCaptainArmors"]/statBases/Mass</xpath>
+		<value>
+			<Mass>160</Mass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesCaptainArmors"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>85</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesCaptainArmors"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>850</ArmorRating_Blunt>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesCaptainArmors"]/equippedStatOffsets</xpath>
+		<value>
+			<CarryWeight>300</CarryWeight>
+			<CarryBulk>150</CarryBulk>
+		</value>
+	</Operation>
+					<!-- Shoulder Pads -->
+	
+	<Operation Class="PatchOperationAdd">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesCaptainShoulder"]/statBases</xpath>
+		<value>
+			<Bulk>13</Bulk>
+			<WornBulk>3.5</WornBulk>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesCaptainShoulder"]/statBases/Mass</xpath>
+		<value>
+			<Mass>16</Mass>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesCaptainShoulder"]/statBases/ArmorRating_Sharp</xpath>
+		<value>
+			<ArmorRating_Sharp>30</ArmorRating_Sharp>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[@Name="GW_TotE_CustodesCaptainShoulder"]/statBases/ArmorRating_Blunt</xpath>
+		<value>
+			<ArmorRating_Blunt>400</ArmorRating_Blunt>
+		</value>
+	</Operation>
+	
+	

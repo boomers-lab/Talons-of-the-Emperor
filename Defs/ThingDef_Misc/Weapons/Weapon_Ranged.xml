@@ -298,12 +298,12 @@
 			<displayPriority>445</displayPriority>
 		</recipeMaker>
 		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-			<AccuracyTouch>0.40</AccuracyTouch>
-			<AccuracyShort>0.48</AccuracyShort>
-			<AccuracyMedium>0.35</AccuracyMedium>
-			<AccuracyLong>0.26</AccuracyLong>
+			<WorkToMake>45000</WorkToMake>
+			<Mass>3</Mass>
+			<AccuracyTouch>0.95</AccuracyTouch>
+			<AccuracyShort>0.90</AccuracyShort>
+			<AccuracyMedium>0.85</AccuracyMedium>
+			<AccuracyLong>0.80</AccuracyLong>
 			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
 		</statBases>
 		<costList>
@@ -322,11 +322,11 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_Bolt_Kinetic_Destructor</defaultProjectile>
-				<warmupTime>3.5</warmupTime>
-				<range>23.9</range>
+				<warmupTime>2</warmupTime>
+				<range>40</range>
 				<!-- <forcedMissRadius>1.9</forcedMissRadius> -->
 				<burstShotCount>3</burstShotCount>
-				<soundCast>Shot_Revolver</soundCast>
+				<soundCast>Revolver-1</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
 			</li>
@@ -371,8 +371,8 @@
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>
-			<damageAmountBase>25</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
+			<damageAmountBase>70</damageAmountBase>
+			<armorPenetrationBase>0.50</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<speed>46</speed>
 		</projectile>

@@ -326,7 +326,7 @@
 				<range>40</range>
 				<!-- <forcedMissRadius>1.9</forcedMissRadius> -->
 				<burstShotCount>1</burstShotCount>
-				<soundCast>Revolver-1</soundCast>
+				<soundCast>RevolverA1</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>14</muzzleFlashScale>
 			</li>

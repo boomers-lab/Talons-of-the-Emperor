@@ -84,7 +84,7 @@
 		<label>Custodian Armor</label>
         <description>Custodian Armor: Immaculately crafted and renowned for its unmatched resilience, Custodes Armor embodies the pinnacle of Adeptus Custodes craftsmanship. Each piece is a testament to the elite guardians of the Imperium, providing unparalleled protection while exuding regal authority and martial prowess on the battlefield.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/Custodes/Custodes_south</texPath>
+			<texPath>Things/CustodesArmors/Custodes/CustodesArmorA_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -127,14 +127,14 @@
 			<layers>
 				<li>Backpack</li>
 			</layers>
-			<wornGraphicPath>Things/CustodesArmors/Custodes/Custodes</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Custodes/CustodesArmorA</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>1</maskCount>
+                <maskCount>2</maskCount>
                 <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>
@@ -150,7 +150,7 @@
 		<label>Shield-Captain</label>
         <description>Shield-Captain Armor: A pinnacle of Custodes craftsmanship, the Shield-Captain's armor combines peerless protection with agile versatility. Designed for the elite leaders of the Adeptus Custodes, it radiates authority and strength, inspiring awe on the battlefield as they lead their comrades with unyielding resolve.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/CustodesCaptain/CustodesCaptain_south</texPath>
+			<texPath>Things/CustodesArmors/CustodesCaptain/CustodesArmorB_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -196,14 +196,14 @@
 			<layers>
 				<li>Backpack</li>
 			</layers>
-			<wornGraphicPath>Things/CustodesArmors/CustodesCaptain/CustodesCaptain</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/CustodesCaptain/CustodesArmorB</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>1</maskCount>
+                <maskCount>2</maskCount>
                 <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>

@@ -549,64 +549,73 @@
         </tools>
     </ThingDef>
 	<!-- PShield -->
-	<!-- <ThingDef ParentName="GW_TotEBaseShield"> -->
-        <!-- <defName>GW_TotE_PShield</defName> -->
-        <!-- <label>P Shield</label> -->
-        <!-- <description>A large shield</description> -->
-        <!-- <graphicData> -->
-            <!-- <texPath>Things/Weapons/PShield</texPath> -->
-            <!-- <graphicClass>Graphic_Single</graphicClass> -->
-			<!-- <shaderType>CutoutComplex</shaderType> -->
-            <!-- <drawSize>1</drawSize> -->
-        <!-- </graphicData> -->
-        <!-- <costStuffCount>50</costStuffCount> -->
-        <!-- <costList> -->
-        <!-- </costList> -->
-        <!-- <statBases> -->
-            <!-- <MaxHitPoints>120</MaxHitPoints> -->
-            <!-- <Flammability>1.0</Flammability> -->
-            <!-- <ArmorRating_Sharp>0.45</ArmorRating_Sharp> -->
-            <!-- <ArmorRating_Blunt>0.35</ArmorRating_Blunt> -->
-            <!-- <ArmorRating_Heat>0.65</ArmorRating_Heat> -->
-            <!-- <WorkToMake>3000</WorkToMake> -->
-            <!-- <Mass>2.5</Mass> -->
-        <!-- </statBases> -->
-        <!-- <comps> -->
-            <!-- <li Class="VFECore.CompProperties_Shield"> -->
-                <!-- <shieldTags> -->
-                    <!-- <li>SpacerBasic</li> -->
-                <!-- </shieldTags> -->
-                <!-- <useDeflectMetalEffect>true</useDeflectMetalEffect> -->
-                <!-- <coveredBodyPartGroups> -->
-                    <!-- <li>Neck</li> -->
-                    <!-- <li>Torso</li> -->
-                    <!-- <li>Arms</li> -->
-                    <!-- <li>Hands</li> -->
-                <!-- </coveredBodyPartGroups> -->
-                <!-- <offHandGraphicData> -->
-                    <!-- <texPath>Things/Weapons/PShield</texPath> -->
-					<!-- <graphicClass>Graphic_Single</graphicClass> -->
-					<!-- <shaderType>CutoutComplex</shaderType> -->
-                    <!-- <drawSize>1.0</drawSize> -->
-                <!-- </offHandGraphicData> -->
-                <!-- <offHandHoldOffset> -->
-                    <!-- <northDefault> -->
-                        <!-- <offset>(0, 0, 0.2)</offset> -->
-                        <!-- <behind>true</behind> -->
-                    <!-- </northDefault> -->
-                    <!-- <east> -->
-                        <!-- <offset>(-0.1, 0, 0.2)</offset> -->
-                        <!-- <behind>true</behind> -->
-                    <!-- </east> -->
-                    <!-- <south> -->
-                        <!-- <offset>(-0.1, -0.04, 0.2)</offset> -->
-                    <!-- </south> -->
-                    <!-- <west> -->
-                        <!-- <offset>(0.1, 0, 0.2)</offset> -->
-                    <!-- </west> -->
-                <!-- </offHandHoldOffset> -->
-            <!-- </li> -->
-        <!-- </comps> -->
-    <!-- </ThingDef> -->
+	<ThingDef ParentName="GW_TotEBaseShield">
+        <defName>GW_TotE_PShield</defName>
+        <label>P Shield</label>
+        <description>A large shield</description>
+        <graphicData>
+            <texPath>Things/Weapons/CustodesShield_south</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+            <drawSize>1</drawSize>
+        </graphicData>
+        <costStuffCount>50</costStuffCount>
+        <costList>
+        </costList>
+        <statBases>
+            <MaxHitPoints>120</MaxHitPoints>
+            <Flammability>1.0</Flammability>
+            <ArmorRating_Sharp>0.45</ArmorRating_Sharp>
+            <ArmorRating_Blunt>0.35</ArmorRating_Blunt>
+            <ArmorRating_Heat>0.65</ArmorRating_Heat>
+            <WorkToMake>3000</WorkToMake>
+            <Mass>2.5</Mass>
+        </statBases>
+        <comps>
+            <li Class="VFECore.CompProperties_Shield">
+                <shieldTags>
+                    <li>SpacerBasic</li>
+                </shieldTags>
+                <useDeflectMetalEffect>true</useDeflectMetalEffect>
+                <coveredBodyPartGroups>
+                    <li>Neck</li>
+                    <li>Torso</li>
+                    <li>Arms</li>
+                    <li>Hands</li>
+                </coveredBodyPartGroups>
+                <offHandGraphicData>
+                    <texPath>Things/Weapons/CustodesShield</texPath>
+					<graphicClass>Graphic_Single</graphicClass>
+					<shaderType>CutoutComplex</shaderType>
+                    <drawSize>1.0</drawSize>
+                </offHandGraphicData>
+                <offHandHoldOffset>
+                    <northDefault>
+                        <offset>(0, 0, 0.2)</offset>
+                        <behind>true</behind>
+                    </northDefault>
+                    <east>
+                        <offset>(-0.1, 0, 0.2)</offset>
+                        <behind>true</behind>
+                    </east>
+                    <south>
+                        <offset>(-0.1, -0.04, 0.2)</offset>
+                    </south>
+                    <west>
+                        <offset>(0.1, 0, 0.2)</offset>
+                    </west>
+                </offHandHoldOffset>
+            </li>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_CS_ShoulderChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+        </comps>
+    </ThingDef>
 
 </Defs>

@@ -136,6 +136,24 @@
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
+			<drawData>
+				<defaultData>
+				</defaultData>
+				<dataNorth>
+					<!-- <layer>70</layer> -->
+					<offset>(0,0.05,-0.15)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0,0.05,-0.15)</offset>
+				</dataSouth>
+				<dataEast>
+					<offset>(0,0.05,0)</offset>
+				</dataEast>
+				<dataWest>
+					<offset>(0.15,0.05,0)</offset>
+				</dataWest>
+                <scale>0.9</scale>
+            </drawData>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">

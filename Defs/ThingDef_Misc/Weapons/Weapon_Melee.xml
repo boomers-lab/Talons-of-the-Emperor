@@ -244,11 +244,11 @@
 	
 	<!-- GSpear_Adrathic -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
-		<defName>GW_TotE_GSpear_Adrathic</defName>
-		<label>GSpear Adrathic</label>
+		<defName>GW_TotE_GuardianSpear</defName>
+		<label>Guardian Spear</label>
 		<description>A gun</description>
 		<graphicData>
-			<texPath>Things/Weapons/GSpear_Adrathic</texPath>
+			<texPath>Things/Weapons/GuardianSpear</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<drawSize>1.45</drawSize>
 		</graphicData>
@@ -310,138 +310,138 @@
 	</ThingDef>
 	
 	<!-- GSpear_Bolter -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
-		<defName>GW_TotE_GSpear_Bolter</defName>
-		<label>GSpear Bolter</label>
-		<description>A gun</description>
-		<graphicData>
-			<texPath>Things/Weapons/GSpear_Bolter</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>6</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-		</statBases>
-		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
+	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee"> -->
+		<!-- <defName>GW_TotE_GSpear_Bolter</defName> -->
+		<!-- <label>GSpear Bolter</label> -->
+		<!-- <description>A gun</description> -->
+		<!-- <graphicData> -->
+			<!-- <texPath>Things/Weapons/GSpear_Bolter</texPath> -->
+			<!-- <graphicClass>Graphic_Single</graphicClass> -->
+			<!-- <drawSize>1.45</drawSize> -->
+		<!-- </graphicData> -->
+		<!-- <recipeMaker> -->
+			<!-- <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>6</Crafting> -->
+			<!-- </skillRequirements> -->
+			<!-- <displayPriority>445</displayPriority> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_SM_TalonOfTheEmperor_ArmorBench</li> -->
+			<!-- </recipeUsers> -->
+		<!-- </recipeMaker> -->
+		<!-- <statBases> -->
+			<!-- <WorkToMake>34000</WorkToMake> -->
+			<!-- <Mass>8.5</Mass> -->
+		<!-- </statBases> -->
+		<!-- <costList> -->
+			<!-- <ComponentSpacer>15</ComponentSpacer> -->
+			<!-- <ComponentIndustrial>40</ComponentIndustrial> -->
+			<!-- <GW_ComponentRelic>3</GW_ComponentRelic> -->
+			<!-- <Plasteel>450</Plasteel> -->
+			<!-- <Steel>600</Steel> -->
+			<!-- <Uranium>150</Uranium> -->
+			<!-- <HP_Ceramite>270</HP_Ceramite> -->
+			<!-- <HP_Adamantium>250</HP_Adamantium> -->
+			<!-- <HP_Auramite>100</HP_Auramite> -->
+		<!-- </costList> -->
+		<!-- <weaponTags> -->
+			<!-- <li>GW_TotE_Ranged</li> -->
+		<!-- </weaponTags> -->
+		<!-- <tools> -->
+			<!-- <li> -->
+				<!-- <label>stock</label> -->
+				<!-- <capacities> -->
+					<!-- <li>Blunt</li> -->
+				<!-- </capacities> -->
+				<!-- <power>9</power> -->
+				<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+			<!-- <li> -->
+				<!-- <label>barrel</label> -->
+				<!-- <capacities> -->
+					<!-- <li>Blunt</li> -->
+					<!-- <li>Poke</li> -->
+				<!-- </capacities> -->
+				<!-- <power>9</power> -->
+				<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+			<!-- <li> -->
+				<!-- <label>axe head</label> -->
+				<!-- <capacities> -->
+					<!-- <li>Cut</li> -->
+				<!-- </capacities> -->
+				<!-- <power>16</power> -->
+				<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+		<!-- </tools> -->
+	<!-- </ThingDef> -->
 	
 	<!-- GSpear_Melta -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
-		<defName>GW_TotE_GSpear_Melta</defName>
-		<label>GSpear Melta</label>
-		<description>A gun</description>
-		<graphicData>
-			<texPath>Things/Weapons/GSpear_Melta</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-		</statBases>
-		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
+	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee"> -->
+		<!-- <defName>GW_TotE_GSpear_Melta</defName> -->
+		<!-- <label>GSpear Melta</label> -->
+		<!-- <description>A gun</description> -->
+		<!-- <graphicData> -->
+			<!-- <texPath>Things/Weapons/GSpear_Melta</texPath> -->
+			<!-- <graphicClass>Graphic_Single</graphicClass> -->
+			<!-- <drawSize>1.45</drawSize> -->
+		<!-- </graphicData> -->
+		<!-- <recipeMaker> -->
+			<!-- <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite> -->
+			<!-- <skillRequirements> -->
+				<!-- <Crafting>18</Crafting> -->
+			<!-- </skillRequirements> -->
+			<!-- <displayPriority>445</displayPriority> -->
+			<!-- <recipeUsers Inherit="false"> -->
+				<!-- <li>GW_SM_TalonOfTheEmperor_ArmorBench</li> -->
+			<!-- </recipeUsers> -->
+		<!-- </recipeMaker> -->
+		<!-- <statBases> -->
+			<!-- <WorkToMake>34000</WorkToMake> -->
+			<!-- <Mass>8.5</Mass> -->
+		<!-- </statBases> -->
+		<!-- <costList> -->
+			<!-- <ComponentSpacer>15</ComponentSpacer> -->
+			<!-- <ComponentIndustrial>40</ComponentIndustrial> -->
+			<!-- <GW_ComponentRelic>3</GW_ComponentRelic> -->
+			<!-- <Plasteel>450</Plasteel> -->
+			<!-- <Steel>600</Steel> -->
+			<!-- <Uranium>150</Uranium> -->
+			<!-- <HP_Ceramite>270</HP_Ceramite> -->
+			<!-- <HP_Adamantium>250</HP_Adamantium> -->
+			<!-- <HP_Auramite>100</HP_Auramite> -->
+		<!-- </costList> -->
+		<!-- <weaponTags> -->
+			<!-- <li>GW_TotE_Ranged</li> -->
+		<!-- </weaponTags> -->
+		<!-- <tools> -->
+			<!-- <li> -->
+				<!-- <label>stock</label> -->
+				<!-- <capacities> -->
+					<!-- <li>Blunt</li> -->
+				<!-- </capacities> -->
+				<!-- <power>9</power> -->
+				<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+			<!-- <li> -->
+				<!-- <label>barrel</label> -->
+				<!-- <capacities> -->
+					<!-- <li>Blunt</li> -->
+					<!-- <li>Poke</li> -->
+				<!-- </capacities> -->
+				<!-- <power>9</power> -->
+				<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+			<!-- <li> -->
+				<!-- <label>axe head</label> -->
+				<!-- <capacities> -->
+					<!-- <li>Cut</li> -->
+				<!-- </capacities> -->
+				<!-- <power>16</power> -->
+				<!-- <cooldownTime>2</cooldownTime> -->
+			<!-- </li> -->
+		<!-- </tools> -->
+	<!-- </ThingDef> -->
 
 	<!-- Vexilla -->
 	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee"> -->

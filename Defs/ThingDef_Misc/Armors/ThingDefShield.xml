@@ -89,8 +89,8 @@
     </ThingDef>
 	
 	<ThingDef ParentName="GWTalonShieldBase" Name="GWTalonCombatShieldBase">
-        <defName>GW_SM_CombatShieldA</defName>
-        <label>combat shield</label>
+        <defName>GM_TotE_ShieldCustodes</defName>
+        <label>custodes shield</label>
         <graphicData>
             <texPath>Things/Weapons/Shield/CustodesShield</texPath>
             <graphicClass>Graphic_Single</graphicClass>

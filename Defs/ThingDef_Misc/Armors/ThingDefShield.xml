@@ -1,0 +1,149 @@
+<Defs>
+	<ThingCategoryDef>
+		<defName>GW_Shield</defName>
+		<label>Grimworld Shield</label>
+	</ThingCategoryDef>
+	<ApparelLayerDef>
+		<defName>GW_Shield</defName>
+		<label>shield</label>
+		<drawOrder>590</drawOrder>
+	</ApparelLayerDef>
+	
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>UnfinishedShield</defName>
+		<label>Unfinished shield</label>
+		<graphicData>
+			<texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.2</drawSize>
+		</graphicData>
+		<stuffCategories>
+			<li>Metallic</li>
+			<li>Woody</li>
+			<li>Stony</li>
+			<li>Fabric</li>
+			<li>Leathery</li>
+		</stuffCategories>
+	</ThingDef>
+	
+	<ThingDef ParentName="ArmorSmithableBase" Name="GWTalonShieldBase" Abstract="true">
+        <techLevel>Spacer</techLevel>
+		<description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
+        <thingCategories>
+            <li>ApparelMisc</li>
+            <li>GW_Shield</li>
+        </thingCategories>
+        <stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+        <possessionCount>1</possessionCount>
+        <apparel>
+            <drawData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.0)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0.0, 0.4, 0.0)</offset>
+				</dataSouth>
+                <dataWest>
+                    <offset>(0.0, 0.4, 0.0)</offset>
+                </dataWest>
+                <dataEast>
+                    <offset>(0.0, 0.4, 0.0)</offset>
+                </dataEast>
+                <scale>1.0</scale>
+                <childScale>1.</childScale>
+            </drawData>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <bodyPartGroups>
+                <li>LeftHand</li>
+                <li>Arms</li>
+            </bodyPartGroups>
+            <layers>
+                <li>VFEC_OuterShell</li>
+                <li MayRequire="CETeam.CombatExtended">Shield</li>
+                <li>GW_Shield</li>
+            </layers>
+        </apparel>
+        <statBases>
+            <WorkToMake>15000</WorkToMake>
+            <MaxHitPoints>550</MaxHitPoints>
+        </statBases>
+        <smeltable>true</smeltable>	
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedShield</unfinishedThingDef>
+            <recipeUsers>
+                <li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+            </recipeUsers>		
+        </recipeMaker>
+        <tradeTags>
+            <li>Armor</li>
+        </tradeTags>
+        <modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+        </modExtensions>
+    </ThingDef>
+	
+	<ThingDef ParentName="GWTalonShieldBase" Name="GWTalonCombatShieldBase">
+        <defName>GW_SM_CombatShieldA</defName>
+        <label>combat shield</label>
+        <graphicData>
+            <texPath>Things/Weapons/Shield/CustodesShield</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+        </graphicData>
+        <comps>
+            <li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_SM_ShieldChapterPalettes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+                    <colorB>(250, 176, 67)</colorB>
+                    <colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+            </li>
+        </comps>
+        <costStuffCount>60</costStuffCount>
+        <statBases>
+            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+            <Mass>7</Mass>
+            <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+            <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
+        </statBases>
+        <equippedStatOffsets>
+            <ReloadSpeed MayRequire="CETeam.CombatExtended">-0.2</ReloadSpeed>
+            <MeleeHitChance>-1</MeleeHitChance>
+            <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+            <AimingAccuracy MayRequire="CETeam.CombatExtended">-0.08</AimingAccuracy>
+            <Suppressability MayRequire="CETeam.CombatExtended">-0.25</Suppressability>
+            <MeleeCritChance MayRequire="CETeam.CombatExtended">-0.05</MeleeCritChance>
+            <MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
+        </equippedStatOffsets>
+        <apparel>
+            <wornGraphicPath>Things/Weapons/Shield/CustodesShield</wornGraphicPath>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <tags>
+                <li>GW_SM_CombatShield</li>
+            </tags>
+        </apparel>
+        <recipeMaker>
+            <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+        </recipeMaker>
+        <modExtensions>
+          <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
+            <shieldCoverage>
+              <li>Hands</li>
+              <li>Arms</li>
+              <li>Shoulders</li>
+              <li>Torso</li>
+              <li>Neck</li>
+            </shieldCoverage>
+          </li>
+        </modExtensions>
+    </ThingDef>
+
+</Defs>

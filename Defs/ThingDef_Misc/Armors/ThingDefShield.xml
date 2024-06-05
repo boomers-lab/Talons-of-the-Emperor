@@ -40,19 +40,19 @@
         <apparel>
             <drawData>
 				<dataNorth>
-					<offset>(0.0, -0.4, 0.0)</offset>
+					<offset>(0.0, 0.0, 0.0)</offset>
 				</dataNorth>
 				<dataSouth>
-					<offset>(0.0, 0.4, 0.0)</offset>
+					<offset>(0.0, -0.4, 0.0)</offset>
 				</dataSouth>
                 <dataWest>
                     <offset>(0.0, 0.4, 0.0)</offset>
                 </dataWest>
                 <dataEast>
-                    <offset>(0.0, 0.4, 0.0)</offset>
+                    <offset>(0.0, -0.4, 0.0)</offset>
                 </dataEast>
-                <scale>1.0</scale>
-                <childScale>1.</childScale>
+                <scale>0.8</scale>
+                <childScale>0.8</childScale>
             </drawData>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <careIfWornByCorpse>false</careIfWornByCorpse>

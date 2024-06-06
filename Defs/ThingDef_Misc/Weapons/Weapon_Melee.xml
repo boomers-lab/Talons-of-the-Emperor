@@ -69,7 +69,7 @@
 			</capacities>
 			<power>25</power>
 			<cooldownTime>2</cooldownTime>
-			<armorPenetration>0.5</armorPenetration>
+			<armorPenetration>0.8</armorPenetration>
 			</li>
 		</tools>		
 	</ThingDef>
@@ -90,10 +90,17 @@
 			<Mass>5.85</Mass>
 		</statBases>
 		<equippedAngleOffset>-40</equippedAngleOffset>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
+		<costList>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>200</Uranium>
+			<HP_Ceramite>350</HP_Ceramite>
+			<HP_Adamantium>290</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
 		<tools>
 			<li>
 			<label>handle</label>
@@ -125,6 +132,145 @@
 		</tools>		
 	</ThingDef>
 
+	<!-- Castellan_Axe -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_Castellan_Axe</defName>
+		<label>Castellan Axe</label>
+		<description>The Castellan Axe, wielded by the Custodes with unyielding might, is a symbol of righteous fury on the battlefield. Its imposing blade, etched with ancient sigils, cleaves through enemy ranks with relentless precision. In the hands of a Custodian, it becomes an instrument of swift justice, laying low any who dare to oppose the Imperium with its thunderous strikes.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Castellan_Axe</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.50</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>4</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>200</Uranium>
+			<HP_Ceramite>350</HP_Ceramite>
+			<HP_Adamantium>290</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
+			</li>
+			<li>
+				<label>axe blunt</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>45</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.0</armorPenetration>
+			</li>
+			<li>
+				<label>axe head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1</cooldownTime>
+				<armorPenetration>1.7</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
+	<!-- Gspear -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_GuardianSpear</defName>
+		<label>Guardian Spear</label>
+		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor.</description>
+		<graphicData>
+			<texPath>Things/Weapons/GuardianSpear</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>spear poke</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1.1</cooldownTime>
+				<armorPenetration>1.9</armorPenetration>
+			</li>
+			<li>
+				<label>spear head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+		</tools>
+	</ThingDef>
+	
 	<!-- Vaultsword -->
 	<!--<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Vaultsword</defName>
@@ -175,159 +321,5 @@
 			</li>
 		</tools>		
 	</ThingDef> -->
-	
-	<!-- Castellan_Axe -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
-		<defName>GW_TotE_Castellan_Axe</defName>
-		<label>Castellan Axe</label>
-		<description>The Castellan Axe, wielded by the Custodes with unyielding might, is a symbol of righteous fury on the battlefield. Its imposing blade, etched with ancient sigils, cleaves through enemy ranks with relentless precision. In the hands of a Custodian, it becomes an instrument of swift justice, laying low any who dare to oppose the Imperium with its thunderous strikes.</description>
-		<modExtensions>
-			<li Class="VFECore.ThingDefExtension">
-				<weaponDraftedDrawOffsets>
-					<north>
-						<angleOffset>-25</angleOffset>
-					</north>
-					<east>
-						<angleOffset>-25</angleOffset>
-					</east>
-					<south>
-						<angleOffset>-25</angleOffset>
-					</south>
-					<west>
-						<angleOffset>-55</angleOffset>
-					</west>
-				</weaponDraftedDrawOffsets>
-			</li>
-		</modExtensions>
-		<graphicData>
-			<texPath>Things/Weapons/Castellan_Axe</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.50</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>40000</WorkToMake>
-			<Mass>4</Mass>
-		</statBases>
-		<equippedAngleOffset>-90</equippedAngleOffset>
-		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>50</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>200</Uranium>
-			<HP_Ceramite>350</HP_Ceramite>
-			<HP_Adamantium>290</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>40</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>45</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>70</power>
-				<cooldownTime>1</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
-	
-	<!-- GSpear_Adrathic -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
-		<defName>GW_TotE_GuardianSpear</defName>
-		<label>Guardian Spear</label>
-		<description>A gun</description>
-		<graphicData>
-			<texPath>Things/Weapons/GuardianSpear</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
-		</graphicData>
-		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-			<skillRequirements>
-				<Crafting>18</Crafting>
-			</skillRequirements>
-			<displayPriority>445</displayPriority>
-			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<statBases>
-			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
-		</statBases>
-		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
-		</costList>
-		<weaponTags>
-			<li>GW_TotE_Ranged</li>
-		</weaponTags>
-		<tools>
-			<li>
-				<label>stock</label>
-				<capacities>
-					<li>Blunt</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>barrel</label>
-				<capacities>
-					<li>Blunt</li>
-					<li>Poke</li>
-				</capacities>
-				<power>9</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-			<li>
-				<label>axe head</label>
-				<capacities>
-					<li>Cut</li>
-				</capacities>
-				<power>16</power>
-				<cooldownTime>2</cooldownTime>
-			</li>
-		</tools>
-	</ThingDef>
-	
 	
 </Defs>

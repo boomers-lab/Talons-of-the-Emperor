@@ -28,7 +28,7 @@
 	
 	<ThingDef ParentName="ArmorSmithableBase" Name="GWTalonShieldBase" Abstract="true">
         <techLevel>Spacer</techLevel>
-		<description>Astartes shield combat, particularly with the Storm variant, offers versatile defensive capabilities. With numerous variants available, including boarding, combat, and riot shields, they provide adaptable protection for various combat scenarios. These shields not only deflect enemy fire but also serve as effective tools for close-quarters combat, enabling Space Marines to maintain defensive formations while advancing on enemy positions.</description>
+		<description>The Custodes Shield, used by the elite Adeptus Custodes in Warhammer 40,000, combines advanced technology with exceptional craftsmanship. It provides superior protection, adorned with symbols of their noble heritage and dedication to the Emperor. The shield allows for both defense and counterattacks, embodying the Custodes' formidable battlefield presence.</description>
         <thingCategories>
             <li>ApparelMisc</li>
             <li>GW_Shield</li>
@@ -40,19 +40,19 @@
         <apparel>
             <drawData>
 				<dataNorth>
-					<offset>(0.0, 0.0, 0.0)</offset>
+					<offset>(0.0, -0.4, 0.0)</offset>
 				</dataNorth>
 				<dataSouth>
-					<offset>(0.0, -0.4, 0.0)</offset>
+					<offset>(0.3, 0.4, -0.2)</offset>
 				</dataSouth>
                 <dataWest>
-                    <offset>(0.0, 0.4, 0.0)</offset>
+                    <offset>(0.0, 0.4, -0.3)</offset>
                 </dataWest>
                 <dataEast>
-                    <offset>(0.0, -0.4, 0.0)</offset>
+                    <offset>(0.0, 0.1, -0.3)</offset>
                 </dataEast>
-                <scale>0.8</scale>
-                <childScale>0.8</childScale>
+                <scale>0.7</scale>
+                <childScale>0.7</childScale>
             </drawData>
             <countsAsClothingForNudity>false</countsAsClothingForNudity>
             <careIfWornByCorpse>false</careIfWornByCorpse>
@@ -68,7 +68,7 @@
         </apparel>
         <statBases>
             <WorkToMake>15000</WorkToMake>
-            <MaxHitPoints>550</MaxHitPoints>
+            <MaxHitPoints>1200</MaxHitPoints>
         </statBases>
         <smeltable>true</smeltable>	
         <recipeMaker>

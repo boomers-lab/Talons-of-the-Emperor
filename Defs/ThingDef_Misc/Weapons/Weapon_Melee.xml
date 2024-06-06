@@ -181,6 +181,24 @@
 		<defName>GW_TotE_Castellan_Axe</defName>
 		<label>Castellan Axe</label>
 		<description>The Castellan Axe, wielded by the Custodes with unyielding might, is a symbol of righteous fury on the battlefield. Its imposing blade, etched with ancient sigils, cleaves through enemy ranks with relentless precision. In the hands of a Custodian, it becomes an instrument of swift justice, laying low any who dare to oppose the Imperium with its thunderous strikes.</description>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<angleOffset>-25</angleOffset>
+					</north>
+					<east>
+						<angleOffset>-25</angleOffset>
+					</east>
+					<south>
+						<angleOffset>-25</angleOffset>
+					</south>
+					<west>
+						<angleOffset>-55</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
 		<graphicData>
 			<texPath>Things/Weapons/Castellan_Axe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -200,7 +218,7 @@
 			<WorkToMake>40000</WorkToMake>
 			<Mass>4</Mass>
 		</statBases>
-		<equippedAngleOffset>-70</equippedAngleOffset>
+		<equippedAngleOffset>-90</equippedAngleOffset>
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
 			<ComponentIndustrial>50</ComponentIndustrial>

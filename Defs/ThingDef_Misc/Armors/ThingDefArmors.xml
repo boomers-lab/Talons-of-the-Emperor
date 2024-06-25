@@ -30,6 +30,13 @@
 			<Beauty>50</Beauty>
 		</equippedStatOffsets>
 		<apparel>
+			<drawData>
+				<dataNorth>
+					<layer>74</layer>
+				</dataNorth>
+                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
+                <childScale>1.5</childScale>-->
+            </drawData>
 			<tags>
 				<li>Spacer</li>
 				<li>EVA</li>

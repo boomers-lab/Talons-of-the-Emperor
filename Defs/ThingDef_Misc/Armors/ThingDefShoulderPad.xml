@@ -38,22 +38,9 @@
 		<apparel>
 			<drawData>
 				<defaultData>
-					<layer>69</layer> <!--70-77 is over helmet and under gun-->
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
+                    <offset>(0,0,-0.2)</offset>
 				</defaultData>
-				<dataNorth>
-					<offset>(0,0,-0.2)</offset>
-				</dataNorth>
-				<dataSouth>
-					<offset>(0,0,-0.2)</offset>
-				</dataSouth>
-				<dataEast>
-					<offset>(0,0,-0.2)</offset>
-					<layer>70</layer>
-				</dataEast>
-				<dataWest>
-					<offset>(0,0,-0.2)</offset>
-					<layer>70</layer>
-				</dataWest>
                 <scale>1.0</scale>
                 <childScale>1.0</childScale>
             </drawData>

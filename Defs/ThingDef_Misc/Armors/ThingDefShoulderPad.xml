@@ -36,6 +36,13 @@
 			<li>GW_ArmorShoulderPad</li>
 		</thingCategories>
 		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+                <scale>1.0</scale>
+                <childScale>1.0</childScale>
+            </drawData>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Neck</li>
@@ -117,11 +124,8 @@
 			</tags>
 			<drawData>
 				<defaultData>
-					<layer>75</layer> <!--70-77 is over helmet and under gun-->
                     <offset>(0,0,-0.2)</offset>
 				</defaultData>
-                <scale>1.0</scale>
-                <childScale>1.0</childScale>
             </drawData>
 		</apparel>
 		<comps>
@@ -174,13 +178,6 @@
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/CustodesCaptain/CustodesShouldersB</wornGraphicPath>
-			<drawData>
-				<defaultData>
-					<layer>75</layer> <!--70-77 is over helmet and under gun-->
-				</defaultData>
-                <scale>1.0</scale>
-                <childScale>1.0</childScale>
-            </drawData>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>			

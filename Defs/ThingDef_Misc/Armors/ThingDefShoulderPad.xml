@@ -38,22 +38,8 @@
 		<apparel>
 			<drawData>
 				<defaultData>
-					<layer>69</layer> <!--70-77 is over helmet and under gun-->
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 				</defaultData>
-				<dataNorth>
-					<offset>(0,0,-0.2)</offset>
-				</dataNorth>
-				<dataSouth>
-					<offset>(0,0,-0.2)</offset>
-				</dataSouth>
-				<dataEast>
-					<offset>(0,0,-0.2)</offset>
-					<layer>70</layer>
-				</dataEast>
-				<dataWest>
-					<offset>(0,0,-0.2)</offset>
-					<layer>70</layer>
-				</dataWest>
                 <scale>1.0</scale>
                 <childScale>1.0</childScale>
             </drawData>
@@ -138,21 +124,8 @@
 			</tags>
 			<drawData>
 				<defaultData>
+                    <offset>(0,0,-0.2)</offset>
 				</defaultData>
-				<dataNorth>
-					<!-- <layer>70</layer> -->
-					<offset>(0,0.0,-0.15)</offset>
-				</dataNorth>
-				<dataSouth>
-					<offset>(0,0.0,-0.15)</offset>
-				</dataSouth>
-				<dataEast>
-					<offset>(0,0.0,0)</offset>
-				</dataEast>
-				<dataWest>
-					<offset>(0.15,0.0,0)</offset>
-				</dataWest>
-                <scale>0.9</scale>
             </drawData>
 		</apparel>
 		<comps>
@@ -205,26 +178,6 @@
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/CustodesCaptain/CustodesShouldersB</wornGraphicPath>
-			<drawData>
-				<defaultData>
-					<layer>72</layer> <!--70-77 is over helmet and under gun-->
-				</defaultData>
-				<dataNorth>
-					<offset>(0,0,-0.1)</offset>
-				</dataNorth>
-				<dataSouth>
-					<offset>(0,0,-0.1)</offset>
-				</dataSouth>
-				<dataEast>
-					<offset>(0,0,-0.2)</offset>
-					<layer>75</layer>
-				</dataEast>
-				<dataWest>
-					<offset>(0,0,-0.2)</offset>
-					<layer>75</layer>
-				</dataWest>
-                <scale>0.8</scale>
-            </drawData>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>			

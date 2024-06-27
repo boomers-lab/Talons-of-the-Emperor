@@ -1,42 +1,7 @@
-<Defs>
-	<ThingCategoryDef>
-		<defName>GW_Shield</defName>
-		<label>Grimworld Shield</label>
-	</ThingCategoryDef>
-	<ApparelLayerDef>
-		<defName>GW_Shield</defName>
-		<label>shield</label>
-		<drawOrder>590</drawOrder>
-	</ApparelLayerDef>
-	
-	<ThingDef ParentName="UnfinishedBase">
-		<defName>UnfinishedShield</defName>
-		<label>Unfinished shield</label>
-		<graphicData>
-			<texPath>Things/Item/Unfinished/UnfinishedTechArmor</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.2</drawSize>
-		</graphicData>
-		<stuffCategories>
-			<li>Metallic</li>
-			<li>Woody</li>
-			<li>Stony</li>
-			<li>Fabric</li>
-			<li>Leathery</li>
-		</stuffCategories>
-	</ThingDef>
-	
-	<ThingDef ParentName="ArmorSmithableBase" Name="GWTalonShieldBase" Abstract="true">
-        <techLevel>Spacer</techLevel>
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>	
+	<ThingDef ParentName="GWShieldBase" Name="GWTalonShieldBase" Abstract="true">
 		<description>The Custodes Shield, used by the elite Adeptus Custodes in Warhammer 40,000, combines advanced technology with exceptional craftsmanship. It provides superior protection, adorned with symbols of their noble heritage and dedication to the Emperor. The shield allows for both defense and counterattacks, embodying the Custodes' formidable battlefield presence.</description>
-        <thingCategories>
-            <li>ApparelMisc</li>
-            <li>GW_Shield</li>
-        </thingCategories>
-        <stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
-        <possessionCount>1</possessionCount>
         <apparel>
             <drawData>
 				<dataNorth>
@@ -54,38 +19,16 @@
                 <scale>0.7</scale>
                 <childScale>0.7</childScale>
             </drawData>
-            <countsAsClothingForNudity>false</countsAsClothingForNudity>
-            <careIfWornByCorpse>false</careIfWornByCorpse>
-            <bodyPartGroups>
-                <li>LeftHand</li>
-                <li>Arms</li>
-            </bodyPartGroups>
-            <layers>
-                <li>VFEC_OuterShell</li>
-                <li MayRequire="CETeam.CombatExtended">Shield</li>
-                <li>GW_Shield</li>
-            </layers>
         </apparel>
         <statBases>
             <WorkToMake>15000</WorkToMake>
             <MaxHitPoints>1200</MaxHitPoints>
         </statBases>
-        <smeltable>true</smeltable>	
         <recipeMaker>
-            <unfinishedThingDef>UnfinishedShield</unfinishedThingDef>
             <recipeUsers>
                 <li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
             </recipeUsers>		
         </recipeMaker>
-        <tradeTags>
-            <li>Armor</li>
-        </tradeTags>
-        <modExtensions>
-			<li Class="VFECore.ApparelDrawPosExtension">
-                <isUnifiedApparel>true</isUnifiedApparel>
-				<hideHead>false</hideHead>
-            </li>
-        </modExtensions>
     </ThingDef>
 	
 	<ThingDef ParentName="GWTalonShieldBase" Name="GWTalonCombatShieldBase">
@@ -145,5 +88,4 @@
           </li>
         </modExtensions>
     </ThingDef>
-
 </Defs>

@@ -26,7 +26,7 @@
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>1.0</drawSize>
+			<drawSize>0.8</drawSize>
 		</graphicData>
 		<uiIconScale>1.6</uiIconScale>
 		<equippedStatOffsets>

@@ -32,10 +32,10 @@
     </ThingDef>
 	
 	<ThingDef ParentName="GWTalonShieldBase" Name="GWTalonCombatShieldBase">
-        <defName>GM_TotE_ShieldCustodes</defName>
-        <label>custodes shield</label>
+        <defName>GM_TotE_ShieldPraesidium</defName>
+        <label>praesidium shield</label>
         <graphicData>
-            <texPath>Things/Weapons/Shield/CustodesShield</texPath>
+            <texPath>Things/Weapons/Shield/Preview/PraesidiumShield</texPath>
             <graphicClass>Graphic_Single</graphicClass>
             <shaderType>CutoutComplex</shaderType>
         </graphicData>
@@ -67,10 +67,10 @@
             <MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
         </equippedStatOffsets>
         <apparel>
-            <wornGraphicPath>Things/Weapons/Shield/CustodesShield</wornGraphicPath>
+            <wornGraphicPath>Things/Weapons/Shield/PraesidiumShield</wornGraphicPath>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
             <tags>
-                <li>GW_SM_CombatShield</li>
+                <li>GW_TotE_CombatShield</li>
             </tags>
         </apparel>
         <recipeMaker>

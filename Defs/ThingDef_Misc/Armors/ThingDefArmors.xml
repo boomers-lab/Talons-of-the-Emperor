@@ -1,12 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<ApparelLayerDef>
-		<defName>Backpack</defName>
-		<label>backpack</label>
-		<drawOrder>220</drawOrder>
-	</ApparelLayerDef>
-	
-	<ThingDef Abstract="true" Name="GW_TalonOfTheEmperor_ArmorBase" ParentName="ArmorMachineableBase">
+	<ThingDef Abstract="true" Name="GW_TotE_ArmorBase" ParentName="ArmorMachineableBase">
         <techLevel>Spacer</techLevel>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
@@ -26,16 +20,19 @@
 			<li>ApparelArmor</li>
 		</thingCategories>
 		<uiIconScale>1</uiIconScale>
-		<equippedStatOffsets>
-			<Beauty>50</Beauty>
-		</equippedStatOffsets>
 		<apparel>
 			<drawData>
 				<dataNorth>
 					<layer>74</layer>
 				</dataNorth>
-                <!--<scale>1.5</scale> Uncomment these to increase size while equipped
-                <childScale>1.5</childScale>-->
+				<dataWest>
+					<layer>70</layer>
+				</dataWest>
+				<dataEast>
+					<layer>70</layer>
+				</dataEast>
+				<scale>1.1</scale>
+                <childScale>1.1</childScale>
             </drawData>
 			<tags>
 				<li>Spacer</li>
@@ -56,7 +53,7 @@
 			<layers>
 				<li>Middle</li>
 				<li>Shell</li>
-				<!-- <li>Backpack</li> -->
+				<li>Backpack</li>
 			</layers>
 			<defaultOutfitTags>
 				<li>Soldier</li>
@@ -86,12 +83,12 @@
 	    </modExtensions>
     </ThingDef>
 	
-	<ThingDef ParentName="GW_TalonOfTheEmperor_ArmorBase">
-		<defName>GW_TotE_CustodesArmors</defName>
-		<label>Custodian Armor</label>
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_CustodesGuardArmor</defName>
+		<label>Custodian Guard armor</label>
         <description>Custodian Armor: Immaculately crafted and renowned for its unmatched resilience, Custodes Armor embodies the pinnacle of Adeptus Custodes craftsmanship. Each piece is a testament to the elite guardians of the Imperium, providing unparalleled protection while exuding regal authority and martial prowess on the battlefield.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/Custodes/CustodesArmorA_south</texPath>
+			<texPath>Things/CustodesArmors/Custodes/CGuard_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -108,7 +105,7 @@
 			<Insulation_Heat>60</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
-			<costList>
+		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
 			<GW_ComponentRelic>5</GW_ComponentRelic>
@@ -118,30 +115,18 @@
 			<HP_Ceramite>320</HP_Ceramite>
 			<HP_Auramite>250</HP_Auramite>
 		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
 		<apparel>
-			<drawData>
-				<dataNorth>
-					<!-- <offset>(0,-0.2,0)</offset> -->
-					<layer>71</layer>
-				</dataNorth>
-				<dataWest>
-					<layer>70</layer>
-				</dataWest>
-				<dataEast>
-					<layer>70</layer>
-				</dataEast>
-			</drawData>
-			<layers>
-				<li>Backpack</li>
-			</layers>
-			<wornGraphicPath>Things/CustodesArmors/Custodes/CustodesArmorA</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Custodes/CGuard_torso</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>2</maskCount>
+                <maskCount>1</maskCount>
                 <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>
@@ -152,12 +137,12 @@
         </comps>
     </ThingDef>	
 	
-	<ThingDef ParentName="GW_TalonOfTheEmperor_ArmorBase">
-		<defName>GW_TotE_CustodesCaptainArmors</defName>
-		<label>Shield-Captain</label>
-        <description>Shield-Captain Armor: A pinnacle of Custodes craftsmanship, the Shield-Captain's armor combines peerless protection with agile versatility. Designed for the elite leaders of the Adeptus Custodes, it radiates authority and strength, inspiring awe on the battlefield as they lead their comrades with unyielding resolve.</description>
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_CustodesWardenArmor</defName>
+		<label>Custodian Warden armor</label>
+        <description>Custodian Armor: Immaculately crafted and renowned for its unmatched resilience, Custodes Armor embodies the pinnacle of Adeptus Custodes craftsmanship. Each piece is a testament to the elite guardians of the Imperium, providing unparalleled protection while exuding regal authority and martial prowess on the battlefield.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/CustodesCaptain/CustodesArmorB_south</texPath>
+			<texPath>Things/CustodesArmors/Custodes/Warden_torso_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -167,16 +152,13 @@
 			<MaxHitPoints>4000</MaxHitPoints>
 			<Mass>5</Mass>
 			<Flammability>0.0</Flammability>
-			<ArmorRating_Sharp>3.50</ArmorRating_Sharp>
-			<ArmorRating_Blunt>3.00</ArmorRating_Blunt>
-			<ArmorRating_Heat>2.50</ArmorRating_Heat>
-			<Insulation_Cold>70</Insulation_Cold>
-			<Insulation_Heat>70</Insulation_Heat>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
 			<EquipDelay>15</EquipDelay>
 		</statBases>
-		<equippedStatOffsets>
-			<MoveSpeed>0.5</MoveSpeed>
-		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>40</ComponentSpacer>
 			<ComponentIndustrial>70</ComponentIndustrial>
@@ -184,33 +166,21 @@
 			<Plasteel>500</Plasteel>
 			<Steel>900</Steel>
 			<Uranium>190</Uranium>
-			<HP_Ceramite>400</HP_Ceramite>
-			<HP_Auramite>300</HP_Auramite>
+			<HP_Ceramite>320</HP_Ceramite>
+			<HP_Auramite>250</HP_Auramite>
 		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
 		<apparel>
-			<drawData>
-				<dataNorth>
-					<!-- <offset>(0,-0.2,0)</offset> -->
-					<layer>71</layer>
-				</dataNorth>
-				<dataWest>
-					<layer>70</layer>
-				</dataWest>
-				<dataEast>
-					<layer>70</layer>
-				</dataEast>
-			</drawData>
-			<layers>
-				<li>Backpack</li>
-			</layers>
-			<wornGraphicPath>Things/CustodesArmors/CustodesCaptain/CustodesArmorB</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Custodes/Warden_torso</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
 			</tags>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>2</maskCount>
+                <maskCount>1</maskCount>
                 <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
                 <defaultPalette>
                     <colorA>(250, 176, 67)</colorA>
@@ -219,6 +189,113 @@
                 </defaultPalette>
            	 </li>
         </comps>
-    </ThingDef>		
+    </ThingDef>	
+		
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_AllarusArmor</defName>
+		<label>allarus armor</label>
+        <description>.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/Allarus/Allarus_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>40</ComponentSpacer>
+			<ComponentIndustrial>70</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>320</HP_Ceramite>
+			<HP_Auramite>250</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/Allarus/Allarus_torso</wornGraphicPath>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+    </ThingDef>	
 
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_CastellanArmor</defName>
+		<label>Castellan armor</label>
+        <description>.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>40</ComponentSpacer>
+			<ComponentIndustrial>70</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>320</HP_Ceramite>
+			<HP_Auramite>250</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_south</wornGraphicPath>
+			<tags>
+				<li>GW_Custodes</li>
+			</tags>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+    </ThingDef>	
 </Defs>

@@ -1,16 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ApparelLayerDef>
-		<defName>GW_Shoulder</defName>
-		<label>shoulder</label>
-		<drawOrder>550</drawOrder>
-	</ApparelLayerDef>
-	
-	<ThingCategoryDef>
-		<defName>GW_ArmorShoulderPad</defName>
-		<label>shoulder pads</label>
-		<parent>ApparelArmor</parent>
-	</ThingCategoryDef>
-	
 	<ThingDef Abstract="true" Name="GW_TalonOfTheEmperor_ShoulderBase" ParentName="ArmorMachineableBase">
 		<techLevel>Spacer</techLevel>
 		<description>Custodes Shoulder Pads: Exuding strength and regal authority, our shoulder pads feature sleek design and reinforced plating, embodying the elite status of the Custodes.</description>
@@ -30,7 +19,7 @@
 		</graphicData>
 		<uiIconScale>1.6</uiIconScale>
 		<equippedStatOffsets>
-			<Beauty>50</Beauty>
+			<PawnBeauty>50</PawnBeauty>
 		</equippedStatOffsets>
 		<thingCategories>
 			<li>GW_ArmorShoulderPad</li>
@@ -40,8 +29,8 @@
 				<defaultData>
 					<layer>75</layer> <!--70-77 is over helmet and under gun-->
 				</defaultData>
-                <scale>1.0</scale>
-                <childScale>1.0</childScale>
+                <scale>1.1</scale>
+                <childScale>1.1</childScale>
             </drawData>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>

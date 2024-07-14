@@ -122,6 +122,7 @@
 			<wornGraphicPath>Things/CustodesArmors/Custodes/CGuard_torso</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
+				<li>GW_CustodesGuard</li>
 			</tags>
 		</apparel>
 		<comps>
@@ -176,6 +177,7 @@
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Warden_torso</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
+				<li>GW_CustodesWarden</li>
 			</tags>
 		</apparel>
 		<comps>
@@ -229,7 +231,7 @@
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Allarus/Allarus_torso</wornGraphicPath>
 			<tags>
-				<li>GW_Custodes</li>
+				<li>GW_Allarus</li>
 			</tags>
 		</apparel>
 		<comps>
@@ -283,7 +285,7 @@
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_south</wornGraphicPath>
 			<tags>
-				<li>GW_Custodes</li>
+				<li>GW_Castellan</li>
 			</tags>
 		</apparel>
 		<comps>

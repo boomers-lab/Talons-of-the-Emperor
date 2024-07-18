@@ -88,7 +88,7 @@
 		<label>Custodian Guard armor</label>
         <description>Custodian Armor: Immaculately crafted and renowned for its unmatched resilience, Custodes Armor embodies the pinnacle of Adeptus Custodes craftsmanship. Each piece is a testament to the elite guardians of the Imperium, providing unparalleled protection while exuding regal authority and martial prowess on the battlefield.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/Custodes/CGuard_torso_south</texPath>
+			<texPath>Things/CustodesArmors/Custodes/CGuard_torso_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -143,7 +143,7 @@
 		<label>Custodian Warden armor</label>
         <description>Custodian Armor: Immaculately crafted and renowned for its unmatched resilience, Custodes Armor embodies the pinnacle of Adeptus Custodes craftsmanship. Each piece is a testament to the elite guardians of the Imperium, providing unparalleled protection while exuding regal authority and martial prowess on the battlefield.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/Custodes/Warden_torso_south</texPath>
+			<texPath>Things/CustodesArmors/Custodes/Warden_torso_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -198,7 +198,7 @@
 		<label>allarus armor</label>
         <description>.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/Allarus/Allarus_torso_south</texPath>
+			<texPath>Things/CustodesArmors/Allarus/Allarus_torso_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>
@@ -233,6 +233,10 @@
 			<tags>
 				<li>GW_Allarus</li>
 			</tags>
+			
+			<drawData>
+				<scale>1.1</scale>
+            </drawData>
 		</apparel>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -252,7 +256,7 @@
 		<label>Castellan armor</label>
         <description>.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_south</texPath>
+			<texPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
@@ -283,7 +287,7 @@
 			<PawnBeauty>50</PawnBeauty>
 		</equippedStatOffsets>
 		<apparel>
-			<wornGraphicPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_south</wornGraphicPath>
+			<wornGraphicPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso</wornGraphicPath>
 			<tags>
 				<li>GW_Castellan</li>
 			</tags>

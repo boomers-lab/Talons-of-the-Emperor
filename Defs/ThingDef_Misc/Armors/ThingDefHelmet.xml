@@ -285,20 +285,6 @@
 				<li>GW_Sagittarum</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/Sagittarum/Helmets/Sagittarum_helmet</wornGraphicPath>
-			<drawData>
-				<dataSouth>
-					<offset>(0, 0, 0.1)</offset>
-				</dataSouth>
-				<dataNorth>
-					<offset>(0, 0, 0.1)</offset>
-				</dataNorth>
-				<dataEast>
-					<offset>(0, 0, 0.1)</offset>
-				</dataEast>
-				<dataWest>
-					<offset>(0, 0, 0.1)</offset>
-				</dataWest>
-            </drawData>
 		</apparel>		
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
@@ -356,20 +342,6 @@
 				<li>GW_Venatari</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/Venatari/Helmets/Venatari_helmet</wornGraphicPath>
-			<drawData>
-				<dataSouth>
-					<offset>(0, 0, 0.1)</offset>
-				</dataSouth>
-				<dataNorth>
-					<offset>(0, 0, 0.1)</offset>
-				</dataNorth>
-				<dataEast>
-					<offset>(0, 0, 0.1)</offset>
-				</dataEast>
-				<dataWest>
-					<offset>(0, 0, 0.1)</offset>
-				</dataWest>
-            </drawData>
 		</apparel>		
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>

@@ -2,7 +2,7 @@
 
 <!-- Spear -->
 
-<!-- Spear Bolter [Melee] -->
+<!-- Guardian Spear [Melee] -->
 <ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_GuardianSpear</defName>
 		<label>Custodes Guardian Spear</label>
@@ -108,7 +108,7 @@
 		</modExtensions>
 	</ThingDef>
 
-<!-- Spear Bolter [Ranged] -->
+<!-- Guardian Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
     <defName>GW_TotE_GuardianSpearR</defName>
     <label>Ranged Custodes Guardian Spear</label>

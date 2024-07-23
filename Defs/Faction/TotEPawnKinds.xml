@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+    <PawnKindDef Name="GW_TotE_PawnBase" Abstract="True">
+        <race>Human</race>
+        <defaultFactionType>GW_TotE_TalonsOfTheEmperor</defaultFactionType>
+        <invNutrition>2.55</invNutrition>
+        <chemicalAddictionChance>0</chemicalAddictionChance>
+        <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
+        <itemQuality>Normal</itemQuality>
+        <gearHealthRange>1~1</gearHealthRange>
+        <minGenerationAge>30</minGenerationAge>
+        <maxGenerationAge>45</maxGenerationAge>
+        <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
+        <isFighter>true</isFighter>
+        <initialWillRange>20~25</initialWillRange>
+        <initialResistanceRange>55~60</initialResistanceRange>
+        <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
+        <techHediffsChance>0.5</techHediffsChance>
+        <techHediffsMoney>1000~2000</techHediffsMoney>
+        <xenotypeSet>
+            <xenotypeChances>
+                <BEWH_Custodes MayRequire="Phonicmas.40kGenes">1</BEWH_Custodes>
+            </xenotypeChances>
+        </xenotypeSet>
+        <skills>
+            <li>
+                <skill>Shooting</skill>
+                <range>15~18</range>
+            </li>
+            <li>
+                <skill>Melee</skill>
+                <range>15~18</range>
+            </li>
+        </skills>
+        <techHediffsTags>
+            <li>Advanced</li>
+        </techHediffsTags>
+        <modExtensions> <!--If some of them are supposed to use seperate color palettes, this should be moved to individual PawnKindDefs-->
+            <li Class="GW4KArmor.DefaultPaletteExtension">
+                <defaultPalette>
+                    <colorA>(199, 160, 82)</colorA>
+                    <colorB>(149, 38, 34)</colorB>
+                    <colorC>(85, 194, 206)</colorC>
+                </defaultPalette>
+            </li>
+        </modExtensions>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_TotE_PawnBase">
+        <defName>GW_TotE_CustodesGuard</defName>
+        <label>custodes guard</label>
+        <combatPower>2500</combatPower>
+        <weaponMoney>60000~70000</weaponMoney>
+        <apparelMoney>80000~90000</apparelMoney>
+        <apparelTags>
+            <li>GW_CustodesGuard</li>
+        </apparelTags>
+        <weaponTags>
+            <li>GW_TotE_Ranged</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <apparelRequired>
+            <li>GW_TotE_CustodesGuardArmor</li>
+            <li>GW_TotE_CustodesGuardHelmet</li>
+            <li>GW_TotE_CustodesGuardShoulder</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_TotE_PawnBase">
+        <defName>GW_TotE_CustodesWarden</defName>
+        <label>custodes warden</label>
+        <combatPower>2500</combatPower>
+        <weaponMoney>60000~70000</weaponMoney>
+        <apparelMoney>80000~90000</apparelMoney>
+        <apparelTags>
+            <li>GW_CustodesWarden</li>
+            <li>GW_TotE_CombatShield</li>
+        </apparelTags>
+        <weaponTags>
+            <li>GW_TotE_Melee</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>GW_TotE_CustodesWardenArmor</li>
+            <li>GW_TotE_CustodesWardenHelmet</li>
+            <li>GW_TotE_CustodesWardenShoulder</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_TotE_PawnBase">
+        <defName>GW_TotE_Allarus</defName>
+        <label>allarus</label>
+        <combatPower>3000</combatPower>
+        <weaponMoney>80000~90000</weaponMoney>
+        <apparelMoney>90000~100000</apparelMoney>
+        <apparelTags>
+            <li>GW_Allarus</li>
+        </apparelTags>
+        <weaponTags>
+            <li>GW_TotE_Ranged</li>
+        </weaponTags>
+        <disallowedTraits>
+            <li>Brawler</li>
+        </disallowedTraits>
+        <apparelRequired>
+            <li>GW_TotE_AllarusArmor</li>
+            <li>GW_TotE_AllarusHelmet</li>
+            <li>GW_TotE_AllarusShoulder</li>
+        </apparelRequired>
+    </PawnKindDef>
+
+    <PawnKindDef ParentName="GW_TotE_PawnBase">
+        <defName>GW_TotE_Castellan</defName>
+        <label>castellan</label>
+        <combatPower>3000</combatPower>
+        <weaponMoney>82000~88000</weaponMoney>
+        <apparelMoney>90000~100000</apparelMoney>
+        <apparelTags>
+            <li>GW_Castellan</li>
+            <li>GW_TotE_CombatShield</li>
+        </apparelTags>
+        <weaponTags>
+            <li>GW_TotE_Castellan</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>GW_TotE_CastellanArmor</li>
+            <li>GW_TotE_CastellanPlateHelmet</li>
+            <li>GW_TotE_CastellanPlateShoulder</li>
+        </apparelRequired>
+    </PawnKindDef>
+</Defs>

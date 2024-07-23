@@ -24,8 +24,7 @@
         <pawnsPlural>imperials</pawnsPlural>
         <fixedName>The Talons of the Emperor</fixedName>
         <hidden>true</hidden>
-        <factionIconPath>UI/Icons/AstraMilitarum</factionIconPath>
-        <factionNameMaker>GW_Namer_AstraMilitarum</factionNameMaker>
+        <factionIconPath>UI/Icons/TalonsOfTheEmperorModIcon</factionIconPath>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>
         <colorSpectrum>
@@ -34,8 +33,8 @@
         <raidLootMaker>GW_TotE_RaidLootMaker</raidLootMaker>
         <maxPawnCostPerTotalPointsCurve>
             <points>
-                <li>(3000,1000)</li>
-                <li>(100000,10000)</li>
+                <li>(30000,10000)</li>
+                <li>(100000,50000)</li>
             </points>
         </maxPawnCostPerTotalPointsCurve>
         <xenotypeSet>

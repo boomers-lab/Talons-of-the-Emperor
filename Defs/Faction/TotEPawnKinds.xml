@@ -38,9 +38,9 @@
         <modExtensions> <!--If some of them are supposed to use seperate color palettes, this should be moved to individual PawnKindDefs-->
             <li Class="GW4KArmor.DefaultPaletteExtension">
                 <defaultPalette>
-                    <colorA>(38, 35, 36)</colorA>
-                    <colorB>(171, 53, 53)</colorB>
-                    <colorC>(198, 2, 15)</colorC>
+                    <colorA>(199, 160, 82)</colorA>
+                    <colorB>(149, 38, 34)</colorB>
+                    <colorC>(85, 194, 206)</colorC>
                 </defaultPalette>
             </li>
         </modExtensions>
@@ -49,9 +49,9 @@
     <PawnKindDef ParentName="GW_TotE_PawnBase">
         <defName>GW_TotE_CustodesGuard</defName>
         <label>custodes guard</label>
-        <combatPower>250</combatPower>
-        <weaponMoney>6000~7000</weaponMoney>
-        <apparelMoney>8000~9000</apparelMoney>
+        <combatPower>2500</combatPower>
+        <weaponMoney>60000~70000</weaponMoney>
+        <apparelMoney>80000~90000</apparelMoney>
         <apparelTags>
             <li>GW_CustodesGuard</li>
         </apparelTags>
@@ -71,9 +71,9 @@
     <PawnKindDef ParentName="GW_TotE_PawnBase">
         <defName>GW_TotE_CustodesWarden</defName>
         <label>custodes warden</label>
-        <combatPower>250</combatPower>
-        <weaponMoney>6000~7000</weaponMoney>
-        <apparelMoney>8000~9000</apparelMoney>
+        <combatPower>2500</combatPower>
+        <weaponMoney>60000~70000</weaponMoney>
+        <apparelMoney>80000~90000</apparelMoney>
         <apparelTags>
             <li>GW_CustodesWarden</li>
             <li>GW_TotE_CombatShield</li>
@@ -91,9 +91,9 @@
     <PawnKindDef ParentName="GW_TotE_PawnBase">
         <defName>GW_TotE_Allarus</defName>
         <label>allarus</label>
-        <combatPower>300</combatPower>
-        <weaponMoney>8000~9000</weaponMoney>
-        <apparelMoney>9000~10000</apparelMoney>
+        <combatPower>3000</combatPower>
+        <weaponMoney>80000~90000</weaponMoney>
+        <apparelMoney>90000~100000</apparelMoney>
         <apparelTags>
             <li>GW_Allarus</li>
         </apparelTags>
@@ -113,9 +113,9 @@
     <PawnKindDef ParentName="GW_TotE_PawnBase">
         <defName>GW_TotE_Castellan</defName>
         <label>castellan</label>
-        <combatPower>300</combatPower>
-        <weaponMoney>8000~9000</weaponMoney>
-        <apparelMoney>9000~10000</apparelMoney>
+        <combatPower>3000</combatPower>
+        <weaponMoney>82000~88000</weaponMoney>
+        <apparelMoney>90000~100000</apparelMoney>
         <apparelTags>
             <li>GW_Castellan</li>
             <li>GW_TotE_CombatShield</li>

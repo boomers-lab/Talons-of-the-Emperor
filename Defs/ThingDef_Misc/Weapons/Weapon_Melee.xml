@@ -143,7 +143,7 @@
 			<drawSize>1.50</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>

@@ -70,6 +70,7 @@
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>
+				<li>GW_CustodesGuard</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Helmets/CGuard_helmet</wornGraphicPath>
 			<drawData>
@@ -140,6 +141,7 @@
 		<apparel>
 			<tags>
 				<li>GW_Custodes</li>
+				<li>GW_CustodesWarden</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Helmets/Warden_helmet</wornGraphicPath>
 			<drawData>
@@ -211,7 +213,7 @@
 		<uiIconPath>Things/CustodesArmors/Castellan Plate/Helmets/CastellanPlate_helmet_south</uiIconPath>
 		<apparel>
 			<tags>
-				<li>GW_CastellanPlate</li>
+				<li>GW_Castellan</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/Castellan Plate/Helmets/CastellanPlate_helmet</wornGraphicPath>
 			<drawData>

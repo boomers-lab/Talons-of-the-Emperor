@@ -110,6 +110,7 @@
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Shoulders/CGuard_sp</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
+				<li>GW_CustodesGuard</li>
 			</tags>
 			<drawData>
 				<scale>1.1</scale>
@@ -167,6 +168,7 @@
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Shoulders/Warden_sp</wornGraphicPath>
 			<tags>
 				<li>GW_Custodes</li>
+				<li>GW_CustodesWarden</li>
 			</tags>			
 			<drawData>
 				<scale>1.1</scale>
@@ -263,7 +265,7 @@
 			<drawSize>1</drawSize>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>
+            <researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
         </recipeMaker>
 		<statBases>
 			<WorkToMake>70000</WorkToMake>

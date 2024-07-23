@@ -608,7 +608,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.45</drawSize>
+			<drawSize>1.5/drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
@@ -625,14 +625,14 @@
 			<Mass>8.5</Mass>
 		</statBases>
 		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>200</Uranium>
+			<HP_Ceramite>350</HP_Ceramite>
+			<HP_Adamantium>290</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
 		<weaponTags>
@@ -645,27 +645,28 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>9</power>
+				<power>40</power>
 				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
 			</li>
 			<li>
-				<label>spear poke</label>
+				<label>axe blunt</label>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>70</power>
-				<cooldownTime>1.1</cooldownTime>
-				<armorPenetration>1.9</armorPenetration>
+				<power>45</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.0</armorPenetration>
 			</li>
 			<li>
-				<label>spear head</label>
+				<label>axe head</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
-				<power>50</power>
-				<cooldownTime>2</cooldownTime>
-				<armorPenetration>0.9</armorPenetration>
+				<power>70</power>
+				<cooldownTime>1</cooldownTime>
+				<armorPenetration>1.7</armorPenetration>
 			</li>
 		</tools>
 		<comps>

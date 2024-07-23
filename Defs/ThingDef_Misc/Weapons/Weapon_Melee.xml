@@ -203,7 +203,7 @@
 	</ThingDef>
 	
 	<!-- Gspear -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee"> 
 		<defName>GW_TotE_GuardianSpear</defName>
 		<label>Guardian Spear</label>
 		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor.</description>
@@ -269,8 +269,8 @@
 				<armorPenetration>0.9</armorPenetration>
 			</li>
 		</tools>
-	</ThingDef>
-	
+	</ThingDef>--> 
+
 	<!-- Vaultsword -->
 	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Vaultsword</defName>

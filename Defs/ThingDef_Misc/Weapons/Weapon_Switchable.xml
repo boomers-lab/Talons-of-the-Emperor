@@ -1,0 +1,202 @@
+<Defs>
+
+<!-- Spear -->
+
+<!-- Guardian Spear [Melee] -->
+<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_GuardianSpear</defName>
+		<label>Custodes Guardian Spear</label>
+		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor.</description>
+		<graphicData>
+			<texPath>Things/Weapons/SpearBolter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>40</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>450</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>270</HP_Ceramite>
+			<HP_Adamantium>250</HP_Adamantium>
+			<HP_Auramite>100</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>spear poke</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>70</power>
+				<cooldownTime>1.1</cooldownTime>
+				<armorPenetration>1.9</armorPenetration>
+			</li>
+			<li>
+				<label>spear head</label>
+				<capacities>
+					<li>Cut</li>
+				</capacities>
+				<power>50</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.9</armorPenetration>
+			</li>
+		</tools>
+		
+		<comps>
+			<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+          		<weaponsToSwitch>
+				<li>
+					<label>Melee</label> <!-- Here where you can add a custom label, make it as short as possible -->
+					<description>Swap to Ranged</description> <!-- Here where you can add a custom description -->
+					<texPath>Things/Weapons/SpearBolter</texPath>  <!-- Here where you can add a custom icon of the weapon the current weapon can transform -->
+					<weapon>GW_TotE_GuardianSpearR</weapon> <!-- Here is the defname of the weapon it's trying to transform -->
+				</li>
+				</weaponsToSwitch>
+			</li>
+		</comps>
+
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-122</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>122</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+<!-- Guardian Spear Bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+    <defName>GW_TotE_GuardianSpearR</defName>
+    <label>Ranged Custodes Guardian Spear</label>
+    <description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor.</description>
+    <graphicData>
+      <texPath>Things/Weapons/SpearBolter</texPath>
+      <graphicClass>Graphic_Single</graphicClass>			
+	  <drawSize>1.45</drawSize>
+    </graphicData>
+    <relicChance>0</relicChance>
+    <statBases>
+      <WorkToMake>7000</WorkToMake>
+      <Mass>4</Mass>
+      <AccuracyTouch>0.70</AccuracyTouch>
+      <AccuracyShort>0.85</AccuracyShort>
+      <AccuracyMedium>0.8</AccuracyMedium>
+      <AccuracyLong>0.6</AccuracyLong>
+      <RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
+    </statBases>
+	<costList>
+     	 <Steel>999</Steel>
+	</costList>
+    <weaponTags>
+		<li>GW_TotE_Ranged</li>
+    </weaponTags>
+    <weaponClasses>
+      <li>Ranged</li>
+    </weaponClasses>   
+	<equippedAngleOffset>35</equippedAngleOffset>
+    <verbs>
+      <li>
+        <verbClass>Verb_Shoot</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <defaultProjectile>GW_TotE_GuardianSpearProjectile</defaultProjectile>
+        <range>20</range>
+        <soundCast>Shot_SniperRifle</soundCast>
+        <soundCastTail>GunTail_Heavy</soundCastTail>
+        <muzzleFlashScale>9</muzzleFlashScale>
+        <warmupTime>0.5</warmupTime>
+      </li>
+    </verbs>
+    <tools>
+      <li>
+        <label>shaft</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>16</power>
+         <cooldownTime>2</cooldownTime>
+      </li>
+      <li>
+        <label>point</label>
+        <capacities>
+          <li>Stab</li>
+        </capacities>
+        <power>16</power>
+         <cooldownTime>2</cooldownTime>
+      </li>
+    </tools>
+	<comps>
+		<li Class="WeaponSwitch.CompProperties_SwitchWeapon">
+          	<weaponsToSwitch>
+			<li>
+				<label>Ranged</label> <!-- Here where you can add a custom label, make it as short as possible -->
+				<description>Swap to Melee</description> <!-- Here where you can add a custom description -->
+				<texPath>Things/Weapons/SpearBolter</texPath>  <!-- Here where you can add a custom icon of the weapon the current weapon can transform -->
+				<weapon>GW_TotE_GuardianSpear</weapon> <!-- Here is the defname of the weapon it's trying to transform -->
+			</li>
+			</weaponsToSwitch>
+		</li>
+	</comps>
+
+  </ThingDef>
+
+  <ThingDef ParentName="BaseBullet">
+    <defName>GW_TotE_GuardianSpearProjectile</defName>
+    <label>Guardian Spear Projectile</label>
+    <graphicData>
+        <texPath>Projectiles/AM_BoltPistol_Proj</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+		<drawSize>1.4</drawSize>
+    </graphicData>
+    <projectile>
+      <damageDef>RangedStab</damageDef>
+      <damageAmountBase>40</damageAmountBase>
+      <stoppingPower>4</stoppingPower>
+      <armorPenetrationBase>0.50</armorPenetrationBase>
+      <speed>32</speed>
+    </projectile>
+  </ThingDef>
+</Defs>

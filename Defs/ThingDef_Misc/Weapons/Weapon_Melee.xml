@@ -133,7 +133,7 @@
 	</ThingDef>
 
 	<!-- Castellan_Axe -->
-	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+	<!--<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Castellan_Axe</defName>
 		<label>Castellan Axe</label>
 		<description>The Castellan Axe, wielded by the Custodes with unyielding might, is a symbol of righteous fury on the battlefield. Its imposing blade, etched with ancient sigils, cleaves through enemy ranks with relentless precision. In the hands of a Custodian, it becomes an instrument of swift justice, laying low any who dare to oppose the Imperium with its thunderous strikes.</description>
@@ -200,7 +200,7 @@
 				<armorPenetration>1.7</armorPenetration>
 			</li>
 		</tools>
-	</ThingDef>
+	</ThingDef>-->
 	
 	<!-- Gspear -->
 	<!-- <ThingDef ParentName="GW_TotE_BaseMakeableMelee"> 

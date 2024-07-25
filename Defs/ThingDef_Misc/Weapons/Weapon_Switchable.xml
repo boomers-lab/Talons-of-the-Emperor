@@ -608,7 +608,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.5/drawSize>
+			<drawSize>1.5</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>

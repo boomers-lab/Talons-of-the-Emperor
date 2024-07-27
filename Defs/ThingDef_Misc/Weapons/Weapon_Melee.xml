@@ -132,6 +132,96 @@
 		</tools>		
 	</ThingDef>
 
+	<!-- Vexilla -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_Vexilla</defName>
+		<label>Magisterium Vexilla</label>
+		<description>Magisterium Vexilla is a battle-standard borne into battle by the Adeptus Custodes, the elite bodyguard of the Emperor of Mankind, and in ancient times by the Heralds of the Space Marine Legions. During the Great Crusade and Horus Heresy, the ancient icons and standards borne by the Legio Custodes and the Legiones Astartes represented the inviolable and nigh-omnipotent authority of the Emperor. In particular was the Magisterium Vexillia, a seal of ultimate sanction and the might of Mankind.</description>
+		<graphicData>
+			<texPath>Things/Weapons/Vexilla</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>8.5</Mass>
+		</statBases>
+		<costList>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>600</Plasteel>
+			<Steel>1500</Steel>
+			<Uranium>300</Uranium>
+			<HP_Ceramite>350</HP_Ceramite>
+			<HP_Adamantium>290</HP_Adamantium>
+			<HP_Auramite>120</HP_Auramite>
+		</costList>
+		<weaponTags>
+			<li>GW_TotE_Melee</li>
+			<li>GW_TotE_Castellan</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>30</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>0.7</armorPenetration>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>40</power>
+				<cooldownTime>2</cooldownTime>
+				<armorPenetration>1.0</armorPenetration>
+			</li>
+		</tools>
+		<equippedAngleOffset>45</equippedAngleOffset>
+		<comps>
+			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
+				<hediffDef>GW40k_SS_InspiringAura</hediffDef>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="VFECore.ThingDefExtension">
+				<weaponDraftedDrawOffsets>
+					<north>
+						<drawOffset>(0.3, 0, 0.36)</drawOffset>
+						<angleOffset>-123</angleOffset>
+					</north>
+					<east>
+						<drawOffset>(0.15, 0, 0.42)</drawOffset>
+						<angleOffset>-112</angleOffset>
+					</east>
+					<south>
+						<drawOffset>(-0.40, 0, 0.47)</drawOffset>
+						<angleOffset>-143</angleOffset>
+					</south>
+					<west>
+						<drawOffset>(-0.15, 0, 0.42)</drawOffset>
+						<angleOffset>112</angleOffset>
+					</west>
+				</weaponDraftedDrawOffsets>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
 	<!-- Castellan_Axe -->
 	<!--<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Castellan_Axe</defName>

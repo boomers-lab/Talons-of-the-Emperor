@@ -6,14 +6,14 @@
         <invNutrition>2.55</invNutrition>
         <chemicalAddictionChance>0</chemicalAddictionChance>
         <backstoryCryptosleepCommonality>0.08</backstoryCryptosleepCommonality>
-        <itemQuality>Normal</itemQuality>
+        <itemQuality>Legendary</itemQuality>
         <gearHealthRange>1~1</gearHealthRange>
         <minGenerationAge>30</minGenerationAge>
         <maxGenerationAge>45</maxGenerationAge>
         <combatEnhancingDrugsChance>0</combatEnhancingDrugsChance>
         <isFighter>true</isFighter>
         <initialWillRange>20~25</initialWillRange>
-        <initialResistanceRange>55~60</initialResistanceRange>
+        <initialResistanceRange>80~100</initialResistanceRange>
         <apparelAllowHeadgearChance>1</apparelAllowHeadgearChance>
         <techHediffsChance>0.5</techHediffsChance>
         <techHediffsMoney>1000~2000</techHediffsMoney>
@@ -40,7 +40,7 @@
                 <defaultPalette>
                     <colorA>(199, 160, 82)</colorA>
                     <colorB>(149, 38, 34)</colorB>
-                    <colorC>(85, 194, 206)</colorC>
+                    <colorC>(199, 160, 82)</colorC>
                 </defaultPalette>
             </li>
         </modExtensions>
@@ -113,7 +113,7 @@
     <PawnKindDef ParentName="GW_TotE_PawnBase">
         <defName>GW_TotE_Castellan</defName>
         <label>castellan</label>
-        <combatPower>3000</combatPower>
+        <combatPower>3400</combatPower>
         <weaponMoney>82000~88000</weaponMoney>
         <apparelMoney>90000~100000</apparelMoney>
         <apparelTags>

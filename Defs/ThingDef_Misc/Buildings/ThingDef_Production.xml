@@ -24,8 +24,8 @@
 	
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
 		<defName>GW_SM_TalonOfTheEmperor_WeaponBench</defName>
-		<label>Talon of the Emperor armor workbench</label>
-		<description>workbench used to make Talon of the Emperor armor set.</description>
+		<label>Talon of the Emperor weapon workbench</label>
+		<description>workbench used to make Talon of the Emperor weapons.</description>
 		<graphicData>
 			<texPath>Things/Buildings/Production/CustodeBench_Weapon</texPath>
 		</graphicData>

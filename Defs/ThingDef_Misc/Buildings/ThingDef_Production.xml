@@ -6,6 +6,7 @@
 		<description>workbench used to make Talon of the Emperor armor set.</description>
 		<graphicData>
 			<texPath>Things/Buildings/Production/CustodeBench_Armor</texPath>
+			<drawOffset>(0,0.05,0)</drawOffset>
 		</graphicData>
 		<costList>
 			<Steel>100</Steel>
@@ -28,6 +29,7 @@
 		<description>workbench used to make Talon of the Emperor weapons.</description>
 		<graphicData>
 			<texPath>Things/Buildings/Production/CustodeBench_Weapon</texPath>
+			<drawOffset>(0,0.05,0)</drawOffset>
 		</graphicData>
 		<costList>
 			<Steel>100</Steel>

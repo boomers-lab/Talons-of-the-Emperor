@@ -930,8 +930,8 @@
 					<li>
 						<label>Ranged</label>
 						<description>Swap to Melee</description>
-						<texPath>Things/Weapons/CastellanAxe</texPath>
-						<weapon>GW_TotE_CastellanAxe</weapon>
+						<texPath>Things/Weapons/WatchersAxe</texPath>
+						<weapon>GW_TotE_WatchersAxe</weapon>
 					</li>
 				</weaponsToSwitch>
 			</li>

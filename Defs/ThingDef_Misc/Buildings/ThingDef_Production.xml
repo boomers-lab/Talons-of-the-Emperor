@@ -4,7 +4,7 @@
 		<label>Talon of the Emperor armor workbench</label>
 		<description>workbench used to make Talon of the Emperor armor set.</description>
 		<graphicData>
-			<texPath>Things/Buildings/Production/40KBenches_Astartes_Armor</texPath>
+			<texPath>Things/Buildings/Production/CustodeBench_Armor</texPath>
 		</graphicData>
 		<costList>
 			<Steel>100</Steel>

@@ -32,7 +32,7 @@
 				<Crafting>18</Crafting>
 			</skillRequirements>
 			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 			<displayPriority>445</displayPriority>
 		</recipeMaker>
@@ -125,7 +125,7 @@
 			</skillRequirements>
 			<displayPriority>445</displayPriority>
 			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 		</recipeMaker>
 		<statBases>
@@ -217,7 +217,7 @@
 			</skillRequirements>
 			<displayPriority>445</displayPriority>
 			<recipeUsers Inherit="false">
-				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
 			</recipeUsers>
 		</recipeMaker>
 		<statBases>

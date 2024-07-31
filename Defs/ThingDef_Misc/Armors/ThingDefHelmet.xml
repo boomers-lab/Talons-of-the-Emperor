@@ -100,9 +100,9 @@
 			<Plasteel>400</Plasteel>
 			<Steel>600</Steel>
 			<Uranium>100</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>240</HP_Adamantium>
-			<HP_Auramite>110</HP_Auramite>
+			<HP_Ceramite>150</HP_Ceramite>
+			<HP_Adamantium>80</HP_Adamantium>
+			<HP_Auramite>30</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
@@ -171,9 +171,9 @@
 			<Plasteel>400</Plasteel>
 			<Steel>600</Steel>
 			<Uranium>100</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>240</HP_Adamantium>
-			<HP_Auramite>110</HP_Auramite>
+			<HP_Ceramite>150</HP_Ceramite>
+			<HP_Adamantium>80</HP_Adamantium>
+			<HP_Auramite>30</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
@@ -242,8 +242,9 @@
 			<Plasteel>400</Plasteel>
 			<Steel>600</Steel>
 			<Uranium>100</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Auramite>180</HP_Auramite>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
@@ -298,8 +299,9 @@
 			<Plasteel>400</Plasteel>
 			<Steel>600</Steel>
 			<Uranium>100</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Auramite>110</HP_Auramite>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
@@ -354,9 +356,9 @@
 			<Plasteel>400</Plasteel>
 			<Steel>600</Steel>
 			<Uranium>100</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>240</HP_Adamantium>
-			<HP_Auramite>110</HP_Auramite>
+			<HP_Ceramite>150</HP_Ceramite>
+			<HP_Adamantium>80</HP_Adamantium>
+			<HP_Auramite>30</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>
@@ -425,9 +427,9 @@
 			<Plasteel>400</Plasteel>
 			<Steel>600</Steel>
 			<Uranium>100</Uranium>
-			<HP_Ceramite>300</HP_Ceramite>
-			<HP_Adamantium>240</HP_Adamantium>
-			<HP_Auramite>150</HP_Auramite>
+			<HP_Ceramite>180</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
+			<HP_Auramite>45</HP_Auramite>
 		</costList>
 		<statBases>
 			<WorkToMake>60000</WorkToMake>

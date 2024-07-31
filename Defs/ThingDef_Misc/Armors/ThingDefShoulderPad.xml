@@ -102,9 +102,9 @@
 			<Plasteel>450</Plasteel>
 			<Steel>750</Steel>
 			<Uranium>190</Uranium>
-			<HP_Ceramite>310</HP_Ceramite>
-			<HP_Adamantium>220</HP_Adamantium>
-			<HP_Auramite>80</HP_Auramite>
+			<HP_Ceramite>160</HP_Ceramite>
+			<HP_Adamantium>90</HP_Adamantium>
+			<HP_Auramite>40</HP_Auramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Shoulders/CGuard_sp</wornGraphicPath>
@@ -160,9 +160,9 @@
 			<Plasteel>450</Plasteel>
 			<Steel>750</Steel>
 			<Uranium>190</Uranium>
-			<HP_Ceramite>310</HP_Ceramite>
-			<HP_Adamantium>220</HP_Adamantium>
-			<HP_Auramite>80</HP_Auramite>
+			<HP_Ceramite>160</HP_Ceramite>
+			<HP_Adamantium>90</HP_Adamantium>
+			<HP_Auramite>40</HP_Auramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Custodes/Shoulders/Warden_sp</wornGraphicPath>
@@ -219,9 +219,9 @@
 			<Plasteel>450</Plasteel>
 			<Steel>750</Steel>
 			<Uranium>190</Uranium>
-			<HP_Ceramite>310</HP_Ceramite>
-			<HP_Adamantium>220</HP_Adamantium>
-			<HP_Auramite>80</HP_Auramite>
+			<HP_Ceramite>190</HP_Ceramite>
+			<HP_Adamantium>110</HP_Adamantium>
+			<HP_Auramite>55</HP_Auramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Allarus/Shoulders/Allarus_sp</wornGraphicPath>
@@ -289,9 +289,9 @@
 			<Plasteel>450</Plasteel>
 			<Steel>750</Steel>
 			<Uranium>190</Uranium>
-			<HP_Ceramite>310</HP_Ceramite>
-			<HP_Adamantium>220</HP_Adamantium>
-			<HP_Auramite>80</HP_Auramite>
+			<HP_Ceramite>210</HP_Ceramite>
+			<HP_Adamantium>130</HP_Adamantium>
+			<HP_Auramite>65</HP_Auramite>
 		</costList>
 		<apparel>
 			<wornGraphicPath>Things/CustodesArmors/Castellan Plate/Shoulders/CastellanPlate_sp</wornGraphicPath>

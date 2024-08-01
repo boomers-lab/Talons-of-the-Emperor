@@ -19,7 +19,7 @@
 		
         </recipes>
 		<researchPrerequisites>
-			<li>GW_TotE_Custodes</li>
+			<li>GW_TotE_CustodesFabrication</li>
 		</researchPrerequisites>
 	</ThingDef>
 	
@@ -42,7 +42,7 @@
 		
         </recipes>
 		<researchPrerequisites>
-			<li>GW_TotE_Custodes</li>
+			<li>GW_TotE_CustodesFabrication</li>
 		</researchPrerequisites>
 	</ThingDef>
 	

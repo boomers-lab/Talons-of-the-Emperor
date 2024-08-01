@@ -270,6 +270,11 @@
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
 			</li>
+			
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
 		</comps>
 	</ThingDef>
 

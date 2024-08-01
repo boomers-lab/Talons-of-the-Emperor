@@ -656,6 +656,11 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
+			
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
 		</comps>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
@@ -747,6 +752,11 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
+			
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
@@ -844,6 +854,10 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
 		</comps>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<modExtensions>
@@ -935,6 +949,11 @@
 					</li>
 				</weaponsToSwitch>
 			</li>
+			
+			<li Class="CompProperties_Biocodable">
+				<biocodeOnEquip>True</biocodeOnEquip>
+			</li>
+			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
 		</comps>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">

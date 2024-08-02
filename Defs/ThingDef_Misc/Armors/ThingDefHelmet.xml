@@ -340,6 +340,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_VenatariHelmet</defName>
 		<label>Venatari helmet</label>
+		<description>A lightweight but still very protective helmet, worn by the Venatari jump-infantry of the Adeptus Custodes.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Venatari/Helmets/Venatari_helmet_south</texPath>
 		</graphicData>

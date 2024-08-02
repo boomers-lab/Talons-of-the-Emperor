@@ -21,7 +21,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Adrathic_Destructor</defName>
 		<label>Adrathic destructor</label>
-		<description>The Adrathic Destructor wielded by the Custodes is a compact yet formidable weapon, designed for precision and annihilation. Its sleek design and lethal capabilities make it a fearsome asset on the battlefield. Built to embody the essence of both power and elegance, it stands as a testament to the Custodes' commitment to protecting the Imperium.</description>
+		<description>A twin-linked, pistol-sized adrathic weapon used by Aquilon Terminators of the Adeptus Custodes. Few targets can withstand even a single shot from an adrathic weapon, as their molecular bonds are instantly broken.\n\nStrictly speaking, the Adrasite Spear also uses an Adrathic Destructor as a secondary weapon. However, the spear version is only single-barrelled.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -112,8 +112,8 @@
 	<!-- Bolt Caliver -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Bolt_Caliver</defName>
-		<label>Bolt Caliver</label>
-		<description>The Bolt Caliver wielded by the Custodes is a compact yet lethal firearm, designed for precision and devastating firepower. It's ergonomically crafted for superior handling and integrates advanced targeting systems for deadly accuracy. Whether in close combat or at range, it's a versatile weapon trusted by the Custodes to vanquish threats to the Imperium.</description>
+		<label>Adrastus bolt caliver</label>
+		<description>A combi-weapon of the Adeptus Custodes. It combines a special bolter of equal power to a heavy bolter, and an “Adrathic Weapon” - a gun that fires a disintegrating beam that destroys targets at the molecular level.\n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicBoltCaliver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -204,8 +204,8 @@
 	<!-- Firepike -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Firepike</defName>
-		<label>Infernus firepike</label>
-		<description>The Infernus Firepike, gripped firmly by the Custodes, is a weapon of fiery wrath. With a mere thrust, it transforms the battlefield into a blazing spectacle, engulfing adversaries in relentless flames that leave no escape from the Emperor's judgment.</description>
+		<label>Incendium firepike</label>
+		<description>The Incendium Firepike is a powerful flamer, which sows panic and death in any attacking force.\n\nRarely seen among even the Adeptus Custodes, Incendium Firepikes saw action in the Webway, the Eldar Warp travel network that was once joined by a portal of the Emperors own making. A secret of the utmost importance, the “Emperors Great Work” was subverted during the Horus Heresy, and the then-Legio Custodes fought a gruelling battle against the daemonic hordes before the portal was finally closed.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Firepike</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -285,7 +285,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Kinetic_Destructor</defName>
 		<label>Kinetic Destructor</label>
-		<description>A gun</description>
+		<description>An archeotech pistol used only by the Venatari jump-infantry of the Adeptus Custodes. Hailing from the Dark Age of Technology, the sheer power of each Kinetic Destroyer is akin to that of a plasma weapon, without the risks of overheating and other drawbacks.\n\nAlso known as Emperors hunting eagles, the Venatari swoop from the sky and rain death upon their hapless foes.</description>
 		<graphicData>
 			<texPath>Things/Weapons/KineticDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

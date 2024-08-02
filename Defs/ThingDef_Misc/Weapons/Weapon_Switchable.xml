@@ -4,7 +4,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_GuardianSpear</defName>
 		<label>Custodes Guardian Spear</label>
-		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor.</description>
+		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spears head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies.\n\nMany combi-weapons existed in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -107,7 +107,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_GuardianSpearR</defName>
 		<label>Ranged Custodes Guardian Spear</label>
-		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor.</description>
+		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear’s head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies.\n\nMany combi-weapons existed in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -196,7 +196,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_AdrathicSpear</defName>
 		<label>Custodes Adrathic Spear</label>
-		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor. An Adrasite Spear is a Guardian Spear that incorporates an Adrathic Destructor, a potent weapon of the Dark Age of Technology, that fires a directed energy disintegration beam of phenomenal destructive potential, long gathered to the Emperor's household and entrusted to no other. Utilised primarily by the heavy shock troops of the Tharanatoi caste, these dark relics are only issued against the deadliest of expected foes.</description>
+		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an Adrathic Destructor. Even the light tanks of the enemy fear this weapon’s disintegrating beam, to say nothing of infantry of all kinds.\n\nEven the fall of the Imperium has not loosened the Custodians grip on Adrathic Weapons. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -299,7 +299,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_AdrathicSpearR</defName>
 		<label>Ranged Custodes Adrathic Spear</label>
-		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor. An Adrasite Spear is a Guardian Spear that incorporates an Adrathic Destructor, a potent weapon of the Dark Age of Technology, that fires a directed energy disintegration beam of phenomenal destructive potential, long gathered to the Emperor's household and entrusted to no other. Utilised primarily by the heavy shock troops of the Tharanatoi caste, these dark relics are only issued against the deadliest of expected foes.</description>
+		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an Adrathic Destructor. Even the light tanks of the enemy fear this weapon’s disintegrating beam, to say nothing of infantry of all kinds.\n\nEven the fall of the Imperium has not loosened the Custodians grip on Adrathic Weapons. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -580,7 +580,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_CastellanAxe</defName>
 		<label>Custodes Castellan Axe</label>
-		<description>A Castellan Axe is a variant of the Guardian Spear, the signature weapon of the Adeptus Custodes, that incorporates a heavier, axe-like blade rather than a speartip. These weapons lend themselves to an elegant and brutal combat style that sees the wielder use their exceptional transhuman strength in conjunction with their axe's momentum, launching thunderous sweeps that switch direction with breathtaking suddenness to cleave through their victims' guard and hack off heads and limbs.</description>
+		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -690,7 +690,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_CastellanAxeR</defName>
 		<label>Ranged Custodes Castellan Axe</label>
-		<description>A Castellan Axe is a variant of the Guardian Spear, the signature weapon of the Adeptus Custodes, that incorporates a heavier, axe-like blade rather than a speartip. These weapons lend themselves to an elegant and brutal combat style that sees the wielder use their exceptional transhuman strength in conjunction with their axe's momentum, launching thunderous sweeps that switch direction with breathtaking suddenness to cleave through their victims' guard and hack off heads and limbs.</description>
+		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -778,7 +778,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_WatchersAxe</defName>
 		<label>Custodes Watchers Axe</label>
-		<description>Watcher's Axe - This master-crafted artefact weapon was fashioned in the wake of Constantin Valdor's disappearance and is traditionally passed on to each new Captain-General ever since. Watcher's Axe is a huge polearm blade that crackles with golden lightning and can bisect the sarcophagus of a Chaos Helbrute with a single swing. The axe's haft incorporates a master-crafted bolter weapon known as the Eagle's Scream, which fires adamantium-tipped penetrator bolts at a ferocious rate.</description>
+		<description>The Watchers Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagles Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke.\n\nThe true Watchers Axe, along with its wielder, the Captain-General Trajann Valoris, has been lost to time. Like much in the current Imperial arsenal, it is a mere replica, though not without great power of its own.</description>
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -796,7 +796,7 @@
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
-			<Mass>8.5</Mass>
+			<Mass>12</Mass>
 		</statBases>
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
@@ -887,7 +887,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_WatchersAxeR</defName>
 		<label>Ranged Custodes Watchers Axe</label>
-		<description>Watcher's Axe - This master-crafted artefact weapon was fashioned in the wake of Constantin Valdor's disappearance and is traditionally passed on to each new Captain-General ever since. Watcher's Axe is a huge polearm blade that crackles with golden lightning and can bisect the sarcophagus of a Chaos Helbrute with a single swing. The axe's haft incorporates a master-crafted bolter weapon known as the Eagle's Scream, which fires adamantium-tipped penetrator bolts at a ferocious rate.</description>
+		<description>The Watchers Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagles Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke.\n\nThe true Watchers Axe, along with its wielder, the Captain-General Trajann Valoris, has been lost to time. Like much in the current Imperial arsenal, it is a mere replica, though not without great power of its own.</description>
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

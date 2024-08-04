@@ -1,91 +1,117 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Defs>	
+<Defs>
 	<ThingDef ParentName="GWShieldBase" Name="GWTalonShieldBase" Abstract="true">
 		<description>The Custodes Shield, used by the elite Adeptus Custodes in Warhammer 40,000, combines advanced technology with exceptional craftsmanship. It provides superior protection, adorned with symbols of their noble heritage and dedication to the Emperor. The shield allows for both defense and counterattacks, embodying the Custodes' formidable battlefield presence.</description>
-        <apparel>
-            <drawData>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
 				<dataNorth>
-					<offset>(0.0, -0.4, 0.0)</offset>
+					<offset>(0.0, -0.4, 0.1)</offset>
 				</dataNorth>
 				<dataSouth>
-					<offset>(0.3, 0.4, -0.2)</offset>
+					<offset>(0.0, 0.0, 0.0)</offset>
 				</dataSouth>
                 <dataWest>
-                    <offset>(0.0, 0.4, -0.3)</offset>
+                    <offset>(-0.25, 0.0, 0.0)</offset>
                 </dataWest>
                 <dataEast>
-                    <offset>(0.0, 0.1, -0.3)</offset>
+                    <offset>(0.25, 0.0, 0.0)</offset>
                 </dataEast>
-                <scale>0.7</scale>
-                <childScale>0.7</childScale>
+                <scale>1.0</scale>
+                <childScale>1.0</childScale>
             </drawData>
-        </apparel>
-        <statBases>
-            <WorkToMake>15000</WorkToMake>
-            <MaxHitPoints>1200</MaxHitPoints>
-        </statBases>
-        <recipeMaker>
-            <recipeUsers>
-                <li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
-            </recipeUsers>		
-        </recipeMaker>
-    </ThingDef>
+		</apparel>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MaxHitPoints>1200</MaxHitPoints>
+		</statBases>
+		<recipeMaker>
+			<recipeUsers>
+				<li>GW_SM_TalonOfTheEmperor_ArmorBench</li>
+			</recipeUsers>
+		</recipeMaker>
+	</ThingDef>
 	
 	<ThingDef ParentName="GWTalonShieldBase" Name="GWTalonCombatShieldBase">
-        <defName>GM_TotE_ShieldPraesidium</defName>
-        <label>praesidium shield</label>
-        <graphicData>
-            <texPath>Things/Weapons/Shield/Preview/PraesidiumShield</texPath>
-            <graphicClass>Graphic_Single</graphicClass>
-            <shaderType>CutoutComplex</shaderType>
-        </graphicData>
-        <comps>
-            <li Class="GW4KArmor.CompProperties_TriColorMask">
-                <maskCount>1</maskCount>
-                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
-                <defaultPalette>
-                    <colorA>(199, 160, 82)</colorA>
+		<defName>GM_TotE_ShieldPraesidium</defName>
+		<label>praesidium shield</label>
+		<graphicData>
+			<texPath>Things/Weapons/Shield/Preview/PraesidiumShield</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+		</graphicData>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(199, 160, 82)</colorA>
 					<colorB>(149, 38, 34)</colorB>
 					<colorC>(85, 194, 206)</colorC>
-                </defaultPalette>
-            </li>
-        </comps>
-        <costStuffCount>60</costStuffCount>
-        <statBases>
-            <StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
-            <Mass>7</Mass>
-            <Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
-            <WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
-        </statBases>
-        <equippedStatOffsets>
-            <ReloadSpeed MayRequire="CETeam.CombatExtended">-0.2</ReloadSpeed>
-            <MeleeHitChance>-1</MeleeHitChance>
-            <ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
-            <AimingAccuracy MayRequire="CETeam.CombatExtended">-0.08</AimingAccuracy>
-            <Suppressability MayRequire="CETeam.CombatExtended">-0.25</Suppressability>
-            <MeleeCritChance MayRequire="CETeam.CombatExtended">-0.05</MeleeCritChance>
-            <MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
-        </equippedStatOffsets>
-        <apparel>
-            <wornGraphicPath>Things/Weapons/Shield/PraesidiumShield</wornGraphicPath>
-            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
-            <tags>
-                <li>GW_TotE_CombatShield</li>
-            </tags>
-        </apparel>
-        <recipeMaker>
-            <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
-        </recipeMaker>
-        <modExtensions>
-          <li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
-            <shieldCoverage>
-              <li>Hands</li>
-              <li>Arms</li>
-              <li>Shoulders</li>
-              <li>Torso</li>
-              <li>Neck</li>
-            </shieldCoverage>
-          </li>
-        </modExtensions>
-    </ThingDef>
+				</defaultPalette>
+			</li>
+		</comps>
+		<costStuffCount>60</costStuffCount>
+		<statBases>
+			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
+			<Mass>7</Mass>
+			<Bulk MayRequire="CETeam.CombatExtended">8</Bulk>
+			<WornBulk MayRequire="CETeam.CombatExtended">5</WornBulk>
+		</statBases>
+		<equippedStatOffsets>
+			<ReloadSpeed MayRequire="CETeam.CombatExtended">-0.2</ReloadSpeed>
+			<MeleeHitChance>-1</MeleeHitChance>
+			<ShootingAccuracyPawn>-0.15</ShootingAccuracyPawn>
+			<AimingAccuracy MayRequire="CETeam.CombatExtended">-0.08</AimingAccuracy>
+			<Suppressability MayRequire="CETeam.CombatExtended">-0.25</Suppressability>
+			<MeleeCritChance MayRequire="CETeam.CombatExtended">-0.05</MeleeCritChance>
+			<MeleeParryChance MayRequire="CETeam.CombatExtended">1.0</MeleeParryChance>
+		</equippedStatOffsets>
+		<apparel>
+			<drawData>
+				<defaultData>
+					<layer>75</layer> <!--70-77 is over helmet and under gun-->
+				</defaultData>
+				<dataNorth>
+					<offset>(0.0, -0.4, 0.1)</offset>
+				</dataNorth>
+				<dataSouth>
+					<offset>(0.0, 0.0, 0.0)</offset>
+				</dataSouth>
+                <dataWest>
+                    <offset>(-0.25, 0.0, 0.0)</offset>
+                </dataWest>
+                <dataEast>
+                    <offset>(0.25, 0.0, 0.0)</offset>
+                </dataEast>
+                <scale>1.0</scale>
+                <childScale>1.0</childScale>
+            </drawData>
+			<wornGraphicPath>Things/Weapons/Shield/PraesidiumShield</wornGraphicPath>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
+			<tags>
+				<li>GW_TotE_CombatShield</li>
+			</tags>
+		</apparel>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+		</recipeMaker>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+				<isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+			</li>
+			<li Class="CombatExtended.ShieldDefExtension" MayRequire="CETeam.CombatExtended">
+				<shieldCoverage>
+					<li>Hands</li>
+					<li>Arms</li>
+					<li>Shoulders</li>
+					<li>Torso</li>
+					<li>Neck</li>
+				</shieldCoverage>
+			</li>
+		</modExtensions>
+	</ThingDef>
 </Defs>

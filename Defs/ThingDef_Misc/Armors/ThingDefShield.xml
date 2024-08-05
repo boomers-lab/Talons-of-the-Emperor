@@ -52,6 +52,12 @@
 					<colorC>(199, 160, 82)</colorC>
 				</defaultPalette>
 			</li>
+			<li Class="GWParryShield.CompProperties_GW_Parryable">
+				<parryHediff>GW_PraesidiumParry</parryHediff><!-- the parry hediff-->
+				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
+				<parryWindow>30</parryWindow>
+				<parryCooldown>60</parryCooldown>
+			</li>
 		</comps>
 		<costStuffCount>60</costStuffCount>
 		<statBases>
@@ -78,13 +84,13 @@
 					<offset>(0.0, -0.4, 0.1)</offset>
 				</dataNorth>
 				<dataSouth>
-					<offset>(0.0, 0.0, 0.0)</offset>
+					<offset>(0.0, 0.0, -0.15)</offset>
 				</dataSouth>
                 <dataWest>
-                    <offset>(-0.25, 0.0, 0.0)</offset>
+                    <offset>(-0.25, 0.0, -0.15)</offset>
                 </dataWest>
                 <dataEast>
-                    <offset>(0.25, 0.0, 0.0)</offset>
+                    <offset>(0.25, 0.0, -0.15)</offset>
                 </dataEast>
                 <scale>1.0</scale>
                 <childScale>1.0</childScale>

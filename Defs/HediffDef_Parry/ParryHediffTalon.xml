@@ -18,6 +18,10 @@
 				<stunDuration>120</stunDuration>
 				
 				<isNullifyDamage>true</isNullifyDamage>
+				<nullifyDamageChance>0.10</nullifyDamageChance>
+				
+				<isReduceDamageTakenWhenParry>true</isReduceDamageTakenWhenParry>
+				<damageReduction>0.50</damageReduction>
 				
 				<isGiveDebuff>true</isGiveDebuff>
 				<isDebuffToSelf>false</isDebuffToSelf>
@@ -26,11 +30,13 @@
 				
 				<isReflectDamage>true</isReflectDamage>
 				<reflectDamageMultiplier>1.00</reflectDamageMultiplier>
+				<reflectDamageChance>0.15</reflectDamageChance>
 				
 				<isKnockbackAttacker>true</isKnockbackAttacker>
 				<knockbackDistance>2.0</knockbackDistance>
 				
 				<isReflectProjectile>true</isReflectProjectile>
+				<reflectProjectileChance>0.30</reflectProjectileChance>
 				
 				<parrySounds>
 					<li>Deflect_Metal</li>

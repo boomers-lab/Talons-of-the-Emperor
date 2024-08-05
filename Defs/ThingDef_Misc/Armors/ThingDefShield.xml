@@ -54,9 +54,9 @@
 			</li>
 			<li Class="GWParryShield.CompProperties_GW_Parryable">
 				<parryHediff>GW_PraesidiumParry</parryHediff><!-- the parry hediff-->
-				<parryChance>0.20</parryChance> <!-- 0.20 = 20% -->
+				<parryChance>0.30</parryChance> <!-- 0.20 = 20% -->
 				<parryWindow>30</parryWindow>
-				<parryCooldown>60</parryCooldown>
+				<parryCooldown>90</parryCooldown>
 			</li>
 		</comps>
 		<costStuffCount>60</costStuffCount>

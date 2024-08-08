@@ -177,7 +177,7 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>30</power>
+				<power>10</power>
 				<cooldownTime>2</cooldownTime>
 				<armorPenetration>0.7</armorPenetration>
 			</li>
@@ -187,9 +187,9 @@
 					<li>Blunt</li>
 					<li>Poke</li>
 				</capacities>
-				<power>40</power>
+				<power>20</power>
 				<cooldownTime>2</cooldownTime>
-				<armorPenetration>1.0</armorPenetration>
+				<armorPenetration>0.5</armorPenetration>
 			</li>
 		</tools>
 		<equippedAngleOffset>45</equippedAngleOffset>
@@ -226,7 +226,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Vaultsword</defName>
 		<label>Vaultsword</label>
-		<description>The Vaultsword is a formidable weapon carried by the Adeptus Custodes in Warhammer 40,000. This large, two-handed sword is a symbol of the Custodes' relentless might and dedication to the defense of the Emperor. Forged with masterful craftsmanship, the Vaultsword is capable of cleaving through the toughest foes and armor with ease. Its immense size and weight require the enhanced strength of the Custodes, making it a devastating tool in their arsenal, perfectly suited for both delivering and withstanding the fiercest assaults on the battlefield.</description>
+		<description>A special type of ancient powersword wielded only by Blade Champions of the Adeptus Custodes. Wielded in the Hurricanis style, the Vaultsword can output an incredible storm of deadly, armor-penetrating strikes.\n\nVaultswords are a piece of “archeotech”, not to be confused with archotech of the rimworlds. “Archeotech” is an Imperial term linked to “archeology”; it means once-lost technology that was recovered from ancient times, such as the Dark Age of Technology.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Vaultsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -248,27 +248,27 @@
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
-				<power>11</power>
+				<power>20</power>
 				<cooldownTime>2</cooldownTime>
-				<armorPenetration>1.3</armorPenetration>
+				<armorPenetration>1.0</armorPenetration>
 			</li>
 			<li>
 				<label>point</label>
 				<capacities>
 					<li>Stab</li>
 				</capacities>
-				<power>30</power>
+				<power>40</power>
 				<cooldownTime>2</cooldownTime>
-				<armorPenetration>1.3</armorPenetration>
+				<armorPenetration>1.8</armorPenetration>
 			</li>
 			<li>
 				<label>edge</label>
 				<capacities>
 					<li>60</li>
 				</capacities>
-				<power>16</power>
+				<power>70</power>
 				<cooldownTime>2.5</cooldownTime>
-				<armorPenetration>1.3</armorPenetration>
+				<armorPenetration>2.0</armorPenetration>
 			</li>
 		</tools>
 	</ThingDef>

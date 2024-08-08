@@ -7,7 +7,6 @@
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>1</drawSize>
 		</graphicData>
-		<description>Custodes Helmet: A pinnacle of craftsmanship and resilience, our helmet combines sleek design with formidable protection. Inspired by the noble guardians of the Imperium, it embodies strength, regality, and unwavering dedication to duty.</description>
 		<recipeMaker>
 			<unfinishedThingDef>UnfinishedTechArmor</unfinishedThingDef>
 			<skillRequirements>
@@ -62,7 +61,8 @@
 	
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesGuardHelmet</defName>
-		<label>Custodes Guard helmet</label>
+		<label>Custodes shield host helmet</label>
+		<description>A helmet worn by the battleline Custodian Guard, also known as the Hykanatoi. The red plume on top of the helmet inspires joy in their allies and fear in their enemies, for now they must face the might of the Adeptus Custodes.\n\nSome might be surprised to find women among the Ten Thousand - not that they would be able to tell from the faceless, statuesque golden giants. While the Space Marine creation process is indeed male-exclusive, the more tailored process for Custodians allows for the worthiest of women to join their ranks… though they too will face all of the same challenges.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/Helmets/CGuard_helmet_south</texPath>
 		</graphicData>
@@ -133,7 +133,8 @@
 
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesWardenHelmet</defName>
-		<label>Custodes Warden helmet</label>
+		<label>Custodes warden helmet</label>
+		<description>The helmet of a Custodian Warden. It is roughly similar to that of the Hykanatoi, and is wrought of just as much quality, if not more.\n\nThe Adeptus Custodes never quite recovered from the death of the Emperor. An incredible amount of guilt weighs upon them, the stain of failure forever tainting the gold of their auramite.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/Helmets/Warden_helmet_south</texPath>
 		</graphicData>
@@ -206,7 +207,8 @@
 
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CastellanPlateHelmet</defName>
-		<label>Castellan Plate helmet</label>
+		<label>Castellan plate helmet</label>
+		<description>An auramite Power Armor helmet supposed to be worn with the Castellan Plate. While it is typically not worn, as the Captain-General usually shows his face to inspire other Custodians, it can still provide excellent protection against all threats.\n\nAfter serving in the Allarus Terminators, a young Trajann Valoris was made a Companion - the three hundred elite Custodians assigned as the Emperors personal guard. However, due to his desire to take the initiative against the Great Enemy, he lasted only twenty-two years before becoming a Shield-Captain - and, a few centuries later, rising to the rank of Captain-General.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Castellan Plate/Helmets/CastellanPlate_helmet_south</texPath>
 		</graphicData>
@@ -283,6 +285,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_SagittarumHelmet</defName>
 		<label>Sagittarum helmet</label>
+		<description>An uncommon helmet worn by Sagittarum Custodians of the Adeptus Custodes. The Sagittarum Guard are a rarer type of Custodian, focusing on delivering heavy firepower from longer ranges, like the various fire support squads of the Adeptus Astartes.\n\nDuring the Great Crusade and Horus Heresy, they stood guard on the outermost perimeter of the Imperial Palace, on guard for any invader. However, they became a rare sight in the 41st Millennium, and with the fall of Terra and the Imperium of Man, they creep ever closer to extinction.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Sagittarum/Helmets/Sagittarum_helmet_south</texPath>
 		</graphicData>
@@ -340,7 +343,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_VenatariHelmet</defName>
 		<label>Venatari helmet</label>
-		<description>A lightweight but still very protective helmet, worn by the Venatari jump-infantry of the Adeptus Custodes.</description>
+		<description>A lightweight but still very protective helmet, worn by the Venatari jump-infantry of the Adeptus Custodes.\n\nEach Venatari is a highly-skilled veteran of the Blood Games, a special wargame practiced by the Adeptus Custodes. Certain Custodians are tasked with mock-assassinating the Emperor, allowing them to find and exploit security weaknesses which can then be patched. Some Blood Games have been known to last years - one Custodian, Calladayce Taurovalia Kesh, ended her Blood Game after over two years when she was caught trying to teleport a cyclonic warhead into the Emperors throne room.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Venatari/Helmets/Venatari_helmet_south</texPath>
 		</graphicData>
@@ -398,6 +401,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_AllarusHelmet</defName>
 		<label>Allarus helmet</label>
+		<description>A strong helmet, built for the Allarus Terminators. It is highly protective due to its auramite build, well-suited for deep striking towards the enemys leaders.\n\nThe Custodians, unlike their Space Marine cousins, rarely remove their helmets, as they wish to remain a faceless and solid wall of auramite. Custodians of the Imperial Palace are sometimes mistaken for ornate golden statues or a mere ceremonial guard, but any threat that should foolishly present themselves will usually not live long enough to regret it.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Allarus/Helmets/Allarus_helmet_south</texPath>
 		</graphicData>

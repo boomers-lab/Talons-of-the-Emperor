@@ -264,7 +264,7 @@
 			<li>
 				<label>edge</label>
 				<capacities>
-					<li>60</li>
+					<li>Stab</li>
 				</capacities>
 				<power>70</power>
 				<cooldownTime>2.5</cooldownTime>

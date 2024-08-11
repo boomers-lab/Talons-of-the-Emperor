@@ -230,17 +230,25 @@
 		<graphicData>
 			<texPath>Things/Weapons/Vaultsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>0.8</drawSize>
+			<drawSize>1.3</drawSize>
 		</graphicData>
-		<uiIconScale>1.2</uiIconScale>				
+		<uiIconScale>1.2</uiIconScale>			
 		<statBases>
-			<WorkToMake>12000</WorkToMake>
-			<Mass>5.55</Mass>
+			<WorkToMake>40000</WorkToMake>
+			<Mass>13</Mass>
 		</statBases>
 		<equippedAngleOffset>-40</equippedAngleOffset>
-		<stuffCategories>
-			<li>Metallic</li>
-		</stuffCategories>
+		<costList>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>600</Plasteel>
+			<Steel>1500</Steel>
+			<Uranium>300</Uranium>
+			<HP_Ceramite>350</HP_Ceramite>
+			<HP_Adamantium>290</HP_Adamantium>
+			<HP_Auramite>120</HP_Auramite>
+		</costList>
 		<costStuffCount>50</costStuffCount>
 		<tools>
 			<li>

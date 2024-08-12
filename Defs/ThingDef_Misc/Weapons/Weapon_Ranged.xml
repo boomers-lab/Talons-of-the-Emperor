@@ -154,6 +154,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_Bolt_Caliver_Bullet</defaultProjectile>
 				<warmupTime>2.5</warmupTime>
+				<forcedMissRadius>0.1</forcedMissRadius>
 				<range>55</range>
 				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
 				<burstShotCount>3</burstShotCount>
@@ -188,13 +189,15 @@
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_Bolt_Caliver_Bullet</defName>
 		<label>Bolt bullet</label>
+		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>
-			<damageDef>Bullet</damageDef>
+			<damageDef>Bomb</damageDef>
 			<damageAmountBase>45</damageAmountBase>
+			<explosionRadius>0.1</explosionRadius>
 			<armorPenetrationBase>0.8</armorPenetrationBase>
 			<stoppingPower>1</stoppingPower>
 			<speed>46</speed>

@@ -40,7 +40,7 @@
 		</statBases>
 		<equippedAngleOffset>-30</equippedAngleOffset>
 		<stuffCategories>
-			<li>Metallic</li>
+			<li>Imperial_Metals</li>
 		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
 		<tools>
@@ -101,6 +101,10 @@
 			<HP_Adamantium>290</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
 		<tools>
 			<li>
 			<label>handle</label>
@@ -167,6 +171,10 @@
 			<HP_Adamantium>290</HP_Adamantium>
 			<HP_Auramite>120</HP_Auramite>
 		</costList>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<costStuffCount>50</costStuffCount>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 			<li>GW_TotE_Castellan</li>
@@ -249,6 +257,9 @@
 			<HP_Adamantium>290</HP_Adamantium>
 			<HP_Auramite>120</HP_Auramite>
 		</costList>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<costStuffCount>50</costStuffCount>
 		<tools>
 			<li>

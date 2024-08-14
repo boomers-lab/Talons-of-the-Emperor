@@ -11,6 +11,7 @@
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 		</weaponTags>
+		<stuffCategories Inherit="false" />
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
 			<skillRequirements>

@@ -777,7 +777,7 @@
 	<!-- Watchers Axe [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_WatchersAxe</defName>
-		<label>Watchers Axe</label>
+		<label>Watchers axe</label>
 		<description>The Watchers Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagles Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke.\n\nThe true Watchers Axe, along with its wielder, the Captain-General Trajann Valoris, has been lost to time. Like much in the current Imperial arsenal, it is a mere replica, though not without great power of its own.</description>
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>

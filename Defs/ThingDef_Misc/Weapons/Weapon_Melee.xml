@@ -13,7 +13,7 @@
 		</weaponTags>
 		<stuffCategories Inherit="false" />
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>10</Crafting>
 			</skillRequirements>
@@ -140,7 +140,7 @@
 	<!-- Vexilla -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Vexilla</defName>
-		<label>Magisterium Vexilla</label>
+		<label>Magisterium vexilla</label>
 		<description>Magisterium Vexilla is a battle-standard borne into battle by the Adeptus Custodes, the elite bodyguard of the Emperor of Mankind, and in ancient times by the Heralds of the Space Marine Legions. During the Great Crusade and Horus Heresy, the ancient icons and standards borne by the Legio Custodes and the Legiones Astartes represented the inviolable and nigh-omnipotent authority of the Emperor. In particular was the Magisterium Vexillia, a seal of ultimate sanction and the might of Mankind.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Vexilla</texPath>
@@ -148,7 +148,7 @@
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>

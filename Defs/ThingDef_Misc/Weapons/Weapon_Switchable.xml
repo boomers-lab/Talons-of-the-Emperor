@@ -3,7 +3,7 @@
 	<!-- Guardian Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_GuardianSpear</defName>
-		<label>Custodes Guardian Spear</label>
+		<label>Custodes guardian spear</label>
 		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spears head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies.\n\nMany combi-weapons existed in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
@@ -11,7 +11,7 @@
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -106,7 +106,7 @@
 	<!-- Guardian Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_GuardianSpearR</defName>
-		<label>Ranged Custodes Guardian Spear</label>
+		<label>Ranged custodes guardian spear</label>
 		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear’s head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies.\n\nMany combi-weapons existed in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
@@ -195,7 +195,7 @@
 	<!-- Adrathic Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_AdrathicSpear</defName>
-		<label>Custodes Adrathic Spear</label>
+		<label>Custodes adrathic spear</label>
 		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an Adrathic Destructor. Even the light tanks of the enemy fear this weapon’s disintegrating beam, to say nothing of infantry of all kinds.\n\nEven the fall of the Imperium has not loosened the Custodians grip on Adrathic Weapons. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
@@ -203,7 +203,7 @@
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -298,7 +298,7 @@
 	<!-- Adrathic Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_AdrathicSpearR</defName>
-		<label>Ranged Custodes Adrathic Spear</label>
+		<label>Ranged custodes adrathic spear</label>
 		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an Adrathic Destructor. Even the light tanks of the enemy fear this weapon’s disintegrating beam, to say nothing of infantry of all kinds.\n\nEven the fall of the Imperium has not loosened the Custodians grip on Adrathic Weapons. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
@@ -386,7 +386,7 @@
 	<!-- Melta Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_MeltaSpear</defName>
-		<label>Custodes Melta Spear</label>
+		<label>Custodes melta spear</label>
 		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor. Rarely, a Guardian Spear does not mount the usual bolter, but advanced, specialised sub-weapons. The Pyrithite Spear is one such variant which incorporates the deadly Melta Beam, a type of compact Melta Weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
@@ -394,7 +394,7 @@
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -489,7 +489,7 @@
 	<!-- Melta Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_MeltaSpearR</defName>
-		<label>Ranged Custodes Melta Spear</label>
+		<label>Ranged Custodes melta spear</label>
 		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor. Rarely, a Guardian Spear does not mount the usual bolter, but advanced, specialised sub-weapons. The Pyrithite Spear is one such variant which incorporates the deadly Melta Beam, a type of compact Melta Weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
@@ -579,7 +579,7 @@
 	<!-- Castellan Axe [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_CastellanAxe</defName>
-		<label>Custodes Castellan Axe</label>
+		<label>Custodes castellan axe</label>
 		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
@@ -587,7 +587,7 @@
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -689,7 +689,7 @@
 	<!-- Castellan Axe Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_CastellanAxeR</defName>
-		<label>Ranged Custodes Castellan Axe</label>
+		<label>Ranged Custodes castellan axe</label>
 		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
@@ -777,7 +777,7 @@
 	<!-- Watchers Axe [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_WatchersAxe</defName>
-		<label>Custodes Watchers Axe</label>
+		<label>Watchers Axe</label>
 		<description>The Watchers Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagles Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke.\n\nThe true Watchers Axe, along with its wielder, the Captain-General Trajann Valoris, has been lost to time. Like much in the current Imperial arsenal, it is a mere replica, though not without great power of its own.</description>
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
@@ -785,7 +785,7 @@
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -886,7 +886,7 @@
 	<!-- Castellan Axe Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_WatchersAxeR</defName>
-		<label>Ranged Custodes Watchers Axe</label>
+		<label>Ranged Custodes Watchers axe</label>
 		<description>The Watchers Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagles Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke.\n\nThe true Watchers Axe, along with its wielder, the Captain-General Trajann Valoris, has been lost to time. Like much in the current Imperial arsenal, it is a mere replica, though not without great power of its own.</description>
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>

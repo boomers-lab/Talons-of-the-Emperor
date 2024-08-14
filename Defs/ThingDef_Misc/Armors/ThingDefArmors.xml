@@ -91,7 +91,7 @@
 			<texPath>Things/CustodesArmors/Custodes/CGuard_torso_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>150000</WorkToMake>
@@ -147,7 +147,7 @@
 			<texPath>Things/CustodesArmors/Custodes/Warden_torso_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>150000</WorkToMake>
@@ -261,7 +261,7 @@
 			<texPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+            <researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
         </recipeMaker>
         <statBases>
 			<WorkToMake>150000</WorkToMake>

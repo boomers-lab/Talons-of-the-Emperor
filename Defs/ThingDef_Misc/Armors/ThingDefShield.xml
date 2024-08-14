@@ -102,7 +102,7 @@
 			</tags>
 		</apparel>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 		</recipeMaker>
 		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">

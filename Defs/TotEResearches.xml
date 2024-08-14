@@ -5,14 +5,29 @@
 	
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_CustodesFabrication</defName>
-		<label>Custodes Fabrication</label>
+		<label>Custodes fabrication</label>
 		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
         <baseCost>8500</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesFabrication</li>
+			<li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li>
 		</prerequisites>
 		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.60</researchViewY>
+	</ResearchProjectDef>
+
+	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
+		<defName>GW_TotE_CustodesGuard</defName>
+		<label>Custodes guard</label>
+		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
+        <baseCost>8500</baseCost>
+		<prerequisites>
+			<li>AdvancedFabrication</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesFabrication</li>
+			<li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li>
+		</prerequisites>
+		<researchViewX>8.00</researchViewX>
 		<researchViewY>1.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
@@ -36,7 +51,7 @@
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_TotE_CustodesFabrication</li>
 		</prerequisites>
-		<researchViewX>8.00</researchViewX>
+		<researchViewX>9.00</researchViewX>
 		<researchViewY>1.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
@@ -59,8 +74,8 @@
 		<prerequisites>
 			<li>GW_TotE_Allarus</li>
 		</prerequisites>
-		<researchViewX>9.00</researchViewX>
-		<researchViewY>1.60</researchViewY>
+		<researchViewX>10.00</researchViewX>
+		<researchViewY>1.60</researchViewY>	  
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>

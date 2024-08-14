@@ -27,7 +27,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -119,7 +119,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -214,7 +214,7 @@
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -302,14 +302,14 @@
 	<!-- Kinetic_Destructor -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Kinetic_Destructor</defName>
-		<label>Kinetic Destructor</label>
+		<label>Kinetic destructor</label>
 		<description>An archeotech pistol used only by the Venatari jump-infantry of the Adeptus Custodes. Hailing from the Dark Age of Technology, the sheer power of each Kinetic Destroyer is akin to that of a plasma weapon, without the risks of overheating and other drawbacks.\n\nAlso known as Emperors hunting eagles, the Venatari swoop from the sky and rain death upon their hapless foes.</description>
 		<graphicData>
 			<texPath>Things/Weapons/KineticDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>

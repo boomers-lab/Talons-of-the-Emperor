@@ -116,7 +116,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -188,7 +188,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
@@ -323,7 +323,7 @@
 			<EquipDelay>2</EquipDelay>
 		</statBases>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
 		</recipeMaker>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">

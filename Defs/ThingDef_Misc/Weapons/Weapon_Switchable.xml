@@ -11,7 +11,7 @@
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -203,7 +203,7 @@
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -394,7 +394,7 @@
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -587,7 +587,7 @@
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>
@@ -785,7 +785,7 @@
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<recipeMaker>
-			<researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+			<researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
 			<skillRequirements>
 				<Crafting>18</Crafting>
 			</skillRequirements>

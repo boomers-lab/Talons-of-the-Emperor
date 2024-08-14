@@ -4,46 +4,23 @@
 	</ResearchProjectDef>
 	
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
-		<defName>GW_TotE_Custodes</defName>
-		<label>Legio Custodes</label>
-		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
-        <baseCost>8500</baseCost>
-		<prerequisites>
-			<li>AdvancedFabrication</li>
-			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
-		</prerequisites>
-		<researchViewX>11.00</researchViewX>
-		<researchViewY>0.20</researchViewY>
-		<modExtensions>
-            <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
-                <StudyLocation>GW_Cogitator</StudyLocation>
-                <ItemStudyRequirements>
-                    <li Class="GW_Frame.StudyRequirement">
-                        <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>3</NumberRequired>
-                    </li>    
-                </ItemStudyRequirements>
-            </li>
-        </modExtensions>
-	</ResearchProjectDef>
-	
-	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_CustodesFabrication</defName>
 		<label>Custodes Fabrication</label>
 		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
         <baseCost>8500</baseCost>
 		<prerequisites>
-			<li>GW_TotE_Custodes</li>
+			<li>AdvancedFabrication</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesFabrication</li>
 		</prerequisites>
-		<researchViewX>12.00</researchViewX>
-		<researchViewY>0.20</researchViewY>
+		<researchViewX>7.00</researchViewX>
+		<researchViewY>1.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
                         <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>3</NumberRequired>
+                        <NumberRequired>6</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>
@@ -57,17 +34,17 @@
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
-			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesHeavy</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_TotE_CustodesFabrication</li>
 		</prerequisites>
-		<researchViewX>11.00</researchViewX>
-		<researchViewY>1.20</researchViewY>
+		<researchViewX>8.00</researchViewX>
+		<researchViewY>1.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
                         <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>1</NumberRequired>
+                        <NumberRequired>5</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>
@@ -82,15 +59,15 @@
 		<prerequisites>
 			<li>GW_TotE_Allarus</li>
 		</prerequisites>
-		<researchViewX>12.00</researchViewX>
-		<researchViewY>1.20</researchViewY>
+		<researchViewX>9.00</researchViewX>
+		<researchViewY>1.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
                 <ItemStudyRequirements>
                     <li Class="GW_Frame.StudyRequirement">
                         <StudyObject>GW_STC_Fragment</StudyObject>
-                        <NumberRequired>1</NumberRequired>
+                        <NumberRequired>7</NumberRequired>
                     </li>    
                 </ItemStudyRequirements>
             </li>

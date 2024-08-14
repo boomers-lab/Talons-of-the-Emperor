@@ -48,7 +48,7 @@
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>
                 <options>
-                    <GW_TotE_CustodesGuard>3</GW_TotE_CustodesGuard>
+                    <GW_TotE_CustodesFabricationFabricationGuard>3</GW_TotE_CustodesGuard>
                     <GW_TotE_CustodesWarden>3</GW_TotE_CustodesWarden>
                     <GW_TotE_Allarus>1</GW_TotE_Allarus>
                     <GW_TotE_Castellan>1</GW_TotE_Castellan>

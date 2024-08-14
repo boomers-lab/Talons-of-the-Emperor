@@ -16,7 +16,6 @@
 			<HP_Ceramite>15</HP_Ceramite>
 		</costList>
 		<recipes>
-		
         </recipes>
 		<researchPrerequisites>
 			<li>GW_TotE_CustodesFabrication</li>

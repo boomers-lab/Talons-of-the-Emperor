@@ -78,7 +78,7 @@
 			<texPath>Things/CustodesArmors/Custodes/Shoulders/CGuard_sp_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+            <researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
         </recipeMaker>
 		<statBases>
 			<WorkToMake>70000</WorkToMake>
@@ -137,7 +137,7 @@
 			<texPath>Things/CustodesArmors/Custodes/Shoulders/Warden_sp_Male_south</texPath>
 		</graphicData>
 		<recipeMaker>
-            <researchPrerequisite>GW_TotE_Custodes</researchPrerequisite>
+            <researchPrerequisite>GW_TotE_CustodesFabrication</researchPrerequisite>
         </recipeMaker>
 		<statBases>
 			<WorkToMake>70000</WorkToMake>

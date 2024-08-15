@@ -138,7 +138,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_GuardianSpearProjectile</defaultProjectile>
-				<range>20</range>
+				<range>40</range>
 				<soundCast>Shot_SniperRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
@@ -187,8 +187,8 @@
 		<projectile>
 			<damageDef>RangedStab</damageDef>
 			<damageAmountBase>40</damageAmountBase>
-			<stoppingPower>4</stoppingPower>
-			<armorPenetrationBase>0.50</armorPenetrationBase>
+			<stoppingPower>2</stoppingPower>
+			<armorPenetrationBase>0.80</armorPenetrationBase>
 			<speed>32</speed>
 		</projectile>
 	</ThingDef>
@@ -377,9 +377,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
-			<damageAmountBase>60</damageAmountBase>
+			<damageAmountBase>90</damageAmountBase>
 			<stoppingPower>6</stoppingPower>
-			<armorPenetrationBase>0.70</armorPenetrationBase>
+			<armorPenetrationBase>1.70</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>
@@ -569,9 +569,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
-			<damageAmountBase>80</damageAmountBase>
+			<damageAmountBase>55</damageAmountBase>
 			<stoppingPower>6</stoppingPower>
-			<armorPenetrationBase>0.70</armorPenetrationBase>
+			<armorPenetrationBase>2.10</armorPenetrationBase>
 			<speed>28</speed>
 		</projectile>
 	</ThingDef>
@@ -721,8 +721,8 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_CastellanAxeProjectile</defaultProjectile>
-				<range>12</range>
-				<burstShotCount>3</burstShotCount>
+				<range>40</range>
+				<burstShotCount>5</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_Shotgun</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -768,9 +768,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
-			<damageAmountBase>30</damageAmountBase>
+			<damageAmountBase>40</damageAmountBase>
 			<stoppingPower>4</stoppingPower>
-			<armorPenetrationBase>0.50</armorPenetrationBase>
+			<armorPenetrationBase>2.50</armorPenetrationBase>
 			<speed>26</speed>
 		</projectile>
 	</ThingDef>
@@ -918,7 +918,7 @@
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_WatchersAxeProjectile</defaultProjectile>
-				<range>8</range>
+				<range>15</range>
 				<burstShotCount>5</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCast>Shot_Shotgun</soundCast>
@@ -965,9 +965,9 @@
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
-			<damageAmountBase>20</damageAmountBase>
+			<damageAmountBase>120</damageAmountBase>
 			<stoppingPower>6</stoppingPower>
-			<armorPenetrationBase>0.80</armorPenetrationBase>
+			<armorPenetrationBase>3</armorPenetrationBase>
 			<speed>30</speed>
 		</projectile>
 	</ThingDef>

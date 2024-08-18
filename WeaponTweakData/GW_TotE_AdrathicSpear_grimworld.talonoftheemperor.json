@@ -1,0 +1,9 @@
+{
+  "TextureModID": "grimworld.talonoftheemperor",
+  "ItemDefName": "GW_TotE_AdrathicSpear",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "ScaleX": 1.45,
+  "ScaleY": 1.45,
+  "MeleeWeaponType": 6
+}

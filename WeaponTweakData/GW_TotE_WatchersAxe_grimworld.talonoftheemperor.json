@@ -1,0 +1,14 @@
+{
+  "TextureModID": "grimworld.talonoftheemperor",
+  "ItemDefName": "GW_TotE_WatchersAxe",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": -0.03947822,
+  "OffY": 0.267411739,
+  "Rotation": -35.0,
+  "ScaleX": 1.45,
+  "ScaleY": 1.45,
+  "BladeStart": 0.103538536,
+  "BladeEnd": 0.35381788,
+  "MeleeWeaponType": 6
+}

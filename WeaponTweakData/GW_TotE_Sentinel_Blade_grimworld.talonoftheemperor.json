@@ -1,0 +1,11 @@
+{
+  "TextureModID": "grimworld.talonoftheemperor",
+  "ItemDefName": "GW_TotE_Sentinel_Blade",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.222222656,
+  "OffY": 0.332444668,
+  "BladeStart": 0.165333331,
+  "BladeEnd": 0.695111334,
+  "MeleeWeaponType": 6
+}

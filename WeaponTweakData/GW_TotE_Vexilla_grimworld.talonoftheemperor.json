@@ -1,0 +1,14 @@
+{
+  "TextureModID": "grimworld.talonoftheemperor",
+  "ItemDefName": "GW_TotE_Vexilla",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": -0.0302220043,
+  "OffY": 0.382222652,
+  "Rotation": -45.0,
+  "ScaleX": 1.45,
+  "ScaleY": 1.45,
+  "BladeStart": -0.428444,
+  "BladeEnd": 0.375111341,
+  "MeleeWeaponType": 1
+}

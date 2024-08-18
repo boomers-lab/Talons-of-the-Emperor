@@ -1,0 +1,13 @@
+{
+  "TextureModID": "grimworld.talonoftheemperor",
+  "ItemDefName": "GW_TotE_Vaultsword",
+  "ItemType": "ThingDef",
+  "ItemTypeNamespace": "Verse",
+  "OffX": 0.325838447,
+  "OffY": 0.3826432,
+  "ScaleX": 1.6,
+  "ScaleY": 1.6,
+  "BladeStart": 0.117554434,
+  "BladeEnd": 0.915976346,
+  "MeleeWeaponType": 6
+}

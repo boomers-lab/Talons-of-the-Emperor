@@ -11,7 +11,7 @@
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesFabrication</li>
-			<li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li>
+			<!-- <li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li> -->
 		</prerequisites>
 		<researchViewX>7.00</researchViewX>
 		<researchViewY>1.60</researchViewY>
@@ -25,7 +25,7 @@
 		<prerequisites>
 			<li>AdvancedFabrication</li>
 			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesFabrication</li>
-			<li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li>
+			<!-- <li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li> -->
 		</prerequisites>
 		<researchViewX>8.00</researchViewX>
 		<researchViewY>1.60</researchViewY>

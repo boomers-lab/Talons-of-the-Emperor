@@ -4,7 +4,8 @@
 		<graphicData>
 			<texPath>Things/Weapons/Adrathic_Destructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+			<shaderType>Cutout</shaderType>
+		</graphicData>		
 		<soundInteract>Interact_Rifle</soundInteract>
 		<techLevel>Spacer</techLevel>
 		<weaponClasses>

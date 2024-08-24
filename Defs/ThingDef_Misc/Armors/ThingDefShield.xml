@@ -40,7 +40,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Shield/Preview/PraesidiumShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<shaderType>CutoutComplex</shaderType>
+			<shaderType>Cutout</shaderType>
 		</graphicData>
 		<comps>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">

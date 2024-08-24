@@ -8,6 +8,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
@@ -35,6 +36,10 @@
 			<HP_Adamantium>250</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 		</weaponTags>
@@ -111,6 +116,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
@@ -126,6 +132,10 @@
 		<costList>
 			<Steel>999</Steel>
 		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Ranged</li>
 		</weaponTags>
@@ -200,6 +210,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
@@ -227,6 +238,10 @@
 			<HP_Adamantium>250</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 		</weaponTags>
@@ -694,6 +709,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 			<drawSize>1.45</drawSize>
 		</graphicData>
 		<relicChance>0</relicChance>
@@ -709,6 +725,10 @@
 		<costList>
 			<Steel>999</Steel>
 		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Ranged</li>
 		</weaponTags>
@@ -782,6 +802,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>Cutout</shaderType>
 			<drawSize>1.5</drawSize>
 		</graphicData>
 		<recipeMaker>
@@ -809,6 +830,10 @@
 			<HP_Adamantium>290</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
+		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 			<li>GW_TotE_Castellan</li>

@@ -246,7 +246,7 @@
 			<WorkToMake>40000</WorkToMake>
 			<Mass>13</Mass>
 		</statBases>
-		<equippedAngleOffset>-40</equippedAngleOffset>
+		<equippedAngleOffset>-70</equippedAngleOffset>
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
 			<ComponentIndustrial>50</ComponentIndustrial>
@@ -261,7 +261,7 @@
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
+		<costStuffCount>500</costStuffCount>
 		<tools>
 			<li>
 				<label>handle</label>

@@ -60,6 +60,9 @@
 			</li>
 		</comps>
 		<costStuffCount>60</costStuffCount>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
 		<statBases>
 			<StuffEffectMultiplierArmor>1</StuffEffectMultiplierArmor>
 			<Mass>7</Mass>

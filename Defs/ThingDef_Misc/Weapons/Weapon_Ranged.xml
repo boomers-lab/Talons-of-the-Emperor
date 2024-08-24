@@ -25,6 +25,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.45</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_Allarus</researchPrerequisite>

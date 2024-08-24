@@ -43,7 +43,18 @@
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>100</Plasteel>
+			<Steel>230</Steel>
+			<Gold>10</Gold>
+			<HP_Ceramite>100</HP_Ceramite>
+			<HP_Adamantium>90</HP_Adamantium>
+			<HP_Auramite>20</HP_Auramite>
+		</costList>
 		<tools>
 			<li>
 			<label>handle</label>
@@ -60,7 +71,7 @@
 				<li>Stab</li>
 			</capacities>
 			<power>40</power>
-			<cooldownTime>1.6</cooldownTime>
+			<cooldownTime>1.0</cooldownTime>
 			<armorPenetration>1.1</armorPenetration>
 			</li>
 			<li>
@@ -93,19 +104,19 @@
 		<equippedAngleOffset>-40</equippedAngleOffset>
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>50</ComponentIndustrial>
+			<ComponentIndustrial>45</ComponentIndustrial>
 			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>200</Uranium>
-			<HP_Ceramite>350</HP_Ceramite>
-			<HP_Adamantium>290</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
+			<Plasteel>250</Plasteel>
+			<Steel>435</Steel>
+			<Gold>15</Gold>
+			<HP_Ceramite>120</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
 		</costList>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
+		<costStuffCount>300</costStuffCount>
 		<tools>
 			<li>
 			<label>handle</label>
@@ -162,20 +173,19 @@
 			<Mass>8.5</Mass>
 		</statBases>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>50</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>600</Plasteel>
-			<Steel>1500</Steel>
-			<Uranium>300</Uranium>
-			<HP_Ceramite>350</HP_Ceramite>
-			<HP_Adamantium>290</HP_Adamantium>
-			<HP_Auramite>120</HP_Auramite>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>20</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>200</Plasteel>
+			<Steel>600</Steel>
+			<HP_Ceramite>100</HP_Ceramite>
+			<HP_Adamantium>60</HP_Adamantium>
+			<HP_Auramite>20</HP_Auramite>
 		</costList>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
-		<costStuffCount>50</costStuffCount>
+		<costStuffCount>100</costStuffCount>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 			<li>GW_TotE_Castellan</li>
@@ -248,20 +258,20 @@
 		</statBases>
 		<equippedAngleOffset>-70</equippedAngleOffset>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>50</ComponentIndustrial>
+			<ComponentSpacer>22</ComponentSpacer>
+			<ComponentIndustrial>48</ComponentIndustrial>
 			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>600</Plasteel>
-			<Steel>1500</Steel>
-			<Uranium>300</Uranium>
-			<HP_Ceramite>350</HP_Ceramite>
-			<HP_Adamantium>290</HP_Adamantium>
-			<HP_Auramite>120</HP_Auramite>
+			<Plasteel>200</Plasteel>
+			<Steel>500</Steel>
+			<Gold>25</Gold>
+			<HP_Ceramite>100</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>55</HP_Auramite>
 		</costList>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
-		<costStuffCount>500</costStuffCount>
+		<costStuffCount>350</costStuffCount>
 		<tools>
 			<li>
 				<label>handle</label>

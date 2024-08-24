@@ -3,7 +3,7 @@
 	<!-- Guardian Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_GuardianSpear</defName>
-		<label>Custodes guardian spear</label>
+		<label>bolter guardian spear</label>
 		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spears head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies.\n\nMany combi-weapons existed in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
@@ -195,7 +195,7 @@
 	<!-- Adrathic Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_AdrathicSpear</defName>
-		<label>Custodes adrathic spear</label>
+		<label>adrathic guardian spear</label>
 		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an Adrathic Destructor. Even the light tanks of the enemy fear this weapon’s disintegrating beam, to say nothing of infantry of all kinds.\n\nEven the fall of the Imperium has not loosened the Custodians grip on Adrathic Weapons. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
@@ -386,7 +386,7 @@
 	<!-- Melta Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_MeltaSpear</defName>
-		<label>Custodes melta spear</label>
+		<label>melta guardian spear</label>
 		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor. Rarely, a Guardian Spear does not mount the usual bolter, but advanced, specialised sub-weapons. The Pyrithite Spear is one such variant which incorporates the deadly Melta Beam, a type of compact Melta Weapon.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
@@ -579,7 +579,7 @@
 	<!-- Castellan Axe [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_CastellanAxe</defName>
-		<label>Custodes castellan axe</label>
+		<label>castellan axe</label>
 		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>

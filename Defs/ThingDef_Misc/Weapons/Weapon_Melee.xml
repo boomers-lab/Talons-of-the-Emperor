@@ -8,6 +8,9 @@
 		<thingSetMakerTags>
 			<li>RewardStandardQualitySuper</li>
 		</thingSetMakerTags>
+		<graphicData>
+			<shaderType>Cutout</shaderType>
+		</graphicData>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 		</weaponTags>

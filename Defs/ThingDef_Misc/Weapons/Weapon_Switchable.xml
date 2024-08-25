@@ -26,17 +26,17 @@
 			<Mass>8.5</Mass>
 		</statBases>
 		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentSpacer>23</ComponentSpacer>
 			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<Steel>300</Steel>
+			<Gold>15</Gold>
+			<HP_Ceramite>120</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
+			<HP_Auramite>80</HP_Auramite>
 		</costList>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>300</costStuffCount>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
@@ -192,7 +192,7 @@
 		<graphicData>
 			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>1.4</drawSize>
+			<drawSize>1.8</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>RangedStab</damageDef>
@@ -626,6 +626,7 @@
 			<HP_Adamantium>290</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
+		<costStuffCount>60</costStuffCount>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 			<li>GW_TotE_Castellan</li>
@@ -928,6 +929,7 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
 		</statBases>
+		<costStuffCount>60</costStuffCount>
 		<costList>
 			<Steel>999</Steel>
 		</costList>

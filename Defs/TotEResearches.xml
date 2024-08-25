@@ -6,7 +6,7 @@
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_CustodesFabrication</defName>
 		<label>Custodes fabrication</label>
-		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
+		<description>Recover schematics for the armor and weapons of the Adeptus Custodes, the bodyguard force of the God-Emperor of Mankind.</description>
         <baseCost>2000</baseCost>
 		<prerequisites>
 			<li>AdvancedFabrication</li>
@@ -23,8 +23,7 @@
 		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
         <baseCost>8500</baseCost>
 		<prerequisites>
-			<li>AdvancedFabrication</li>
-			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesFabrication</li>
+			<li>GW_TotE_CustodesFabrication</li>
 			<!-- <li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li> -->
 		</prerequisites>
 		<researchViewX>8.00</researchViewX>
@@ -44,12 +43,11 @@
 
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_Allarus</defName>
-		<label>allarus</label>
-		<description>.</description>
+		<label>allarus terminator</label>
+		<description>Produce heavy Auramite-plated suits of Terminator Armor, worn by the Allarus Custodians.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
-			<li>AdvancedFabrication</li>
-			<li MayRequire="happypurging.ageofdarkness">GW_TotE_CustodesFabrication</li>
+			<li MayRequire="happypurging.ageofdarkness">GW_TotE_CustodesGuard</li>
 		</prerequisites>
 		<researchViewX>9.00</researchViewX>
 		<researchViewY>1.60</researchViewY>
@@ -69,7 +67,7 @@
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_Castellan</defName>
 		<label>castellan</label>
-		<description>.</description>
+		<description>Recreate the Castellan Plate, the armor of Captain-General Trajann Valoris, leader of the Adeptus Custodes.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
 			<li>GW_TotE_Allarus</li>

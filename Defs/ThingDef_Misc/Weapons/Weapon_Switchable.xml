@@ -940,7 +940,6 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
 		</statBases>
-		<costStuffCount>60</costStuffCount>
 		<costList>
 			<Steel>999</Steel>
 		</costList>

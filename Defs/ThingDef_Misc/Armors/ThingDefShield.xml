@@ -60,7 +60,7 @@
 			</li>
 		</comps>
 		<costStuffCount>60</costStuffCount>
-		<stuffCategories>
+		<stuffCategories Inherit="False">
 			<li>Imperial_Metals</li>
 		</stuffCategories>
 		<statBases>

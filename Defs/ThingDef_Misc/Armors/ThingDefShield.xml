@@ -25,7 +25,7 @@
 		</apparel>
 		<statBases>
 			<WorkToMake>15000</WorkToMake>
-			<MaxHitPoints>1200</MaxHitPoints>
+			<MaxHitPoints>2000</MaxHitPoints>
 		</statBases>
 		<recipeMaker>
 			<recipeUsers>
@@ -59,7 +59,18 @@
 				<parryCooldown>90</parryCooldown>
 			</li>
 		</comps>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>200</costStuffCount>
+		<costList>
+			<ComponentSpacer>15</ComponentSpacer>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>100</Plasteel>
+			<Steel>230</Steel>
+			<Gold>10</Gold>
+			<HP_Ceramite>100</HP_Ceramite>
+			<HP_Adamantium>90</HP_Adamantium>
+			<HP_Auramite>20</HP_Auramite>
+		</costList>
 		<stuffCategories Inherit="False">
 			<li>Imperial_Metals</li>
 		</stuffCategories>

@@ -180,7 +180,7 @@
 			<ComponentIndustrial>20</ComponentIndustrial>
 			<GW_ComponentRelic>1</GW_ComponentRelic>
 			<Plasteel>200</Plasteel>
-			<Steel>600</Steel>
+			<Steel>450</Steel>
 			<HP_Ceramite>100</HP_Ceramite>
 			<HP_Adamantium>60</HP_Adamantium>
 			<HP_Auramite>20</HP_Auramite>
@@ -188,7 +188,7 @@
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
-		<costStuffCount>100</costStuffCount>
+		<costStuffCount>200</costStuffCount>
 		<weaponTags>
 			<li>GW_TotE_Melee</li>
 			<li>GW_TotE_Castellan</li>

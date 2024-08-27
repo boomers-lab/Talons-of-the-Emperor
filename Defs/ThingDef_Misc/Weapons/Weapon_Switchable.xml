@@ -228,17 +228,17 @@
 			<Mass>8.5</Mass>
 		</statBases>
 		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
+			<ComponentSpacer>35</ComponentSpacer>
+			<ComponentIndustrial>60</ComponentIndustrial>
+			<GW_ComponentRelic>4</GW_ComponentRelic>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Gold>20</Gold>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
+			<HP_Auramite>120</HP_Auramite>
 		</costList>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>500</costStuffCount>
 		<stuffCategories>
 			<li>Imperial_Metals</li>
 		</stuffCategories>
@@ -427,17 +427,17 @@
 			<Mass>8.5</Mass>
 		</statBases>
 		<costList>
-			<ComponentSpacer>15</ComponentSpacer>
-			<ComponentIndustrial>40</ComponentIndustrial>
+			<ComponentSpacer>23</ComponentSpacer>
+			<ComponentIndustrial>50</ComponentIndustrial>
 			<GW_ComponentRelic>3</GW_ComponentRelic>
-			<Plasteel>450</Plasteel>
-			<Steel>600</Steel>
-			<Uranium>150</Uranium>
-			<HP_Ceramite>270</HP_Ceramite>
-			<HP_Adamantium>250</HP_Adamantium>
+			<Plasteel>350</Plasteel>
+			<Steel>400</Steel>
+			<Gold>15</Gold>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
 			<HP_Auramite>100</HP_Auramite>
 		</costList>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>400</costStuffCount>
 		<stuffCategories Inherit="False">
 			<li>Imperial_Metals</li>
 		</stuffCategories>
@@ -624,17 +624,17 @@
 			<Mass>8.5</Mass>
 		</statBases>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>50</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>200</Uranium>
-			<HP_Ceramite>350</HP_Ceramite>
-			<HP_Adamantium>290</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
+			<ComponentSpacer>50</ComponentSpacer>
+			<ComponentIndustrial>75</ComponentIndustrial>
+			<GW_ComponentRelic>5</GW_ComponentRelic>
+			<Plasteel>550</Plasteel>
+			<Steel>800</Steel>
+			<Gold>40</Gold>
+			<HP_Ceramite>400</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>180</HP_Auramite>
 		</costList>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>650</costStuffCount>
 		<stuffCategories Inherit="False">
 			<li>Imperial_Metals</li>
 		</stuffCategories>
@@ -820,7 +820,7 @@
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_Castellan</researchPrerequisite>
 			<skillRequirements>
-				<Crafting>18</Crafting>
+				<Crafting>20</Crafting>
 			</skillRequirements>
 			<displayPriority>445</displayPriority>
 			<recipeUsers Inherit="false">
@@ -832,17 +832,17 @@
 			<Mass>12</Mass>
 		</statBases>
 		<costList>
-			<ComponentSpacer>20</ComponentSpacer>
-			<ComponentIndustrial>50</ComponentIndustrial>
-			<GW_ComponentRelic>2</GW_ComponentRelic>
-			<Plasteel>500</Plasteel>
-			<Steel>900</Steel>
-			<Uranium>200</Uranium>
-			<HP_Ceramite>350</HP_Ceramite>
-			<HP_Adamantium>290</HP_Adamantium>
-			<HP_Auramite>100</HP_Auramite>
+			<ComponentSpacer>70</ComponentSpacer>
+			<ComponentIndustrial>90</ComponentIndustrial>
+			<GW_ComponentRelic>7</GW_ComponentRelic>
+			<Plasteel>880</Plasteel>
+			<Steel>1100</Steel>
+			<Gold>80</Gold>
+			<HP_Ceramite>550</HP_Ceramite>
+			<HP_Adamantium>350</HP_Adamantium>
+			<HP_Auramite>300</HP_Auramite>
 		</costList>
-		<costStuffCount>60</costStuffCount>
+		<costStuffCount>730</costStuffCount>
 		<stuffCategories Inherit="False">
 			<li>Imperial_Metals</li>
 		</stuffCategories>

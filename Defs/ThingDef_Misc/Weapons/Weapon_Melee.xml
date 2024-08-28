@@ -259,7 +259,7 @@
 			<WorkToMake>40000</WorkToMake>
 			<Mass>13</Mass>
 		</statBases>
-		<equippedAngleOffset>-70</equippedAngleOffset>
+		<equippedAngleOffset>-50</equippedAngleOffset>
 		<costList>
 			<ComponentSpacer>22</ComponentSpacer>
 			<ComponentIndustrial>48</ComponentIndustrial>

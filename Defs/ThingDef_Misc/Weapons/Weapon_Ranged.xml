@@ -214,6 +214,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Firepike</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.20</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
@@ -227,7 +228,7 @@
 		</recipeMaker>
 		<statBases>
 			<WorkToMake>34000</WorkToMake>
-			<Mass>3.5</Mass>
+			<Mass>5.5</Mass>
 			<AccuracyTouch>0.40</AccuracyTouch>
 			<AccuracyShort>0.48</AccuracyShort>
 			<AccuracyMedium>0.35</AccuracyMedium>
@@ -237,7 +238,7 @@
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
 			<ComponentIndustrial>45</ComponentIndustrial>
-			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
 			<Plasteel>450</Plasteel>
 			<Steel>550</Steel>
 			<Uranium>300</Uranium>
@@ -322,6 +323,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/KineticDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.20</drawSize>
 		</graphicData>
 		<recipeMaker>
 			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>

@@ -286,21 +286,33 @@
 		</tools>
 		<equippedAngleOffset>45</equippedAngleOffset>
 	</ThingDef>	
-	<ThingDef ParentName="BaseBullet">
+	<VFECore.ExpandableProjectileDef ParentName="BaseBullet">
 		<defName>GW_SM_Bullet_Flamer</defName>
-		<label>Bolt bullet</label>
+		<label>flamer shot</label>
+		<thingClass>VFECore.FlamethrowProjectile</thingClass>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<texPath>Projectiles/AMFlamer_Flame</texPath>
+			<texPathFadeOut>Projectiles/AMFlamer_End</texPathFadeOut>
+			<shaderType>MoteGlow</shaderType>
 		</graphicData>
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>70</damageAmountBase>
-			<armorPenetrationBase>0.50</armorPenetrationBase>
-			<stoppingPower>1</stoppingPower>
-			<speed>46</speed>
+			<damageDef>Flame</damageDef>
+			<speed>45</speed>
+			<damageAmountBase>12</damageAmountBase>
 		</projectile>
-	</ThingDef>
+
+		<drawOffscreen>true</drawOffscreen>
+		<lifeTimeDuration>50</lifeTimeDuration>
+		<widthScaleFactor>0.85</widthScaleFactor>
+		<heightScaleFactor>1</heightScaleFactor>
+		<startingPositionOffset>(0, 0, -1)</startingPositionOffset>
+		<totalSizeScale>1.15</totalSizeScale>
+		<tickFrameRate>2</tickFrameRate>
+		<finalTickFrameRate>5</finalTickFrameRate>
+		<tickDamageRate>20</tickDamageRate>
+		<dealsDamageOnce>true</dealsDamageOnce>
+		<minDistanceToAffect>2</minDistanceToAffect>
+	</VFECore.ExpandableProjectileDef>
 	
 	<!-- Kinetic_Destructor -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">

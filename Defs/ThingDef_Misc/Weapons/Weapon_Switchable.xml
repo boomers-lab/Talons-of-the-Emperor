@@ -348,7 +348,7 @@
 			<li>
 				<verbClass>Verb_Shoot</verbClass>
 				<hasStandardCommand>true</hasStandardCommand>
-				<defaultProjectile>GW_TotE_AdrathicSpearProjectile</defaultProjectile>
+				<defaultProjectile>GW_TotE_Adrathic_Destructor_Bullet</defaultProjectile>
 				<range>30</range>
 				<soundCast>Shot_ChargeRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>

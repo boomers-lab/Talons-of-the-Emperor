@@ -95,19 +95,56 @@
 			</li>
 		</tools>
 	</ThingDef>
-	<ThingDef ParentName="BaseBullet">
-		<defName>GW_TotE_Adrathic_Destructor_Bullet</defName>
-		<label>Bolt bullet</label>
+	<ThingDef>
+		<defName>GW_TotE_BeamGraphic</defName>
+		<thingClass>VanillaWeaponsExpandedLaser.LaserBeamGraphic</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<label>beam</label>
+    
+		<category>Projectile</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>MoteOverhead</altitudeLayer>
+		<useHitPoints>False</useHitPoints>
+		<neverMultiSelect>True</neverMultiSelect>
+	</ThingDef>
+	<ThingDef Abstract="True" Name="GW_TotE_BulletLaser" ParentName="BaseBullet">
+		<thingClass>VanillaWeaponsExpandedLaser.LaserBeam</thingClass>
+		<drawOffscreen>true</drawOffscreen>
+		<beamGraphic>GW_TotE_BeamGraphic</beamGraphic>
+   
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+			<texPath>Things/Projectile/Charge_Small</texPath>
+			<shaderType>TransparentPostLight</shaderType>
+			<drawSize>1.5</drawSize>
+		</graphicData>	
+		<hitLivingEffect>Deflect_Metal</hitLivingEffect>
+    
 		<projectile>
-			<damageDef>Bullet</damageDef>
-			<damageAmountBase>53</damageAmountBase>
-			<armorPenetrationBase>1.50</armorPenetrationBase>
-			<stoppingPower>2</stoppingPower>
-			<speed>30</speed>
+			<damageDef>Burn</damageDef>
+			<speed>10000</speed>
+		</projectile>
+    
+		<seam>0.25</seam>
+	</ThingDef>
+  
+	<ThingDef ParentName="GW_TotE_BulletLaser" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+		<defName>GW_TotE_Adrathic_Destructor_Bullet</defName>
+		<label>Adrathic Beam</label>
+		<description>beam</description>
+		<textures>
+			<li>Things/Projectiles/Laser_Red</li>
+		</textures>
+		<seam>0.1</seam>
+		<causefireChance>0</causefireChance>
+		<beamWidth>1.5</beamWidth>
+		<lifetime>60</lifetime>
+		<!-- <explosionEffect>Ring_ExpandY</explosionEffect> -->
+		<projectile>
+			<damageDef>Cut</damageDef>
+			<damageAmountBase>10</damageAmountBase>
+			<armorPenetrationBase>0.75</armorPenetrationBase>
+			<stoppingPower>3</stoppingPower>
 		</projectile>
 	</ThingDef>
   
@@ -401,7 +438,7 @@
 		<defName>GW_TotE_Bolt_Kinetic_Destructor</defName>
 		<label>Bolt bullet</label>
 		<graphicData>
-			<texPath>Things/Projectile/Bullet_Small</texPath>
+			<texPath>Things/Projectiles/Projectile_Bulletz</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
 		<projectile>

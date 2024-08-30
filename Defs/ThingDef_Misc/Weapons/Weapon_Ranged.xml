@@ -441,6 +441,7 @@
 		<graphicData>
 			<texPath>Things/Projectiles/Projectile_Bulletz</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.80</drawSize>
 		</graphicData>
 		<projectile>
 			<damageDef>Bullet</damageDef>

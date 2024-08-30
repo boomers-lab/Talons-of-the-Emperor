@@ -216,7 +216,7 @@
 		</tools>
 		<equippedAngleOffset>45</equippedAngleOffset>
 		<comps>
-			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff" MayRequire="grimworld.scatteredsons">
+			<li Class="GW40kHediffAura.CompProperties_ApparelGiveHediff">
 				<hediffDef>GW40k_SS_InspiringAura</hediffDef>
 			</li>
 		</comps>

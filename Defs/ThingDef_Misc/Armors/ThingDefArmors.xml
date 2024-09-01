@@ -144,7 +144,7 @@
 		<label>Custodian warden armor</label>
         <description>The Power Armor of a Custodian Warden, an elite warrior even among the Ten Thousand. Like the intended wearer, the Wardens armor is a cut above that of a regular Custodians armor, and the red robe symbolizes their status.\n\nIn the Age of the Imperium, a Custodian must have at least five centuries of continuous service to become a Warden. Every oath sworn by a new Warden is personally written after a year of meditation, upon which they receive their characteristic red robe.</description>
 		<graphicData>
-			<texPath>Things/CustodesArmors/Custodes/Warden_torso_Male_south</texPath>
+			<texPath>Things/CustodesArmors/Custodes/Warden_torso</texPath>
 		</graphicData>
 		<recipeMaker>
             <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>

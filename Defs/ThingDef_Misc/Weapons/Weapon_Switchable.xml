@@ -129,6 +129,7 @@
 			<AccuracyLong>0.6</AccuracyLong>
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
 		</statBases>
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Steel>999</Steel>
 		</costList>
@@ -330,6 +331,7 @@
 			<AccuracyLong>0.7</AccuracyLong>
 			<RangedWeapon_Cooldown>1.70</RangedWeapon_Cooldown>
 		</statBases>
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Steel>999</Steel>
 		</costList>
@@ -529,6 +531,7 @@
 			<AccuracyLong>0.6</AccuracyLong>
 			<RangedWeapon_Cooldown>1.90</RangedWeapon_Cooldown>
 		</statBases>
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Steel>999</Steel>
 		</costList>
@@ -734,6 +737,7 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
 		</statBases>
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Steel>999</Steel>
 		</costList>
@@ -940,6 +944,7 @@
 			<AccuracyLong>0.45</AccuracyLong>
 			<RangedWeapon_Cooldown>1.40</RangedWeapon_Cooldown>
 		</statBases>
+		<recipeMaker Inherit="False" />
 		<costList>
 			<Steel>999</Steel>
 		</costList>

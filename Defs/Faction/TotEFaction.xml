@@ -19,6 +19,9 @@
         <description>.</description>
         <configurationListOrderPriority>998</configurationListOrderPriority>
         <leaderTitle>lord general</leaderTitle>
+		<fixedLeaderKinds>
+			<li>GW_TotE_Castellan</li>
+		</fixedLeaderKinds>
         <techLevel>Ultra</techLevel>
         <pawnSingular>imperial</pawnSingular>
         <pawnsPlural>imperials</pawnsPlural>

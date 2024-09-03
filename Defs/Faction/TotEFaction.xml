@@ -34,6 +34,9 @@
             <li>(0.35, 0.44, 0.26)</li>
         </colorSpectrum>
         <raidLootMaker>GW_TotE_RaidLootMaker</raidLootMaker>
+		<baseTraderKinds>
+			<li>GW_TotE_TraderBase</li>
+		</baseTraderKinds>
         <maxPawnCostPerTotalPointsCurve>
             <points>
                 <li>(30000,10000)</li>

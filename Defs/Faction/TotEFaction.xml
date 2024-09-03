@@ -23,7 +23,7 @@
         <pawnSingular>imperial</pawnSingular>
         <pawnsPlural>imperials</pawnsPlural>
         <fixedName>The Talons of the Emperor</fixedName>
-        <hidden>true</hidden>
+        <!-- <hidden>true</hidden> -->
         <factionIconPath>UI/Icons/TalonsOfTheEmperorModIcon</factionIconPath>
         <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
         <settlementTexturePath>World/WorldObjects/DefaultSettlement</settlementTexturePath>

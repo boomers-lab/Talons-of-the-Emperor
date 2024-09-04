@@ -16,9 +16,9 @@
     <FactionDef ParentName="GW_ImperialFactionBase">
         <defName>GW_TotE_TalonsOfTheEmperor</defName>
         <label>Talons of the Emperor</label>
-        <description>.</description>
+        <description>A Shield-Company of the Adeptus Custodes, the former bodyguard force to the late God-Emperor of Mankind. Stoic and unyielding, their equipment surpasses even the Adeptus Astartes, their auramite plates weathering any attack and their ancient weapons overwhelming their foes.</description>
         <configurationListOrderPriority>998</configurationListOrderPriority>
-        <leaderTitle>lord general</leaderTitle>
+        <leaderTitle>captain general</leaderTitle>
 		<fixedLeaderKinds>
 			<li>GW_TotE_Castellan</li>
 		</fixedLeaderKinds>

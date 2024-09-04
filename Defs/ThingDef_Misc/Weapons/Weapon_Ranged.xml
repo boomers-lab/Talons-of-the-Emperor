@@ -248,7 +248,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Firepike</defName>
 		<label>Incendium firepike</label>
-		<description>The Incendium Firepike is a powerful flamer, which sows panic and death in any attacking force.\n\nRarely seen among even the Adeptus Custodes, Incendium Firepikes saw action in the Webway, the Eldar Warp travel network that was once joined by a portal of the Emperors own making. A secret of the utmost importance, the “Emperors Great Work” was subverted during the Horus Heresy, and the then-Legio Custodes fought a gruelling battle against the daemonic hordes before the portal was finally closed.</description>
+		<description>A pike (a type of spear) enhanced with a disruptive power field. The Incendium Firepike also contains a powerful integrated flamer, which sows panic and death in any attacking force.\n\nRarely seen among even the Adeptus Custodes, Incendium Firepikes saw action in the Webway, the Eldar Warp travel network that was once joined by a portal of the Emperor’s own making. A secret of the utmost importance, the “Emperor’s Great Work” was subverted during the Horus Heresy, and the then-Legio Custodes fought a grueling battle against the daemonic hordes before the portal was finally closed.\n\nIt only remained closed through the Emperor’s power. When He died, Terra was consumed.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Firepike</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

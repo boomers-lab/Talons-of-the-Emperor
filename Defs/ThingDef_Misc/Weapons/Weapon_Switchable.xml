@@ -151,6 +151,8 @@
 				<defaultProjectile>GW_TotE_GuardianSpearProjectile</defaultProjectile>
 				<range>40</range>
 				<soundCast>Shot_SniperRifle</soundCast>
+				<burstShotCount>5</burstShotCount>
+				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<warmupTime>0.5</warmupTime>
@@ -407,8 +409,8 @@
 	<!-- Melta Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_MeltaSpear</defName>
-		<label>melta guardian spear</label>
-		<description>The Custodes Guardian Spear is a ceremonial weapon of the Adeptus Custodes in Warhammer 40,000. It features a master-crafted power blade designed for superior close combat, symbolizing the elite status and unwavering dedication of its bearers to protecting the Emperor. Rarely, a Guardian Spear does not mount the usual bolter, but advanced, specialised sub-weapons. The Pyrithite Spear is one such variant which incorporates the deadly Melta Beam, a type of compact Melta Weapon.</description>
+		<label>Melta guardian spear</label>
+		<description>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses.\n\nA wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

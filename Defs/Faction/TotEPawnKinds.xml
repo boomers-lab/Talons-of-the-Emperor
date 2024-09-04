@@ -129,4 +129,25 @@
             <li>GW_TotE_CastellanPlateShoulder</li>
         </apparelRequired>
     </PawnKindDef>
+	
+	<PawnKindDef ParentName="GW_TotE_PawnBase">
+        <defName>GW_TotE_Castellan_Leader</defName>
+        <label>castellan leader</label>
+		<factionLeader>true</factionLeader>
+        <combatPower>3400</combatPower>
+        <weaponMoney>82000~88000</weaponMoney>
+        <apparelMoney>90000~100000</apparelMoney>
+        <apparelTags>
+            <li>GW_Castellan</li>
+            <li>GW_TotE_CombatShield</li>
+        </apparelTags>
+        <weaponTags>
+            <li>GW_TotE_Castellan</li>
+        </weaponTags>
+        <apparelRequired>
+            <li>GW_TotE_CastellanArmor</li>
+            <li>GW_TotE_CastellanPlateHelmet</li>
+            <li>GW_TotE_CastellanPlateShoulder</li>
+        </apparelRequired>
+    </PawnKindDef>
 </Defs>

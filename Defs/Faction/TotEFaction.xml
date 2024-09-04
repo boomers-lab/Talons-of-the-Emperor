@@ -20,7 +20,7 @@
         <configurationListOrderPriority>998</configurationListOrderPriority>
         <leaderTitle>captain general</leaderTitle>
 		<fixedLeaderKinds>
-			<li>GW_TotE_Castellan</li>
+			<li>GW_TotE_Castellan_Leader</li>
 		</fixedLeaderKinds>
         <techLevel>Ultra</techLevel>
         <pawnSingular>imperial</pawnSingular>

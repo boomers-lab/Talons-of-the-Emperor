@@ -402,7 +402,7 @@
 			<damageDef>RangedStab</damageDef>
 			<damageAmountBase>90</damageAmountBase>
 			<stoppingPower>6</stoppingPower>
-			<armorPenetrationBase>1.70</armorPenetrationBase>
+			<armorPenetrationBase>2.20</armorPenetrationBase>
 			<speed>60</speed>
 		</projectile>
 	</ThingDef>

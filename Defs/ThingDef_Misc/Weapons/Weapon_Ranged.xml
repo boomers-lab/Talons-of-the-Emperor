@@ -142,8 +142,8 @@
 		<!-- <explosionEffect>Ring_ExpandY</explosionEffect> -->
 		<projectile>
 			<damageDef>Cut</damageDef>
-			<damageAmountBase>10</damageAmountBase>
-			<armorPenetrationBase>0.75</armorPenetrationBase>
+			<damageAmountBase>40</damageAmountBase>
+			<armorPenetrationBase>2.10</armorPenetrationBase>
 			<stoppingPower>3</stoppingPower>
 		</projectile>
 	</ThingDef>

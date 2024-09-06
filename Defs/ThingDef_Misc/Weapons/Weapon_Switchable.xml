@@ -354,7 +354,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_Adrathic_Destructor_Bullet</defaultProjectile>
 				<range>30</range>
-				<soundCast>Shot_ChargeRifle</soundCast>
+				<soundCast>Talon_Pulse_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
 				<warmupTime>1</warmupTime>

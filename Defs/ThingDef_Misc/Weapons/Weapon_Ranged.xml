@@ -67,7 +67,7 @@
 				<range>20</range>
 				<ticksBetweenBurstShots>5</ticksBetweenBurstShots>
 				<burstShotCount>1</burstShotCount>
-				<soundCast>Shot_Minigun</soundCast>
+				<soundCast>Talon_Pulse_Gun_Sound</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>20</muzzleFlashScale>
 			</li>

@@ -150,7 +150,7 @@
 				<hasStandardCommand>true</hasStandardCommand>
 				<defaultProjectile>GW_TotE_GuardianSpearProjectile</defaultProjectile>
 				<range>40</range>
-				<soundCast>Shot_SniperRifle</soundCast>
+				<soundCast>Boltcaliver1</soundCast>
 				<burstShotCount>5</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
@@ -762,7 +762,7 @@
 				<range>40</range>
 				<burstShotCount>5</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Shot_Shotgun</soundCast>
+				<soundCast>Boltcaliver1</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<warmupTime>0.6</warmupTime>
@@ -969,7 +969,7 @@
 				<range>15</range>
 				<burstShotCount>5</burstShotCount>
 				<ticksBetweenBurstShots>10</ticksBetweenBurstShots>
-				<soundCast>Shot_Shotgun</soundCast>
+				<soundCast>Boltcaliver1</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>10</muzzleFlashScale>
 				<warmupTime>0.6</warmupTime>

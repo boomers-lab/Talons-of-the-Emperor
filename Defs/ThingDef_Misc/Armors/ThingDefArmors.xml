@@ -300,6 +300,10 @@
 			</tags>
 		</apparel>
 		<comps>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
 			<li Class="GW4KArmor.CompProperties_TriColorMask">
                 <maskCount>1</maskCount>
                 <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>

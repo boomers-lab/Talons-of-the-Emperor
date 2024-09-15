@@ -48,7 +48,7 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>		
+		</apparel>			
 		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
                 <isUnifiedApparel>true</isUnifiedApparel>
@@ -92,6 +92,8 @@
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -127,6 +129,9 @@
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>
 		</comps>
 	</ThingDef>
@@ -164,6 +169,8 @@
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -199,6 +206,9 @@
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>
 		</comps>
 	</ThingDef>
@@ -236,6 +246,8 @@
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>20</ComponentSpacer>
@@ -277,6 +289,9 @@
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
 			<li Class="GrimworldItemLimit.CompProperties_ItemCraftingLimit"></li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
 		</comps>
 	</ThingDef>
 
@@ -299,6 +314,8 @@
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>10</ComponentSpacer>
@@ -334,6 +351,9 @@
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>
 		</comps>
 	</ThingDef>
@@ -429,6 +449,8 @@
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
 		</equippedStatOffsets>
 		<costList>
 			<ComponentSpacer>15</ComponentSpacer>
@@ -464,6 +486,9 @@
 					<colorB>(250, 176, 67)</colorB>
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
 			</li>
 		</comps>
 	</ThingDef>

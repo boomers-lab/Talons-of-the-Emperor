@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+        <!--replace Armor cold-->
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesGuardArmor" or defName="GW_TotE_CustodesWardenArmor" or defName="GW_TotE_AllarusArmor" or defName="GW_TotE_CastellanArmor"]/statBases/Insulation_Cold</xpath>
+		<value>
+			<Insulation_Cold>126</Insulation_Cold>
+		</value>
+    </Operation>
+        <!--replace Helmet cold-->
+    <Operation Class="PatchOperationReplace">
+		<xpath>Defs/ThingDef[defName="GW_TotE_CustodesGuardHelmet" or defName="GW_TotE_CustodesWardenHelmet" or defName="GW_TotE_CastellanPlateHelmet" or defName="GW_TotE_SagittarumHelmet" or defName="GW_TotE_AllarusHelmet"]/statBases/Insulation_Cold</xpath>
+		<value>
+			<Insulation_Cold>126</Insulation_Cold>
+		</value>
+    </Operation>
+
+</Patch>

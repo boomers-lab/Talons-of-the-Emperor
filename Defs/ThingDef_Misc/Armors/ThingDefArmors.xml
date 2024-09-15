@@ -58,7 +58,16 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>		
+		</apparel>
+		<equippedStatOffsets>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<comps>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
 	    <modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
                 <isUnifiedApparel>true</isUnifiedApparel>

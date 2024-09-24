@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 	<ThingDef Abstract="true" Name="GW_TotEHelmetBase" ParentName="ArmorHelmetMakeableBase">
 		<techLevel>Spacer</techLevel>
@@ -31,9 +31,9 @@
 				<li>PrestigeCombatGear</li>
 			</tags>
 			<drawData>
-                <scale>1.1</scale>
+				<scale>1.1</scale>
 				<childScale>1.1</childScale>
-            </drawData>
+			</drawData>
 			<useWornGraphicMask>true</useWornGraphicMask>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
@@ -48,17 +48,16 @@
 			<defaultOutfitTags>
 				<li>Soldier</li>
 			</defaultOutfitTags>
-		</apparel>			
+		</apparel>
 		<modExtensions>
 			<li Class="VFECore.ApparelDrawPosExtension">
-                <isUnifiedApparel>true</isUnifiedApparel>
+				<isUnifiedApparel>true</isUnifiedApparel>
 			</li>
 		</modExtensions>
-    </ThingDef>
-	
-<!--Custodes Helmets--> 
+	</ThingDef>
 
-	
+	<!--Custodes Helmets-->
+
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CustodesGuardHelmet</defName>
 		<label>Custodes shield host helmet</label>
@@ -87,8 +86,8 @@
 				<dataWest>
 					<offset>(0, 0, 0.05)</offset>
 				</dataWest>
-            </drawData>
-		</apparel>		
+			</drawData>
+		</apparel>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
@@ -164,8 +163,8 @@
 				<dataWest>
 					<offset>(0, 0, 0.05)</offset>
 				</dataWest>
-            </drawData>
-		</apparel>		
+			</drawData>
+		</apparel>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
@@ -213,7 +212,7 @@
 		</comps>
 	</ThingDef>
 
-<!--Castellan Plate Helmets--> 
+	<!--Castellan Plate Helmets-->
 
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_CastellanPlateHelmet</defName>
@@ -241,8 +240,8 @@
 				<dataNorth>
 					<offset>(0, 0, 0.45)</offset>
 				</dataNorth>
-            </drawData>
-		</apparel>		
+			</drawData>
+		</apparel>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
@@ -284,7 +283,7 @@
 					<colorC>(180, 65, 74)</colorC>
 				</defaultPalette>
 			</li>
-			
+
 			<li Class="CompProperties_Biocodable">
 				<biocodeOnEquip>True</biocodeOnEquip>
 			</li>
@@ -295,7 +294,7 @@
 		</comps>
 	</ThingDef>
 
-<!--Sagittarum Helmets--> 
+	<!--Sagittarum Helmets-->
 
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_SagittarumHelmet</defName>
@@ -310,7 +309,7 @@
 				<li>GW_Sagittarum</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/Sagittarum/Helmets/Sagittarum_helmet</wornGraphicPath>
-		</apparel>		
+		</apparel>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
@@ -358,7 +357,7 @@
 		</comps>
 	</ThingDef>
 
-	<!--Venatari Helmets--> 
+	<!--Venatari Helmets-->
 
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_VenatariHelmet</defName>
@@ -369,11 +368,14 @@
 		</graphicData>
 		<uiIconPath>Things/CustodesArmors/Venatari/Helmets/Venatari_helmet_south</uiIconPath>
 		<apparel>
+			<renderSkipFlags>
+				<li>None</li>
+			</renderSkipFlags>
 			<tags>
 				<li>GW_Venatari</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/Venatari/Helmets/Venatari_helmet</wornGraphicPath>
-		</apparel>		
+		</apparel>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>
@@ -416,7 +418,7 @@
 		</comps>
 	</ThingDef>
 
-	<!--Allarus Helmets--> 
+	<!--Allarus Helmets-->
 
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_AllarusHelmet</defName>
@@ -444,8 +446,8 @@
 				<dataWest>
 					<offset>(0, 0, 0.1)</offset>
 				</dataWest>
-            </drawData>
-		</apparel>		
+			</drawData>
+		</apparel>
 		<equippedStatOffsets>
 			<AimingDelayFactor>-0.3</AimingDelayFactor>
 			<SocialImpact>1.00</SocialImpact>

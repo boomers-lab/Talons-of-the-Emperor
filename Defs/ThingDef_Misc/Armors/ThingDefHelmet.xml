@@ -365,6 +365,7 @@
 		<description>A lightweight but still very protective helmet, worn by the Venatari jump-infantry of the Adeptus Custodes.\n\nEach Venatari is a highly-skilled veteran of the Blood Games, a special wargame practiced by the Adeptus Custodes. Certain Custodians are tasked with mock-assassinating the Emperor, allowing them to find and exploit security weaknesses which can then be patched. Some Blood Games have been known to last years - one Custodian, Calladayce Taurovalia Kesh, ended her Blood Game after over two years when she was caught trying to teleport a cyclonic warhead into the Emperors throne room.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Venatari/Helmets/Venatari_helmet_south</texPath>
+			<drawSize>0.80</drawSize>
 		</graphicData>
 		<uiIconPath>Things/CustodesArmors/Venatari/Helmets/Venatari_helmet_south</uiIconPath>
 		<apparel>

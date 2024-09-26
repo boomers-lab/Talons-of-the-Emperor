@@ -31,7 +31,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Misericordia</defName>
 		<label>Misericordia</label>
-		<description>Also known as the “blade of mercy”, the Misericordia is a long dagger/short sword carried by the Adeptus Custodes. A piece of archeotechnology from the Age of Strife, it uses no disruptive power field, but instead the blade itself is imbued with “micromolecular dissonator spirits”, allowing it to punch through thick armor.\n\nDuring the Age of Strife, it was infamous as a symbol of the tyranny of the techno-barbarian warlords. When Terra was unified by the Emperor, the Misericordia became a symbol of the Emperors judgement instead - which, depending on your viewpoint, may be the same thing.</description>
+		<description>Also known as the “blade of mercy”, the Misericordia is a long dagger/short sword carried by the Adeptus Custodes. A piece of archeotechnology from the Age of Strife, it uses no disruptive power field, but instead the blade itself is imbued with “micromolecular dissonator spirits”, allowing it to punch through thick armor. \n\nDuring the Age of Strife, it was infamous as a symbol of the tyranny of the techno-barbarian warlords. When Terra was unified by the Emperor, the Misericordia became a symbol of the Emperors judgement instead - which, depending on your viewpoint, may be the same thing.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Misericordia</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -93,7 +93,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Sentinel_Blade</defName>
 		<label>Sentinel blade</label>
-		<description>A special type of power sword, used only by the Adeptus Custodes. Not only is the broadswords blade strong enough to cut through a Terminators armor.\n\nDespite their size, Sentinel Blades are wielded one-handed, an ability granted by the exceptional strength of Custodians. They are often wielded with Storm Shields, providing a good balance of offence and defence.</description>
+		<description>A special type of power sword, used only by the Adeptus Custodes. Not only is the broadsword's blade strong enough to cut through a Terminators armor. \n\nDespite their size, Sentinel Blades are wielded one-handed, an ability granted by the exceptional strength of Custodians. They are often wielded with Storm Shields, providing a good balance of offence and defence.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SentinelBlade</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -155,7 +155,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Vexilla</defName>
 		<label>Magisterium vexilla</label>
-		<description>Magisterium Vexilla is a battle-standard borne into battle by the Adeptus Custodes, the elite bodyguard of the Emperor of Mankind, and in ancient times by the Heralds of the Space Marine Legions. During the Great Crusade and Horus Heresy, the ancient icons and standards borne by the Legio Custodes and the Legiones Astartes represented the inviolable and nigh-omnipotent authority of the Emperor. In particular was the Magisterium Vexillia, a seal of ultimate sanction and the might of Mankind.</description>
+		<description>A battle-standard held by the Adeptus Custodes, properly called a “Magisterium Vexilla”. As well as serving as a solid melee weapon to crush an enemy’s skull, it also seems to inspire nearby allies to fight harder than normal, increasing speed and strength. Whether that effect is through pure inspiration and belief or the presence of mysterious technology is unknown. \n\nSome secrets are kept even from the Adeptus Mechanicus. Some of those were kept in the Tower Aquilane, the headquarters of the Adeptus Custodes.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Vexilla</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -248,7 +248,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Vaultsword</defName>
 		<label>Vaultsword</label>
-		<description>A special type of ancient powersword wielded only by Blade Champions of the Adeptus Custodes. Wielded in the Hurricanis style, the Vaultsword can output an incredible storm of deadly, armor-penetrating strikes.\n\nVaultswords are a piece of “archeotech”, not to be confused with archotech of the rimworlds. “Archeotech” is an Imperial term linked to “archeology”; it means once-lost technology that was recovered from ancient times, such as the Dark Age of Technology.</description>
+		<description>A special type of ancient powersword wielded only by Blade Champions of the Adeptus Custodes. Wielded in the Hurricanis style, the Vaultsword can output an incredible storm of deadly, armor-penetrating strikes. \n\nVaultswords are a piece of “archeotech”, not to be confused with the archotechs of the rimworlds. “Archeotech” is an Imperial term linked to “archeology”; it means once-lost technology that was recovered from ancient times, such as the Dark Age of Technology.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Vaultsword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

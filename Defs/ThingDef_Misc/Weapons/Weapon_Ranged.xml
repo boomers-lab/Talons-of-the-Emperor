@@ -22,7 +22,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Adrathic_Destructor</defName>
 		<label>Adrathic destructor</label>
-		<description>A twin-linked, pistol-sized adrathic weapon used by Aquilon Terminators of the Adeptus Custodes. Few targets can withstand even a single shot from an adrathic weapon, as their molecular bonds are instantly broken.\n\nStrictly speaking, the Adrasite Spear also uses an Adrathic Destructor as a secondary weapon. However, the spear version is only single-barrelled.</description>
+		<description>A twin-linked, pistol-sized adrathic weapon used by Aquilon Terminators of the Adeptus Custodes. Few targets can withstand even a single shot from an adrathic weapon, as their molecular bonds are instantly broken. \n\nStrictly speaking, the Adrasite Spear also uses an Adrathic Destructor as a secondary weapon. However, the spear version is only single-barrelled.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -152,7 +152,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Bolt_Caliver</defName>
 		<label>Adrastus bolt caliver</label>
-		<description>A combi-weapon of the Adeptus Custodes. It combines a special bolter of equal power to a heavy bolter, and an “Adrathic Weapon” - a gun that fires a disintegrating beam that destroys targets at the molecular level.\n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
+		<description>An ancient boltgun of the Adeptus Custodes, firing bolts of equal power to that of a Heavy Bolter. The Warp disaster that stranded the fleet here has apparently affected these adrathic weapons significantly, as they no longer function and cannot be repaired. \n\nThe Custodians maintain a tight grip on adrathic weapons, including those that no longer function. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicBoltCaliver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -248,7 +248,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Firepike</defName>
 		<label>Incendium firepike</label>
-		<description>A pike (a type of spear) enhanced with a disruptive power field. The Incendium Firepike also contains a powerful integrated flamer, which sows panic and death in any attacking force.\n\nRarely seen among even the Adeptus Custodes, Incendium Firepikes saw action in the Webway, the Eldar Warp travel network that was once joined by a portal of the Emperor’s own making. A secret of the utmost importance, the “Emperor’s Great Work” was subverted during the Horus Heresy, and the then-Legio Custodes fought a grueling battle against the daemonic hordes before the portal was finally closed.\n\nIt only remained closed through the Emperor’s power. When He died, Terra was consumed.</description>
+		<description>An incredibly powerful flamer that can unleash a surprisingly long-ranged wave of promethium. That which is not totally consumed by the fire is thrown into panic and disarray. \n\nRarely seen among even the Adeptus Custodes, Incendium Firepikes saw action in the Webway, the Eldar Warp travel network that was once joined by a portal of the Emperor’s own making. A secret of the utmost importance, the “Emperor’s Great Work” was subverted during the Horus Heresy, and the then-Legio Custodes fought a grueling battle against the daemonic hordes before the portal was finally closed. \n\nIt only remains closed through the Emperor’s power.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Firepike</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -357,7 +357,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Kinetic_Destructor</defName>
 		<label>Kinetic destructor</label>
-		<description>An archeotech pistol used only by the Venatari jump-infantry of the Adeptus Custodes. Hailing from the Dark Age of Technology, the sheer power of each Kinetic Destroyer is akin to that of a plasma weapon, without the risks of overheating and other drawbacks.\n\nAlso known as Emperors hunting eagles, the Venatari swoop from the sky and rain death upon their hapless foes.</description>
+		<description>An archeotech pistol used only by the Venatari jump-infantry of the Adeptus Custodes. Hailing from the Dark Age of Technology, the sheer power of each Kinetic Destroyer is akin to that of a plasma weapon, without the risks of overheating and other drawbacks.\n\nAlso known as Emperor's hunting eagles, the Venatari swoop from the sky and rain death upon their hapless foes.</description>
 		<graphicData>
 			<texPath>Things/Weapons/KineticDestructor</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

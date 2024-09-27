@@ -19,8 +19,8 @@
 
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_CustodesGuard</defName>
-		<label>Custodes guard</label>
-		<description>The Legio Custodes, also known as the Adeptus Custodes, is an elite force in Warhammer 40,000. They're the Emperor's personal bodyguards, clad in golden armor and unmatched in skill, protecting key figures and locations of the Imperium with unwavering loyalty.</description>
+		<label>Custodian Guard</label>
+		<description>Begin production of equipment for the battleline Hykanatoi, also know as the Custodian Guard.</description>
         <baseCost>8500</baseCost>
 		<prerequisites>
 			<li>GW_TotE_CustodesFabrication</li>
@@ -43,7 +43,7 @@
 
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_Allarus</defName>
-		<label>allarus terminator</label>
+		<label>Allarus Terminator</label>
 		<description>Produce heavy Auramite-plated suits of Terminator Armor, worn by the Allarus Custodians.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>
@@ -66,7 +66,7 @@
 
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_Castellan</defName>
-		<label>castellan</label>
+		<label>Castellan</label>
 		<description>Recreate the Castellan Plate, the armor of Captain-General Trajann Valoris, leader of the Adeptus Custodes.</description>
         <baseCost>5000</baseCost>
 		<prerequisites>

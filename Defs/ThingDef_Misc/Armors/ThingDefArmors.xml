@@ -94,8 +94,8 @@
 	
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_CustodesGuardArmor</defName>
-		<label>Custodian shield host armor</label>
-        <description>A suit of Power Armor built for the Adeptus Custodes. Built from the golden material known as Auramite, its strength greatly exceeds that of a Space Marines equivalent armor.\n\nThe Adeptus Custodes are, among other names, also known as the Ten Thousand. For most of their history, stretching back to the Unification Wars on Terra, there have indeed been ten thousand of them. However, during the War Within the Webway, the fighting was so brutal that their number was reduced down to a mere thousand, though they eventually recovered.</description>
+		<label>Custodian Shield Host armor</label>
+        <description>A suit of Power Armor built for the Adeptus Custodes. Built from the golden material known as Auramite, its strength greatly exceeds that of a Space Marine's equivalent armor.\n\nThe Adeptus Custodes are, among other names, also known as the Ten Thousand. For most of their history, stretching back to the Unification Wars on Terra, there have indeed been ten thousand of them. However, during the War Within the Webway, the fighting was so brutal that their number was reduced down to a mere thousand, though they eventually recovered.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/CGuard_torso_Male_south</texPath>
 		</graphicData>
@@ -150,8 +150,8 @@
 	
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_CustodesWardenArmor</defName>
-		<label>Custodian warden armor</label>
-        <description>The Power Armor of a Custodian Warden, an elite warrior even among the Ten Thousand. Like the intended wearer, the Wardens armor is a cut above that of a regular Custodians armor, and the red robe symbolizes their status.\n\nIn the Age of the Imperium, a Custodian must have at least five centuries of continuous service to become a Warden. Every oath sworn by a new Warden is personally written after a year of meditation, upon which they receive their characteristic red robe.</description>
+		<label>Custodian Warden armor</label>
+        <description>The Power Armor of a Custodian Warden, an elite warrior even among the Ten Thousand. Like the intended wearer, the Warden's armor is a cut above that of a regular Custodian's armor, and the red robe symbolizes their status. \n\nA Custodian must have at least five centuries of continuous service to become a Warden. Every oath sworn by a new Warden is personally written after a year of meditation, upon which they receive their characteristic red robe.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/Warden_torso</texPath>
 		</graphicData>
@@ -206,8 +206,8 @@
 		
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_AllarusArmor</defName>
-		<label>allarus armor</label>
-        <description>A suit of Terminator Power Armor, crafted from auramite for the Allarus Custodians of the Adeptus Custodes. Stronger even than their ceramite cousins, the protection provided by this armor exceeds that of some armored vehicles.\n\nAllarus Terminators are tasked with exterminating high-value targets in the field. Such is their relentlessness that the Allarus Terminator armor used to contain short-range teleporters for pursuing their foes - unfortunately, that technology is now lost to time, as is that of their wrist-mounted Balistus Grenade Launchers.</description>
+		<label>Allarus Terminator armor</label>
+        <description>A suit of Terminator Power Armor, crafted from auramite for the Allarus Custodians of the Adeptus Custodes. Stronger even than their ceramite cousins, the protection provided by this armor exceeds that of some armored vehicles. \n\nAllarus Terminators are tasked with exterminating high-value targets in the field. Such is their relentlessness that the Allarus Terminator armor used to contain short-range teleporters for pursuing their foes - unfortunately, that technology is now now heavily damaged due to the Warp disaster, as is that of their wrist-mounted Balistus Grenade Launchers.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Allarus/Allarus_torso_Male_south</texPath>
 		</graphicData>
@@ -270,8 +270,8 @@
 
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_CastellanArmor</defName>
-		<label>Castellan plate armor</label>
-        <description>A replica of the Castellan Plate, an ancient and legendary suit of Custodian Power Armor. The auramite armor plating can shrug off almost any threat (especially with the Refraction Field reinforcement provided by the Auramite Halo device), and the lion-hide cloak is strengthened with adamantium thread - it flows like cloth, but cannot be pierced or cut by any normal weapon.\n\nThe true Castellan Plate was worn by Trajann Valoris, the Captain-General of the Adeptus Custodes. Unusually for a Custodian, he believed in offensive defense - sallying forth to destroy threats to the Imperium before they could threaten the Throneworld.\n\nHe rose to power during the Years of Madness, a crisis on Terra that saw two successive Captain-Generals dead or gone, a massive spike in dangerous cultist activity, and a widespread maddening of servitors in the Dark Cells that forced wholesale euthanization.</description>
+		<label>Castellan Plate</label>
+        <description>A replica of the Castellan Plate, an ancient and legendary suit of Custodian Power Armor. The auramite armor plating can shrug off almost any threat (especially with the Refraction Field reinforcement provided by the Auramite Halo device), and the lion-hide cloak is strengthened with adamantium thread - it flows like cloth, but cannot be pierced or cut by any normal weapon. \n\nThe true Castellan Plate is worn by Trajann Valoris, the Captain-General of the Adeptus Custodes. Unusually for a Custodian, he believed in offensive defense - sallying forth to destroy threats to the Imperium before they could threaten the Throneworld. \n\nHe rose to power during the Years of Madness, a crisis on Terra that saw two successive Captain-Generals dead or gone, a massive spike in dangerous cultist activity, and a widespread maddening of servitors in the Dark Cells that forced wholesale euthanization.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Castellan Plate/CastellanPlate_torso_Male_south</texPath>
 		</graphicData>

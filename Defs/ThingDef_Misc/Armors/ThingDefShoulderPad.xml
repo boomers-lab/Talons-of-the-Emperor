@@ -72,8 +72,8 @@
 	
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_CustodesGuardShoulder</defName>
-		<label>Custodes shield host shoulder pads</label>
-		<description>Auramite shoulder pads befitting of a standard Custodian. On the right shoulder is a depiction of the Imperial Aquila, while the colors on the left shoulder denote which Shield Company of Shield Host the wearer belongs to.\n\nEach suit of Custodian armor is a custom build, perfect for each wearer. The wearers name is even inscribed on the inside of the suit.</description>
+		<label>Custodes Shield Host shoulder pads</label>
+		<description>Auramite shoulder pads befitting of a standard Custodian. On the right shoulder is a depiction of the Imperial Aquila, while the colors on the left shoulder denote which Shield Company or Shield Host the wearer belongs to. \n\nEach suit of Custodian armor is a custom build, perfect for each wearer. The wearer's name is even inscribed on the inside of the suit.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/Shoulders/CGuard_sp_Male_south</texPath>
 		</graphicData>
@@ -131,8 +131,8 @@
 	
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_CustodesWardenShoulder</defName>
-		<label>Custodes warden shoulder pads</label>
-		<description>The shoulder pads of a Custodian Warden, similar to that of the Custodian Guard. The auramite plates can withstand a great amount of firepower.\n\nThe oaths sworn by a Custodian Warden are taken with the greatest seriousness. To break them would be utterly unthinkable, and each Warden draws strength from their will to keep them.</description>
+		<label>Custodes Warden shoulder pads</label>
+		<description>The shoulder pads of a Custodian Warden, similar to that of the Custodian Guard. The auramite plates can withstand a great amount of firepower. \n\nThe oaths sworn by a Custodian Warden are taken with the greatest seriousness. To break them would be utterly unthinkable, and each Warden draws strength from their will to keep them.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/Shoulders/Warden_sp_Male_south</texPath>
 		</graphicData>
@@ -190,8 +190,8 @@
 
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_AllarusShoulder</defName>
-		<label>Allarus shoulder pads</label>
-		<description>Reinforced shoulder pads fit for an Allarus Terminator. They are surely strong enough to shoulder the heaviest of burdens.\n\nThe Captain-General of the Adeptus Custodes handpicks every Allarus Terminator, both for aggression and control. The Allarus Custodians strike with incredible yet controlled rage, overcoming any force opposing them - tales of them single-handedly fighting whole armies are not uncommon.</description>
+		<label>Allarus Terminator shoulder pads</label>
+		<description>Reinforced shoulder pads fit for an Allarus Terminator. They are surely strong enough to shoulder the heaviest of burdens. \n\nThe Captain-General of the Adeptus Custodes handpicks every Allarus Terminator, both for aggression and control. The Allarus Custodians strike with incredible yet controlled rage, overcoming any force opposing them - tales of them single-handedly fighting whole armies are not uncommon.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Allarus/Shoulders/Allarus_sp_Male_south</texPath>
 			<drawSize>1</drawSize>
@@ -261,8 +261,8 @@
 
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_CastellanPlateShoulder</defName>
-		<label>Castellan plate shoulder pads</label>
-		<description>The shoulder pads of the Castellan Plate, the armor of Trajann Valoris. To symbolize his leadership of the Adeptus Custodes, the right shoulder bears a giant, auramite depiction of a lions head.\n\nEven before becoming the Captain-General, Trajann Valoris was an exceptional man. As an Allarus Custodian, he was the first person to have ever won the Blood Games twice - had he been an enemy, the Emperor would have met an untimely demise twice over.</description>
+		<label>Castellan Plate shoulder pads</label>
+		<description>The shoulder pads of the Castellan Plate, the armor of Trajann Valoris. To symbolize his leadership of the Adeptus Custodes, the right shoulder bears a giant, auramite depiction of a lion's head. \n\nEven before becoming the Captain-General, Trajann Valoris was an exceptional man. As an Allarus Custodian, he was the first person to have ever won the Blood Games twice - had he been an enemy, the Emperor would have met an untimely demise twice over.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Castellan Plate/Shoulders/CastellanPlate_sp_Male_south</texPath>
 			<drawSize>1</drawSize>

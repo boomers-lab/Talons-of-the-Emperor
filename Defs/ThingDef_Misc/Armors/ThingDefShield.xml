@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 	<ThingDef ParentName="GWShieldBase" Name="GWTalonShieldBase" Abstract="true">
-		<description>The Custodes Shield, used by the elite Adeptus Custodes in Warhammer 40,000, combines advanced technology with exceptional craftsmanship. It provides superior protection, adorned with symbols of their noble heritage and dedication to the Emperor. The shield allows for both defense and counterattacks, embodying the Custodes' formidable battlefield presence.</description>
+		<description>An ancient design of ballistic shield used by the Adeptus Custodes. Consisting of thick ceramite plated with auramite and backed by energy field generators, this shield can turn anyone into a solid bulwark against enemy attacks. \n\nThe design dates back to the Unification Wars, as does the Custodians themselves. They were the first gene-crafted warriors ever created by the God-Emperor of Mankind, followed soon by the Thunder Warriors, with whom He unified Terra.</description>
 		<apparel>
 			<drawData>
 				<defaultData>
@@ -36,7 +36,7 @@
 	
 	<ThingDef ParentName="GWTalonShieldBase" Name="GWTalonCombatShieldBase">
 		<defName>GM_TotE_ShieldPraesidium</defName>
-		<label>praesidium shield</label>
+		<label>Praesidium Shield</label>
 		<graphicData>
 			<texPath>Things/Weapons/Shield/Preview/PraesidiumShield</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

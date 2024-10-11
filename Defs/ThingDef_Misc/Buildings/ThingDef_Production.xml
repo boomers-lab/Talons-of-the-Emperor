@@ -2,8 +2,8 @@
 
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
 		<defName>GW_SM_TalonOfTheEmperor_ArmorBench</defName>
-		<label>Talon of the Emperor armor workbench</label>
-		<description>Workbench used to make Talon of the Emperor armor set.</description>
+		<label>Talons of the Emperor armor workbench</label>
+		<description>A workbench for assembling the armor of the Talons of the Emperor. \n\nThe working of auramite is a painstaking process, only to be trusted to the greatest artificers. But if made well, the resulting armor can weather assault that would reduce mere ceramite to dust.</description>
 		<graphicData>
 			<texPath>Things/Buildings/Production/CustodeBench_Armor</texPath>
 			<drawOffset>(0,0.05,0)</drawOffset>
@@ -24,8 +24,8 @@
 	
 	<ThingDef ParentName="GrimworldFabricationBenchBase">
 		<defName>GW_SM_TalonOfTheEmperor_WeaponBench</defName>
-		<label>Talon of the Emperor weapon workbench</label>
-		<description>Workbench used to make Talon of the Emperor weapons.</description>
+		<label>Talons of the Emperor weapon workbench</label>
+		<description>A workbench for assembling the weapons of the Talons of the Emperor. \n\nSome weapons are mundane, but exquisitely-crafted. Others are black boxes, with its deepest mechanics a mystery to even the Imperium’s greatest minds. All, however, are deadly in the extreme.</description>
 		<graphicData>
 			<texPath>Things/Buildings/Production/CustodeBench_Weapon</texPath>
 			<drawOffset>(0,0.05,0)</drawOffset>

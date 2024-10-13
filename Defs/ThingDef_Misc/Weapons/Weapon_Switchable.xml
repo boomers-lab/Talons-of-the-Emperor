@@ -3,7 +3,7 @@
 	<!-- Guardian Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_GuardianSpear</defName>
-		<label>bolter guardian spear</label>
+		<label>Guardian Spear</label>
 		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. \n\nMany combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
@@ -45,7 +45,7 @@
 		</weaponTags>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>shaft</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -53,7 +53,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
-				<label>spear poke</label>
+				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>
@@ -63,7 +63,7 @@
 				<armorPenetration>1.9</armorPenetration>
 			</li>
 			<li>
-				<label>spear head</label>
+				<label>point</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -111,7 +111,7 @@
 	<!-- Guardian Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_GuardianSpearR</defName>
-		<label>Ranged custodes guardian spear</label>
+		<label>Guardian Spear (ranged)</label>
 		<description>The traditional armament of the Adeptus Custodes, the Guardian Spear is a “combi-weapon” - a combination of two weapons in one. The golden spear's head is coated in a disruptive power field, allowing it to pierce through heavy armor, while the integrated Bolt Caster lays down heavy fire on more distant enemies. \n\nMany combi-weapons exist in the Imperium of Man. For example, the basic “Combi-bolter”, often seen in the Great Crusade and Horus Heresy eras, was simply two bolters attached side-to-side. Unlike the later Storm Bolters, they were only attached together later, not in the first place.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearBolter</texPath>
@@ -191,7 +191,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_GuardianSpearProjectile</defName>
-		<label>Guardian Spear Projectile</label>
+		<label>Guardian Spear bolt</label>
 		<graphicData>
 			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -208,7 +208,7 @@
 	<!-- Adrathic Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_AdrathicSpear</defName>
-		<label>adrathic guardian spear</label>
+		<label>Adrathic Spear</label>
 		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. \n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
@@ -250,7 +250,7 @@
 		</weaponTags>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>shaft</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -258,7 +258,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
-				<label>spear poke</label>
+				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>
@@ -268,7 +268,7 @@
 				<armorPenetration>1.9</armorPenetration>
 			</li>
 			<li>
-				<label>spear head</label>
+				<label>point</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -316,7 +316,7 @@
 	<!-- Adrathic Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_AdrathicSpearR</defName>
-		<label>Ranged custodes adrathic spear</label>
+		<label>Adrathic Spear (ranged)</label>
 		<description>A variant on the traditional Guardian Spear, the Adrasite Spear combines the same power spear with an adrathic weapon - a gun that fires a disintegrating beam to destroy targets at the molecular level. \n\nAdrathic weapons are a relic of the Dark Age of Technology. When the Emperor unified Terra, long before the Imperium came to be, He had all Adrathic Weapons given to Him on pain of death. Such is their power that only the Adeptus Custodes have wielded them since, and neither the ancient Mechanicum or the Adeptus Mechanicus were granted access to their secrets.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearAdrathic</texPath>
@@ -393,7 +393,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_AdrathicSpearProjectile</defName>
-		<label>Adrathic Spear Projectile</label>
+		<label>Adrathic Spear beam</label>
 		<graphicData>
 			<texPath>Projectiles/Plasma_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -409,7 +409,7 @@
 	<!-- Melta Spear [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_MeltaSpear</defName>
-		<label>Melta guardian spear</label>
+		<label>Pyrithite Spear</label>
 		<description>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. \n\nA wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
@@ -450,7 +450,7 @@
 		</weaponTags>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>shaft</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -458,7 +458,7 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 			<li>
-				<label>spear poke</label>
+				<label>head</label>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>
@@ -468,7 +468,7 @@
 				<armorPenetration>1.9</armorPenetration>
 			</li>
 			<li>
-				<label>spear head</label>
+				<label>point</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -516,7 +516,7 @@
 	<!-- Melta Spear Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_MeltaSpearR</defName>
-		<label>Ranged Custodes melta spear</label>
+		<label>Pyrithite Spear (ranged)</label>
 		<description>A combi-weapon, consisting of a disruptive power field around the spear’s head and an integrated melta beam, which fires a blast of energy from a nuclear fusion reaction. The end result is a weapon well-suited to close combat, making a mockery of any armor the enemy possesses. \n\nA wise Space Marine once likened the Adeptus Custodes to lone wolves, compared to the Adeptus Astartes being a pack of war dogs. While the combat prowess of a Custodian far exceeds any single Space Marine, their only flaw is fighting as individuals rather than as a unit - in other words, a lack of real teamwork.</description>
 		<graphicData>
 			<texPath>Things/Weapons/SpearMelta</texPath>
@@ -589,7 +589,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_MeltaSpearProjectile</defName>
-		<label>Melta Spear Projectile</label>
+		<label>Pyrithite Spear beam</label>
 		<graphicData>
 			<texPath>Projectiles/Melta_Projectile</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -607,7 +607,7 @@
 	<!-- Castellan Axe [Melee] -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_CastellanAxe</defName>
-		<label>castellan axe</label>
+		<label>Castellan Axe</label>
 		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
@@ -649,7 +649,7 @@
 		</weaponTags>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -658,7 +658,7 @@
 				<armorPenetration>0.7</armorPenetration>
 			</li>
 			<li>
-				<label>axe blunt</label>
+				<label>cheek</label>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>
@@ -668,7 +668,7 @@
 				<armorPenetration>1.0</armorPenetration>
 			</li>
 			<li>
-				<label>axe head</label>
+				<label>head</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -721,7 +721,7 @@
 	<!-- Castellan Axe Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_CastellanAxeR</defName>
-		<label>Ranged Custodes castellan axe</label>
+		<label>Castellan Axe (ranged)</label>
 		<description>A large, two-handed axe used by the Adeptus Custodes. As well as cleaving through the enemy with the power field-enhanced blade, the Bolt Caster integrated into the weapon also makes short work of enemies out of reach.\n\nIt is heresy for the Adeptus Administratum to record the Custodians ever losing a battle. Officially, any warzone that the Custodians are deployed in is deemed an Imperial victory, even before they have arrived.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CastellanAxe</texPath>
@@ -770,7 +770,7 @@
 		</verbs>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -799,7 +799,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_CastellanAxeProjectile</defName>
-		<label>Castellan Axe Projectile</label>
+		<label>Castellan Axe bolt</label>
 		<graphicData>
 			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -858,7 +858,7 @@
 		</weaponTags>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -867,7 +867,7 @@
 				<armorPenetration>0.7</armorPenetration>
 			</li>
 			<li>
-				<label>axe blunt</label>
+				<label>axe cheek</label>
 				<capacities>
 					<li>Blunt</li>
 					<li>Poke</li>
@@ -877,7 +877,7 @@
 				<armorPenetration>1.0</armorPenetration>
 			</li>
 			<li>
-				<label>axe head</label>
+				<label>head</label>
 				<capacities>
 					<li>Cut</li>
 				</capacities>
@@ -929,7 +929,7 @@
 	<!-- Castellan Axe Bolter -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_WatchersAxeR</defName>
-		<label>Ranged Watcher's Axe</label>
+		<label>Watcher's Axe (ranged)</label>
 		<description>The Watcher's Axe is an ancient power axe, combined with a master-crafted boltgun named the “Eagle's Scream”. A unique version of the Castellan Axe, it crackles with golden lightning, and its swing is said to be so powerful that even a Chaos-empowered Dreadnought was once cleaved in twain with a single stroke. \n\nThe true Watcher’s Axe is wielded by Captain-General Trajann Valoris. This is a mere replica, but well-crafted enough that it holds great power of its own.</description>
 		<graphicData>
 			<texPath>Things/Weapons/WatchersAxe</texPath>
@@ -977,7 +977,7 @@
 		</verbs>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -1006,7 +1006,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_WatchersAxeProjectile</defName>
-		<label>Watchers Axe Projectile</label>
+		<label>Watcher's Axe bolt</label>
 		<graphicData>
 			<texPath>Projectiles/AM_BoltPistol_Proj</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

@@ -77,7 +77,7 @@
 		</weaponTags>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>grip</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>
@@ -130,7 +130,7 @@
   
 	<ThingDef ParentName="GW_TotE_BulletLaser" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
 		<defName>GW_TotE_Adrathic_Destructor_Bullet</defName>
-		<label>Adrathic Beam</label>
+		<label>adrathic beam</label>
 		<description>beam</description>
 		<textures>
 			<li>Things/Projectiles/Laser_Red</li>
@@ -152,7 +152,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Bolt_Caliver</defName>
 		<label>Adrastus bolt caliver</label>
-		<description>An ancient boltgun of the Adeptus Custodes, firing bolts of equal power to that of a Heavy Bolter. The Warp disaster that stranded the fleet here has apparently affected these adrathic weapons significantly, as they no longer function and cannot be repaired. \n\nThe Custodians maintain a tight grip on adrathic weapons, including those that no longer function. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
+		<description>An ancient boltgun of the Adeptus Custodes, firing bolts of equal power to that of a heavy bolter. The Warp disaster that stranded the fleet here has apparently affected these adrathic weapons significantly, as they no longer function and cannot be repaired. \n\nThe Custodians maintain a tight grip on adrathic weapons, including those that no longer function. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicBoltCaliver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
@@ -228,7 +228,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_Bolt_Caliver_Bullet</defName>
-		<label>Bolt bullet</label>
+		<label>bolt</label>
 		<thingClass>Projectile_Explosive</thingClass>
 		<graphicData>
 			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
@@ -356,7 +356,7 @@
 	<!-- Kinetic_Destructor -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Kinetic_Destructor</defName>
-		<label>Kinetic destructor</label>
+		<label>Kinetic destroyer</label>
 		<description>An archeotech pistol used only by the Venatari jump-infantry of the Adeptus Custodes. Hailing from the Dark Age of Technology, the sheer power of each Kinetic Destroyer is akin to that of a plasma weapon, without the risks of overheating and other drawbacks.\n\nAlso known as Emperor's hunting eagles, the Venatari swoop from the sky and rain death upon their hapless foes.</description>
 		<graphicData>
 			<texPath>Things/Weapons/KineticDestructor</texPath>
@@ -437,7 +437,7 @@
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_Bolt_Kinetic_Destructor</defName>
-		<label>Bolt bullet</label>
+		<label>shot</label>
 		<graphicData>
 			<texPath>Things/Projectiles/Projectile_Bulletz</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

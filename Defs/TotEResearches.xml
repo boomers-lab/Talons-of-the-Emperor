@@ -20,7 +20,7 @@
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
 		<defName>GW_TotE_CustodesGuard</defName>
 		<label>Custodian Guard</label>
-		<description>Begin production of equipment for the battleline Hykanatoi, also know as the Custodian Guard.</description>
+		<description>Begin production of equipment for the battleline Hykanatoi, also known as the Custodian Guard.</description>
         <baseCost>8500</baseCost>
 		<prerequisites>
 			<li>GW_TotE_CustodesFabrication</li>

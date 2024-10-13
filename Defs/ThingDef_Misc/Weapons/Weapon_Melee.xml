@@ -154,7 +154,7 @@
 	<!-- Vexilla -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_Vexilla</defName>
-		<label>Magisterium vexilla</label>
+		<label>Magisterium Vexilla</label>
 		<description>A battle-standard held by the Adeptus Custodes, properly called a “Magisterium Vexilla”. As well as serving as a solid melee weapon to crush an enemy’s skull, it also seems to inspire nearby allies to fight harder than normal, increasing speed and strength. Whether that effect is through pure inspiration and belief or the presence of mysterious technology is unknown. \n\nSome secrets are kept even from the Adeptus Mechanicus. Some of those were kept in the Tower Aquilane, the headquarters of the Adeptus Custodes.</description>
 		<graphicData>
 			<texPath>Things/Weapons/Vexilla</texPath>
@@ -195,7 +195,7 @@
 		</weaponTags>
 		<tools>
 			<li>
-				<label>stock</label>
+				<label>handle</label>
 				<capacities>
 					<li>Blunt</li>
 				</capacities>

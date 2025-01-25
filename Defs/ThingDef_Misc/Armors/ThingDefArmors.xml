@@ -34,6 +34,9 @@
 				<scale>1.1</scale>
                 <childScale>1.1</childScale>
             </drawData>
+			<equippedStatOffsets>		
+				<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+			</equippedStatOffsets>
 			<tags>
 				<li>Spacer</li>
 				<li>EVA</li>

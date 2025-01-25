@@ -129,6 +129,7 @@
 			<HP_Auramite>60</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<PawnBeauty>50</PawnBeauty>
 		</equippedStatOffsets>
 		<apparel>
@@ -185,6 +186,7 @@
 			<HP_Auramite>60</HP_Auramite>
 		</costList>
 		<equippedStatOffsets>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
 			<PawnBeauty>50</PawnBeauty>
 		</equippedStatOffsets>
 		<apparel>

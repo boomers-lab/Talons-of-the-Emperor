@@ -13,8 +13,8 @@
 			<li MayRequire="happypurging.ageofdarkness">GW_SM_AstartesFabrication</li>
 			<!-- <li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li> -->
 		</prerequisites>
-		<researchViewX>7.00</researchViewX>
-		<researchViewY>1.60</researchViewY>
+  			<researchViewX>7.00</researchViewX>
+  			<researchViewY>2.60</researchViewY>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef ParentName="GW_SM_TotETechBase">
@@ -26,8 +26,8 @@
 			<li>GW_TotE_CustodesFabrication</li>
 			<!-- <li MayRequire="grimworld.talonoftheemperor">GW_SM_CodexAstartes</li> -->
 		</prerequisites>
-		<researchViewX>8.00</researchViewX>
-		<researchViewY>1.60</researchViewY>
+ 			<researchViewX>8.00</researchViewX>
+ 			<researchViewY>2.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -49,8 +49,8 @@
 		<prerequisites>
 			<li MayRequire="happypurging.ageofdarkness">GW_TotE_CustodesGuard</li>
 		</prerequisites>
-		<researchViewX>9.00</researchViewX>
-		<researchViewY>1.60</researchViewY>
+ 			<researchViewX>9.00</researchViewX>
+  			<researchViewY>2.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>
@@ -72,8 +72,8 @@
 		<prerequisites>
 			<li>GW_TotE_Allarus</li>
 		</prerequisites>
-		<researchViewX>10.00</researchViewX>
-		<researchViewY>1.60</researchViewY>	  
+ 			<researchViewX>10.00</researchViewX>
+ 			<researchViewY>2.60</researchViewY>
 		<modExtensions>
             <li Class="GW_Frame.DefModExtension_ExtraPrerequisiteActions">
                 <StudyLocation>GW_Cogitator</StudyLocation>

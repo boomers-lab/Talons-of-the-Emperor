@@ -94,16 +94,14 @@
 				<commonality>1</commonality>
 				<options>
 					<Miner>3</Miner>
-					<MakaiAuxiliaryTwo>1.5</MakaiAuxiliaryTwo>
-					<MakaiAuxiliary>2</MakaiAuxiliary>
+					<GW_TotE_CustodesGuard>1.5</GW_TotE_CustodesGuard>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
 				<kindDef>Hunters</kindDef>
 				<commonality>1</commonality>
 				<options>
-					<MakaiAuxiliaryTwo>1.5</MakaiAuxiliaryTwo>
-					<MakaiAuxiliary>2</MakaiAuxiliary>
+					<GW_TotE_CustodesGuard>1.5</GW_TotE_CustodesGuard>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
@@ -111,8 +109,7 @@
 				<commonality>1</commonality>
 				<options>
 					<Logger>3</Logger>
-					<MakaiAuxiliaryTwo>1.5</MakaiAuxiliaryTwo>
-					<MakaiAuxiliary>2</MakaiAuxiliary>
+					<GW_TotE_CustodesGuard>1.5</GW_TotE_CustodesGuard>
 				</options>
 			</li>
 			<li MayRequire="Ludeon.RimWorld.Ideology">
@@ -120,8 +117,7 @@
 				<commonality>1</commonality>
 				<options>
 					<Farmer>3</Farmer>
-					<MakaiAuxiliaryTwo>1.5</MakaiAuxiliaryTwo>
-					<MakaiAuxiliary>2</MakaiAuxiliary>
+					<GW_TotE_CustodesGuard>1.5</GW_TotE_CustodesGuard>
 				</options>
 			</li>
         </pawnGroupMakers>

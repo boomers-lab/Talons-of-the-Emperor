@@ -39,6 +39,7 @@
 		</baseTraderKinds>
         <maxPawnCostPerTotalPointsCurve>
             <points>
+                <li>(0,35)</li>
                 <li>(30000,10000)</li>
                 <li>(100000,50000)</li>
             </points>

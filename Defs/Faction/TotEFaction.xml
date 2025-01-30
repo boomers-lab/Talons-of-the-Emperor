@@ -57,6 +57,7 @@
             <li>
                 <kindDef>Settlement</kindDef>
                 <options>
+					<Villager>3</Villager>					
                     <GW_TotE_CustodesGuard>3</GW_TotE_CustodesGuard>
                     <GW_TotE_CustodesWarden>3</GW_TotE_CustodesWarden>
                     <GW_TotE_Allarus>1</GW_TotE_Allarus>

@@ -52,7 +52,6 @@
         <pawnGroupMakers>
             <li>
                 <kindDef>Settlement</kindDef>
-                <commonality>1</commonality>
                 <options>
                     <GW_TotE_CustodesGuard>3</GW_TotE_CustodesGuard>
                     <GW_TotE_CustodesWarden>3</GW_TotE_CustodesWarden>

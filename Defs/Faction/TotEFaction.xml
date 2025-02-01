@@ -64,6 +64,15 @@
                     <GW_TotE_Castellan>1</GW_TotE_Castellan>
                 </options>
             </li>
+			<li>
+			<kindDef>Peaceful</kindDef>
+				<options>
+				  <Villager>20</Villager>
+				  <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
+				  <Town_Guard>10</Town_Guard>
+				  <Town_Councilman>10</Town_Councilman>
+				</options>
+			</li>
             <li>
                 <kindDef>Combat</kindDef>
                 <commonality>1</commonality>

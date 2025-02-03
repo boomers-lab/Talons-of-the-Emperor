@@ -62,6 +62,8 @@
 		<equippedStatOffsets>
 			<DecompressionResistance MayRequire="kentington.saveourship2">0.75</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<VEF_MassCarryCapacity>50</VEF_MassCarryCapacity>
+			<PawnBeauty>50</PawnBeauty>
 		</equippedStatOffsets>
 		<comps>
 			<li MayRequire="kentington.saveourship2">

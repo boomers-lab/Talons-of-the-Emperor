@@ -151,7 +151,7 @@
 	<!-- Bolt Caliver -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Bolt_Caliver</defName>
-		<label>Adrastus bolt caliver</label>
+		<label>Bolt caliver</label>
 		<description>An ancient boltgun of the Adeptus Custodes, firing bolts of equal power to that of a heavy bolter. The Warp disaster that stranded the fleet here has apparently affected these adrathic weapons significantly, as they no longer function and cannot be repaired. \n\nThe Custodians maintain a tight grip on adrathic weapons, including those that no longer function. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicBoltCaliver</texPath>

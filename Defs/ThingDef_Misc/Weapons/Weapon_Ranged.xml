@@ -152,7 +152,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_Bolt_Caliver</defName>
 		<label>Bolt caliver</label>
-		<description>An ancient boltgun of the Adeptus Custodes, firing bolts of equal power to that of a heavy bolter. The Warp disaster that stranded the fleet here has apparently affected these adrathic weapons significantly, as they no longer function and cannot be repaired. \n\nThe Custodians maintain a tight grip on adrathic weapons, including those that no longer function. Though produced in small numbers and repaired by closely-observed tech-priests, only the Custodians are allowed to wield such armaments.</description>
+		<description>An ancient boltgun of the Adeptus Custodes, firing a deadly burst of high-explosive bolts rivalling the power of a heavy bolter.\n\nOnly the finest weapons are provided to the Golden Legion, for it is they who face some of the deadliest threats on a daily basis.</description>
 		<graphicData>
 			<texPath>Things/Weapons/AdrathicBoltCaliver</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

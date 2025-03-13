@@ -337,4 +337,224 @@
             </li>
 		</modExtensions>
     </ThingDef>	
+	
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_SisterOfSilence</defName>
+		<label>Sister of Silence armor</label>
+        <description>To do</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/SisterofSilence/CustodesSOS_Male_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>45</ComponentSpacer>
+			<ComponentIndustrial>80</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>280</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>90</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/CustodesSOS</wornGraphicPath>
+			<gender>Female</gender>
+			<tags>
+				<li>GW_SisterOfSilence</li>
+			</tags>
+			<drawData>
+				<dataNorth>
+					<layer>74</layer>
+				</dataNorth>
+				<dataWest>
+					<layer>30</layer>
+				</dataWest>
+				<dataEast>
+					<layer>30</layer>
+				</dataEast>
+				<!-- <dataSouth> -->
+					<!-- <layer>30</layer> -->
+				<!-- </dataSouth> -->
+				<scale>1.1</scale>
+                <childScale>1.1</childScale>
+            </drawData>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>
+    </ThingDef>	
+	
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_BladeOfChamp</defName>
+		<label>Blade of Champion armor</label>
+        <description>To do</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/BladeChampion/CustodesBChampion_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>45</ComponentSpacer>
+			<ComponentIndustrial>80</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>280</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>90</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/BladeChampion/CustodesBChampion</wornGraphicPath>
+			<tags>
+				<li>GW_BladeOfChampion</li>
+			</tags>
+			<drawData>
+				<scale>1.1</scale>
+            </drawData>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>2</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>
+    </ThingDef>	
+	
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_EyeOfTheEmperor</defName>
+		<label>Eye of the Emperor armor</label>
+        <description>To do</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/EyeoftheEmperor/CustodesEOTE_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>45</ComponentSpacer>
+			<ComponentIndustrial>80</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>280</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>90</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/EyeoftheEmperor/CustodesEOTE</wornGraphicPath>
+			<tags>
+				<li>GW_EyeOfTheEmperor</li>
+			</tags>
+			<drawData>
+				<dataNorth>
+					<layer>74</layer>
+				</dataNorth>
+				<dataWest>
+					<layer>70</layer>
+				</dataWest>
+				<dataEast>
+					<layer>70</layer>
+				</dataEast>
+				<dataSouth>
+					<layer>70</layer>
+				</dataSouth>
+				<scale>1.1</scale>
+                <childScale>1.1</childScale>
+            </drawData>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>2</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>
+    </ThingDef>	
+	
 </Defs>

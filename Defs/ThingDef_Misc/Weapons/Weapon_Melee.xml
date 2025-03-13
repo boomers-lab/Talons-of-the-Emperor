@@ -305,4 +305,66 @@
 			</li>
 		</tools>
 	</ThingDef>
+	
+	<!-- SoS Sword -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
+		<defName>GW_TotE_SoSSword</defName>
+		<label>SoS sword</label>
+		<description>To do.</description>
+		<graphicData>
+			<texPath>Things/Weapons/CustodesSOS_Sword</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.0</drawSize>
+		</graphicData>
+		<uiIconScale>1.0</uiIconScale>				
+		<statBases>
+			<WorkToMake>25000</WorkToMake>
+			<Mass>5.85</Mass>
+		</statBases>
+		<equippedAngleOffset>-40</equippedAngleOffset>
+		<costList>
+			<ComponentSpacer>20</ComponentSpacer>
+			<ComponentIndustrial>45</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>250</Plasteel>
+			<Steel>435</Steel>
+			<Gold>15</Gold>
+			<HP_Ceramite>120</HP_Ceramite>
+			<HP_Adamantium>100</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
+		<stuffCategories>
+			<li>Imperial_Metals</li>
+		</stuffCategories>
+		<costStuffCount>300</costStuffCount>
+		<tools>
+			<li>
+			<label>handle</label>
+			<capacities>
+				<li>Blunt</li>
+			</capacities>
+			<power>10</power>
+			<cooldownTime>2.5</cooldownTime>
+			<armorPenetration>0.5</armorPenetration>
+			</li>
+			<li>
+			<label>point</label>
+			<capacities>
+				<li>Stab</li>
+			</capacities>
+			<power>35</power>
+			<cooldownTime>2.5</cooldownTime>
+			<armorPenetration>1.1</armorPenetration>
+			</li>
+			<li>
+			<label>edge</label>
+			<capacities>
+				<li>Cut</li>
+			</capacities>
+			<power>50</power>
+			<cooldownTime>1.5</cooldownTime>
+			<armorPenetration>1.6</armorPenetration>
+			</li>
+		</tools>		
+	</ThingDef>
 </Defs>

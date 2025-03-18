@@ -739,7 +739,7 @@
 			<drawData>
 				<dataSouth>
 					<offset>(0, 0, 0.17)</offset>
-					<layer>90</layer>
+					<layer>70</layer>
 				</dataSouth>
 				<dataNorth>
 					<offset>(0, 0, 0.17)</offset>
@@ -818,7 +818,7 @@
 			<drawData>
 				<dataSouth>
 					<offset>(0, 0, 0.17)</offset>
-					<layer>90</layer>
+					<layer>70</layer>
 				</dataSouth>
 				<dataNorth>
 					<offset>(0, 0, 0.17)</offset>

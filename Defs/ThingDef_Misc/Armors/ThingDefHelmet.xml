@@ -739,7 +739,7 @@
 			<drawData>
 				<dataSouth>
 					<offset>(0, 0, 0.17)</offset>
-					<layer>70</layer>
+					<layer>74</layer>
 				</dataSouth>
 				<dataNorth>
 					<offset>(0, 0, 0.17)</offset>
@@ -812,13 +812,13 @@
 		</graphicData>
 		<apparel>
 			<tags>
-				<li>GW_EyeOfTheEmperor</li>
+				<li>GW_ShieldCaptain</li>
 			</tags>
 			<wornGraphicPath>Things/CustodesArmors/ShieldCaptain/Helmet/CustodesSCaptainHelmet</wornGraphicPath>
 			<drawData>
 				<dataSouth>
 					<offset>(0, 0, 0.17)</offset>
-					<layer>70</layer>
+					<layer>74</layer>
 				</dataSouth>
 				<dataNorth>
 					<offset>(0, 0, 0.17)</offset>

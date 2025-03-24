@@ -817,19 +817,19 @@
 			<wornGraphicPath>Things/CustodesArmors/ShieldCaptain/Helmet/CustodesSCaptainHelmet</wornGraphicPath>
 			<drawData>
 				<dataSouth>
-					<offset>(0, 0, 0.17)</offset>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
 					<layer>74</layer>
 				</dataSouth>
 				<dataNorth>
-					<offset>(0, 0, 0.17)</offset>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
 					<layer>70</layer>
 				</dataNorth>
 				<dataEast>
-					<offset>(0, 0, 0.17)</offset>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
 					<layer>70</layer>
 				</dataEast>
 				<dataWest>
-					<offset>(0, 0, 0.17)</offset>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
 					<layer>70</layer>
 				</dataWest>
 				<!-- <scale>0.9</scale> -->

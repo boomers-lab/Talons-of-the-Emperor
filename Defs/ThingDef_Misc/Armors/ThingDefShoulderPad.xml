@@ -326,8 +326,8 @@
 	<!-- Sister -->
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_SoSShoulder</defName>
-		<label>sister of silence shoulder pads</label>
-		<description>To do</description>
+		<label>Sister of Silence shoulder pads</label>
+		<description>Shoulder pads belonging to a Sister of Silence. Though they are physically less capable than their Custodian counterparts, they are still elite warriors and incredibly dangerous even to non-psykers. \n\nPart of the reason that Blanks are so rare in the galaxy is social ostracism, for Blanks radiate an air of wrongness - or soullessness - about them through no fault of their own. Blank children have been shunned by their communities and even their own families, even to the point of their death by neglect.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/SisterofSilence/Shoulders/CustodesSOSShoulder</texPath>
 		</graphicData>

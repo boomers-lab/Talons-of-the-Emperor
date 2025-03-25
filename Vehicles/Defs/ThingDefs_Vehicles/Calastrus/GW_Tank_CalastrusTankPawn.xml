@@ -94,6 +94,11 @@
 						<li>mainTurret</li>
 					</turretIds>
 				</li>
+				<li>
+					<key>passenger</key>
+					<label>Passenger</label>
+					<slots>2</slots>
+				</li>
 			</roles>
 		</properties>
 		<components>

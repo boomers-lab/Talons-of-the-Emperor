@@ -509,7 +509,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_SoSHelmetA</defName>
 		<label>Sister of Silence helmet (a)</label>
-		<description>The helmet of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
+		<description>The mask of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</texPath>
 		</graphicData>
@@ -663,8 +663,8 @@
 	
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_BladeChampHelmet</defName>
-		<label>Blade Championo helmet</label>
-		<description>To do</description>
+		<label>Blade Champion helmet</label>
+		<description>An auramite-plated helmet worn by a Custodian Blade Champion. Against the most threatening foes the enemy can muster, great protection is required. \n\nThe Blade Champion is second-in-command of a Shield Company, second to the Shield-Captain. While their Captain maintains control of the main force, Blade Champions can be found leading smaller detachments into battle, plunging deep into the enemy's ranks.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/BladeChampion/Helmet/CustodesBChampionHelmet_south</texPath>
 			<drawSize>(1.5,1.5)</drawSize>
@@ -727,7 +727,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_EyeOfTheEmperorHelmet</defName>
 		<label>Eye of the Emperor helmet</label>
-		<description>To do</description>
+		<description>A light Power Armor helmet, combined with a hood - suitable for an Eye of the Emperor. \n\nThough they are no longer suited to the regular ranks of the Adeptus Custodes, an Eye of the Emperor retains their biological and genetic enhancements. Many Eyes could still slay a Chaos Space Marine man-to-man, and are more than a match for the majority of the everyday threats an Imperial underhive citizen sees.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/EyeoftheEmperor/Helmet/CustodesEOTEHelmet_south</texPath>
 		</graphicData>
@@ -806,7 +806,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_ShieldCaptianHelmet</defName>
 		<label>Shield Captain helmet</label>
-		<description>To do</description>
+		<description>The helmet of a Shield-Captain of the Adeptus Custodes, with extra markings to symbolise their rank. \n\nShield-Captains are the leaders of Shield Companies, the standard tactical formation of the Adeptus Custodes - multiple Shield Companies form a Shield Host. However, their organisation is conducted with surprising looseness, with Shield Companies being formed and disbanded as needed, and Shield-Captains have even been known to command each other as the situation requires. \n\nCustodians do not require orders to fall in line, nor rank to command - every Custodian knows their place and respect each others' authority.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/ShieldCaptain/Helmet/CustodesSCaptainHelmet_south</texPath>
 		</graphicData>

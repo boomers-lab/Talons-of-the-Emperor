@@ -98,7 +98,7 @@
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_CustodesGuardArmor</defName>
 		<label>Custodian Shield Host armor</label>
-        <description>A suit of Power Armor built for the Adeptus Custodes. Built from the golden material known as Auramite, its strength greatly exceeds that of a Space Marine's equivalent armor.\n\nThe Adeptus Custodes are, among other names, also known as the Ten Thousand. For most of their history, stretching back to the Unification Wars on Terra, there have indeed been ten thousand of them. However, during the War Within the Webway, the fighting was so brutal that their number was reduced down to a mere thousand, though they eventually recovered.</description>
+        <description>A suit of Power Armor built for the Adeptus Custodes, the right hand of the Talons of the Emperor. Built from the golden material known as Auramite, its strength greatly exceeds that of a Space Marine's equivalent armor.\n\nThe Adeptus Custodes are, among other names, also known as the Ten Thousand. For most of their history, stretching back to the Unification Wars on Terra, there have indeed been ten thousand of them. However, during the War Within the Webway, the fighting was so brutal that their number was reduced down to a mere thousand, though they eventually recovered.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/CGuard_torso_Male_south</texPath>
 		</graphicData>
@@ -341,7 +341,7 @@
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_SisterOfSilence</defName>
 		<label>Sister of Silence armor</label>
-        <description>To do</description>
+        <description>A suit of Power Armor built for the Sisters of Silence, the left hand of the Talons of the Emperor. While it is of smaller stature than the Custodian equivalent, it is just as finely-crafted, and similarly protective. \n\nThe Sister of Silence are an ancient order of Blanks - a form of mutant that is utterly abhorrent to the Warp and to psykery. As such, the Sisterhood makes for excellent hunters of daemons and witches, as well as managing the psyker harvest of the Black Ships.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/SisterofSilence/CustodesSOS_Male_south</texPath>
 		</graphicData>
@@ -418,8 +418,8 @@
 	
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_BladeOfChamp</defName>
-		<label>Blade of Champion armor</label>
-        <description>To do</description>
+		<label>Blade Champion armor</label>
+        <description>Special Power Armor crafted for Blade Champions of the Adeptus Custodes. \n\nThe task of a Blade Champion is to seek and slay the enemy's commanders and heroes. For this task, they are bestowed with the mighty Vaultsword, and the expertise needed to wield them to great effect. Many names are inscribed upon the Tome Eternal, every one of them belonging to a Blade Champion.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/BladeChampion/CustodesBChampion_south</texPath>
 		</graphicData>
@@ -483,7 +483,7 @@
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_EyeOfTheEmperor</defName>
 		<label>Eye of the Emperor armor</label>
-        <description>To do</description>
+        <description>A light suit of Power Armor worn on rare occasion by an Eye of the Emperor. \n\nEyes of the Emperor are Custodians that have "retired", due to advanced age or grievous, permanent wounds. Their role is to watch the galaxy for threats that may endanger the Emperor, and to report any such threats to the Captain-General of the Adeptus Custodes.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/EyeoftheEmperor/CustodesEOTE_south</texPath>
 		</graphicData>

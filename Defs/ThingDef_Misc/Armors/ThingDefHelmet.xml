@@ -508,8 +508,8 @@
 	<!-- Sister of Silence -->
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_SoSHelmetA</defName>
-		<label>Sister of Silence helmet(A)</label>
-		<description>To do</description>
+		<label>Sister of Silence helmet (a)</label>
+		<description>The helmet of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</texPath>
 		</graphicData>
@@ -584,8 +584,8 @@
 	
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_SoSHelmetB</defName>
-		<label>Sister of Silence helmet(B)</label>
-		<description>To do</description>
+		<label>Sister of Silence helmet (b)</label>
+		<description>The helmet of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</texPath>
 		</graphicData>

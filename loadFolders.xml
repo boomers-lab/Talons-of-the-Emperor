@@ -3,6 +3,6 @@
 	<v1.5>
 		<li>/</li>
 		<li IfModActive="kentington.saveourship2">Mods/SaveOurShip</li>
-		<li IfModActive="Grimworld.Vehicles">Vehicles</li>
+		<li IfModActive="SmashPhil.VehicleFramework">Vehicles</li>
 	</v1.5>
 </loadFolders>

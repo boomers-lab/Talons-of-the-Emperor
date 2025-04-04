@@ -806,7 +806,7 @@
 	<ThingDef ParentName="GW_TotEHelmetBase">
 		<defName>GW_TotE_ShieldCaptianHelmet</defName>
 		<label>Shield Captain helmet</label>
-		<description>The helmet of a Shield-Captain of the Adeptus Custodes, with extra markings to symbolise their rank. \n\nShield-Captains are the leaders of Shield Companies, the standard tactical formation of the Adeptus Custodes - multiple Shield Companies form a Shield Host. However, their organisation is conducted with surprising looseness, with Shield Companies being formed and disbanded as needed, and Shield-Captains have even been known to command each other as the situation requires. \n\nCustodians do not require orders to fall in line, nor rank to command - every Custodian knows their place and respect each others' authority.</description>
+		<description>The helmet of a Shield-Captain of the Adeptus Custodes, with extra markings to symbolise their rank. \n\nShield-Captains are the leaders of Shield Companies, the standard tactical formation of the Adeptus Custodes - multiple Shield Companies form a Shield Host. However, their organisation is conducted with surprising looseness, with Shield Companies being formed and disbanded as needed, and Shield-Captains have even been known to command each other as the situation requires. \n\nCustodians do not require orders to fall in line, nor rank to command - every Custodian knows their place and respects each others' authority.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/ShieldCaptain/Helmet/CustodesSCaptainHelmet_south</texPath>
 		</graphicData>

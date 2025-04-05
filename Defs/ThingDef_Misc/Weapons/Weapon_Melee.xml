@@ -309,8 +309,8 @@
 	<!-- SoS Sword -->
 	<ThingDef ParentName="GW_TotE_BaseMakeableMelee">
 		<defName>GW_TotE_SoSSword</defName>
-		<label>SoS sword</label>
-		<description>To do.</description>
+		<label>Executioner Greatblade</label>
+		<description>A two-handed power sword wielded by Sisters of Silence. Edged with special silica glass, as hard as diamond, it can deliver a deadly blow to an armored foe with the right technique. \n\nA certain Execution Blade, named "Veracity", was once wielded by the Emperor of Mankind Himself, but was passed down to Knight-Commander Jenetia Krole some time before the Horus Heresy. She was an exceptionally powerful Blank - so much so that combined with the Onyx Cloak she wore, she was nearly invisible to daemons and normal humans alike.</description>
 		<graphicData>
 			<texPath>Things/Weapons/CustodesSOS_Sword</texPath>
 			<graphicClass>Graphic_Single</graphicClass>

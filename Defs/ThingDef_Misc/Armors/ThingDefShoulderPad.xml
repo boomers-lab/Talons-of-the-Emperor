@@ -386,8 +386,8 @@
 	<!-- Eye of the Emperor -->
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_EyeoftheEmperorShoulder</defName>
-		<label>eye of the emperor shoulder pads</label>
-		<description>To do</description>
+		<label>Eye of the Emperor shoulder pads</label>
+		<description>The shoulder pads of an Eye of the Emperor. Lightweight and comfortable, allowing even a battle-scarred former Custodian to fight while wearing it. \n\nAll Eyes of the Emperor works in the shadows, but their methods vary. Some Eyes work alone, while others cultivate their own spy networks.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/EyeoftheEmperor/Shoulder/CustodesEOTEshoulder</texPath>
 		</graphicData>
@@ -446,8 +446,8 @@
 	<!-- Shield Captain -->
 	<ThingDef ParentName="GW_TalonOfTheEmperor_ShoulderBase">
 		<defName>GW_TotE_ShieldCaptainShoulder</defName>
-		<label>shield captain shoulder pads</label>
-		<description>To do</description>
+		<label>Shield Captain shoulder pads</label>
+		<description>Power Armor shoulder pads of a Shield-Captain. Highly ornamented, but certainly not ornamental. \n\nA Shield-Captain is not merely a warrior - few command officers are, as they have to navigate command centre politics and butter up the occasional noble or Inquisitor. However, Shield-Captains must manoeuvre around the highest of the high - the nobles of Holy Terra - and the stakes are far greater than one's own career or life.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/ShieldCaptain/Shoulders/CustodesSCaptainShoulder</texPath>
 		</graphicData>

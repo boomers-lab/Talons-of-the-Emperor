@@ -4,8 +4,8 @@
 
 	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
 		<defName>GW_CalastrusTank_Blueprint</defName>
-		<label>Calastrus</label>
-		<description>The Calastrus, WIP \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<label>Caladius</label>
+		<description>The Caladius is an ancient design of Imperial grav-tank, used exclusively by the Legio Custodes during the Horus Heresy. The heaviest vehicle the Custodians fielded, this giant but surprisingly-manoeuvrable tank could hover over rough terrain, blast Traitor armor to pieces with its twin-linked Iliastus Accelerator Cannons, and blow holes in escorting infantry with its two Lastrum Bolt Cannons. \n\nThis vehicle design was supposed to have been lost to time. The presence of this vehicle has been noted with considerable alarm by the Imperial fleet in orbit - while the tech-priests reflexively claim that it is just a pale imitation or "tainted" in some way, the oldest Marines and Custodians have gazed upon it with clear recognition of what it truly is. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1, Gunner x2, Passenger x12\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		<designationCategory>GrimworldCategory</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/PrimarisTank/Astraeus</texPath>

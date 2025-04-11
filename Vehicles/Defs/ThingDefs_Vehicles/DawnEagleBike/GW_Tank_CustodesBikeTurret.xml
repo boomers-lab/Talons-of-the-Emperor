@@ -6,7 +6,7 @@
 	
 	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
 		<defName>GW_DawnEagleBike_Main</defName>
-		<label>bike Heavy Bolter Main</label>
+		<label>Hurricane Bolter</label>
 		<description>A fixed, front-mounted hurricane bolter. Fires 0.998 cal bolts.</description>
 		<turretType>Rotatable</turretType>
 		<shotSound>OverlordHBolter</shotSound>

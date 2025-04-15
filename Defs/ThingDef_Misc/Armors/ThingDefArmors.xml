@@ -531,9 +531,9 @@
 				<dataEast>
 					<layer>70</layer>
 				</dataEast>
-				<dataSouth>
-					<layer>70</layer>
-				</dataSouth>
+				<!-- <dataSouth> -->
+					<!-- <layer>70</layer> -->
+				<!-- </dataSouth> -->
 				<scale>1.1</scale>
                 <childScale>1.1</childScale>
             </drawData>

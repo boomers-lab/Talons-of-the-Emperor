@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+    <ThingDef ParentName="GW_LaserBullet" Class="VanillaWeaponsExpandedLaser.LaserBeamDef">
+        <defName>GW_Calastruslas</defName>
+        <label>Accelerator Cannon shot</label>
+        <description>The Arachnus Heavy Blaze Cannon, WIP</description>
+        <textures>
+            <li>Things/Projectiles/Las_Bolt</li>
+        </textures>
+        <seam>0</seam>
+        <causefireChance>0.1</causefireChance>
+        <projectile>
+            <damageDef>Burn</damageDef>
+            <damageAmountBase>400</damageAmountBase>
+            <armorPenetrationBase>2</armorPenetrationBase>
+            <stoppingPower>3.0</stoppingPower>
+			<explosionRadius>4</explosionRadius>
+			<soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
+        </projectile>
+    </ThingDef>
+
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>GW_CalastrusTank_Lasgun</defName>
+		<label>lasgun</label>
+		<description>A twinlinked Lascannon, faster than singles, but suffers from worse overheating.</description>
+		
+		<turretType>Rotatable</turretType>
+		<shotSound>OverlordLascannon</shotSound>
+		
+		<projectile>GW_Calastruslas</projectile>
+		<reloadTimer>8</reloadTimer>
+		<warmUpTimer>0.4</warmUpTimer>
+		
+		<magazineCapacity>60</magazineCapacity>
+		<genericAmmo>true</genericAmmo>
+		
+		<hitFlags>IntendedTarget</hitFlags>
+		
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>2.95</rotationSpeed>
+			<projectileOffset>5.5</projectileOffset>
+		<projectileShifting>
+			<li>-1.0</li>
+			<li>1.0</li>
+		</projectileShifting>
+		
+		<minRange>1</minRange>
+		<maxRange>42.9</maxRange>
+		
+		<fireModes>
+			<li>
+				<shotsPerBurst>1</shotsPerBurst>
+				<ticksBetweenShots>10</ticksBetweenShots>
+				<ticksBetweenBursts>100</ticksBetweenBursts>
+				<spreadRadius>1</spreadRadius>
+				<label>Single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>2</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>100</ticksBetweenBursts>
+				<spreadRadius>1</spreadRadius>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+		</fireModes>
+
+		<graphicData>
+			<texPath>Things/Vehicles/Calastrus/CalastrusTurret1</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(10, 10)</drawSize>
+			<layer>1</layer>
+		</graphicData>
+		
+		<ammunition>
+			<thingDefs>
+				<li>GW_LascannonammoNonCE</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+
+	<Vehicles.VehicleTurretDef ParentName="VehicleTurretBase">
+		<defName>GW_CalstrusTank_twinBolter</defName>
+		<label>Twin Heavy Bolter</label>
+		<description>bolt.</description>
+		<turretType>Rotatable</turretType>
+		<shotSound>Shot_TurretSniper</shotSound>
+		<projectile>GW_Bullet_HeavyBolter</projectile>
+		<reloadTimer>7.8</reloadTimer>
+		<warmUpTimer>1.0</warmUpTimer>
+		<magazineCapacity>200</magazineCapacity>
+		<chargePerAmmoCount>1</chargePerAmmoCount>
+		<genericAmmo>true</genericAmmo>
+		<hitFlags>IntendedTarget</hitFlags>
+		<autoSnapTargeting>false</autoSnapTargeting>
+		<rotationSpeed>0.5</rotationSpeed>
+		<projectileOffset>0.0</projectileOffset>
+		<projectileShifting>
+			<li>-0.3</li>
+			<li>0.3</li>
+		</projectileShifting>
+		<maxRange>28.9</maxRange>
+		<attachProjectileFlag>GW_Tank</attachProjectileFlag>
+			<fireModes>
+			<li>
+				<shotsPerBurst>5</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<label>Single</label>
+				<texPath>UI/Gizmos/FireRate_Single</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>10</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>30</ticksBetweenBursts>
+				<spreadRadius>1</spreadRadius>
+				<label>Burst</label>
+				<texPath>UI/Gizmos/FireRate_Burst</texPath>
+			</li>
+			<li>
+				<shotsPerBurst>25</shotsPerBurst>
+				<ticksBetweenShots>5</ticksBetweenShots>
+				<ticksBetweenBursts>45</ticksBetweenBursts>
+				<label>Auto</label>
+				<texPath>UI/Gizmos/FireRate_Auto</texPath>
+			</li>
+		</fireModes>
+		<graphicData>
+			<texPath>Things/Vehicles/OverlordGunship/lasy</texPath>
+			<graphicClass>Vehicles.Graphic_Turret</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(0, 0)</drawSize>
+			<layer>3</layer>
+		</graphicData>
+		<ammunition>
+			<thingDefs>
+				<li>GW_HeavyBolterNonCE</li>
+			</thingDefs>
+		</ammunition>
+	</Vehicles.VehicleTurretDef>
+</Defs>

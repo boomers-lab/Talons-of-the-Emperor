@@ -451,5 +451,101 @@
 			<speed>46</speed>
 		</projectile>
 	</ThingDef>
+	
+	<!-- SoS bolter -->
+	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
+		<defName>GW_TotE_SOSBolter</defName>
+		<label>Vratine Bolter</label>
+		<description>An ancient and ornate boltgun design, used by the Sisters of Silence during the Horus Heresy. They could be found in the hands of Questora cadres of the Chamber of Judgement and Eradicators cadres of the Chamber of Vigilance. \n\nThe Silent Sisterhood were no slouches during the Age of Darkness, regularly being fielded against the legions of Chaos and the Traitor forces who followed them. Since all daemons are beings of the Warp and the Traitor sorcerors called upon the Immaterium for their powers, the Sisters were a very strong counter against them.</description>
+		<graphicData>
+			<texPath>Things/Weapons/CustodesSOS_Bolter</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>1.10</drawSize>
+		</graphicData>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+			<skillRequirements>
+				<Crafting>18</Crafting>
+			</skillRequirements>
+			<displayPriority>445</displayPriority>
+			<recipeUsers Inherit="false">
+				<li>GW_SM_TalonOfTheEmperor_WeaponBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<statBases>
+			<WorkToMake>34000</WorkToMake>
+			<Mass>4.5</Mass>
+			<AccuracyTouch>0.90</AccuracyTouch>
+			<AccuracyShort>0.85</AccuracyShort>
+			<AccuracyMedium>0.70</AccuracyMedium>
+			<AccuracyLong>0.60</AccuracyLong>
+			<RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
+		</statBases>
+		<costList>
+			<ComponentSpacer>13</ComponentSpacer>
+			<ComponentIndustrial>30</ComponentIndustrial>
+			<GW_ComponentRelic>2</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>500</Steel>
+			<Uranium>150</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>150</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
+		<verbs>
+			<li>
+				<verbClass>Verb_Shoot</verbClass>
+				<hasStandardCommand>true</hasStandardCommand>
+				<defaultProjectile>GW_TotE_SOSBolter_Bullet</defaultProjectile>
+				<warmupTime>2.5</warmupTime>
+				<forcedMissRadius>0.1</forcedMissRadius>
+				<range>55</range>
+				<ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+				<burstShotCount>3</burstShotCount>
+				<soundCast>Talon_Bolt_Gun_Sound</soundCast>
+				<soundCastTail>GunTail_Medium</soundCastTail>
+				<muzzleFlashScale>11</muzzleFlashScale>
+			</li>
+		</verbs>
+		<weaponTags>
+			<li>GW_TotE_Ranged</li>
+		</weaponTags>
+		<tools>
+			<li>
+				<label>stock</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+			<li>
+				<label>barrel</label>
+				<capacities>
+					<li>Blunt</li>
+					<li>Poke</li>
+				</capacities>
+				<power>9</power>
+				<cooldownTime>2</cooldownTime>
+			</li>
+		</tools>
+	</ThingDef>
+	<ThingDef ParentName="BaseBullet">
+		<defName>GW_TotE_SOSBolter_Bullet</defName>
+		<label>bolt</label>
+		<thingClass>Projectile_Explosive</thingClass>
+		<graphicData>
+			<texPath>Things/Projectiles/Bolter_Projectile</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<projectile>
+			<damageDef>Bomb</damageDef>
+			<damageAmountBase>45</damageAmountBase>
+			<explosionRadius>0.1</explosionRadius>
+			<armorPenetrationBase>0.8</armorPenetrationBase>
+			<stoppingPower>1</stoppingPower>
+			<speed>46</speed>
+		</projectile>
+	</ThingDef>
 
 </Defs>

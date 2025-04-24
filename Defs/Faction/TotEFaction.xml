@@ -71,6 +71,8 @@
 				  <Villager_Child MayRequire="Ludeon.RimWorld.Biotech">10</Villager_Child>
 				  <Town_Guard>10</Town_Guard>
 				  <Town_Councilman>10</Town_Councilman>
+                    <GW_TotE_CustodesGuard>3</GW_TotE_CustodesGuard>
+                    <GW_TotE_CustodesWarden>1</GW_TotE_CustodesWarden>
 				</options>
 			</li>
             <li>

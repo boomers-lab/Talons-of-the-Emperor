@@ -504,4 +504,382 @@
 			</li>
 		</comps>
 	</ThingDef>
+	
+	<!-- Sister of Silence -->
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_SoSHelmetA</defName>
+		<label>Sister of Silence helmet (a)</label>
+		<description>The mask of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</texPath>
+		</graphicData>
+		<uiIconPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_Sagittarum</li>
+			</tags>
+			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetA</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataSouth>
+				<dataNorth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataNorth>
+				<dataEast>
+					<offset>(0, 0, 0.17)</offset>
+				</dataEast>
+				<dataWest>
+					<offset>(0, 0, 0.17)</offset>
+				</dataWest>
+				<scale>0.9</scale>
+			</drawData>
+		</apparel>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_SoSHelmetB</defName>
+		<label>Sister of Silence helmet (b)</label>
+		<description>The helmet of a Silent Sister. Traditionally, the mouth of a Sister is always covered, representing their vow of silence. \n\nSisters of Silence primarily communicate in their own sign language, known as "Thoughtmark". Very few outside of the Sisters of Silence and the Adeptus Custodes can understand it - Sisters of a particularly sarcastic bent amuse themselves by signing to Space Marines and Imperial Guardsmen whom they know full well do not understand them.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</texPath>
+		</graphicData>
+		<uiIconPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</uiIconPath>
+		<apparel>
+			<tags>
+				<li>GW_SisterOfSilence</li>
+			</tags>
+			<!-- <renderSkipFlags> -->
+				<!-- <li>None</li> -->
+			<!-- </renderSkipFlags> -->
+			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/Helmet/CustodesSOSHelmetB</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataSouth>
+				<dataNorth>
+					<offset>(0, 0, 0.17)</offset>
+				</dataNorth>
+				<dataEast>
+					<offset>(0, 0, 0.17)</offset>
+				</dataEast>
+				<dataWest>
+					<offset>(0, 0, 0.17)</offset>
+				</dataWest>
+				<scale>0.9</scale>
+			</drawData>
+		</apparel>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>1</maskCount>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_BladeChampHelmet</defName>
+		<label>Blade Champion helmet</label>
+		<description>An auramite-plated helmet worn by a Custodian Blade Champion. Against the most threatening foes the enemy can muster, great protection is required. \n\nThe Blade Champion is second-in-command of a Shield Company, second to the Shield-Captain. While their Captain maintains control of the main force, Blade Champions can be found leading smaller detachments into battle, plunging deep into the enemy's ranks.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/BladeChampion/Helmet/CustodesBChampionHelmet_south</texPath>
+			<drawSize>(1.5,1.5)</drawSize>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GW_BladeChampion</li>
+			</tags>
+			<wornGraphicPath>Things/CustodesArmors/BladeChampion/Helmet/CustodesBChampionHelmet</wornGraphicPath>
+			<drawData>
+			</drawData>
+		</apparel>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>2</maskCount>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_EyeOfTheEmperorHelmet</defName>
+		<label>Eye of the Emperor helmet</label>
+		<description>A light Power Armor helmet, combined with a hood - suitable for an Eye of the Emperor. \n\nThough they are no longer suited to the regular ranks of the Adeptus Custodes, an Eye of the Emperor retains their biological and genetic enhancements. Many Eyes could still slay a Chaos Space Marine man-to-man, and are more than a match for the majority of the everyday threats an Imperial underhive citizen sees.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/EyeoftheEmperor/Helmet/CustodesEOTEHelmet_south</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GW_EyeOfTheEmperor</li>
+			</tags>
+			<wornGraphicPath>Things/CustodesArmors/EyeoftheEmperor/Helmet/CustodesEOTEHelmet</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<offset>(0, 0, 0.17)</offset>
+					<layer>74</layer>
+				</dataSouth>
+				<dataNorth>
+					<offset>(0, 0, 0.17)</offset>
+					<layer>70</layer>
+				</dataNorth>
+				<dataEast>
+					<offset>(0, 0, 0.17)</offset>
+					<layer>70</layer>
+				</dataEast>
+				<dataWest>
+					<offset>(0, 0, 0.17)</offset>
+					<layer>70</layer>
+				</dataWest>
+				<!-- <scale>0.9</scale> -->
+			</drawData>
+		</apparel>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>2</maskCount>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef ParentName="GW_TotEHelmetBase">
+		<defName>GW_TotE_ShieldCaptianHelmet</defName>
+		<label>Shield Captain helmet</label>
+		<description>The helmet of a Shield-Captain of the Adeptus Custodes, with extra markings to symbolise their rank. \n\nShield-Captains are the leaders of Shield Companies, the standard tactical formation of the Adeptus Custodes - multiple Shield Companies form a Shield Host. However, their organisation is conducted with surprising looseness, with Shield Companies being formed and disbanded as needed, and Shield-Captains have even been known to command each other as the situation requires. \n\nCustodians do not require orders to fall in line, nor rank to command - every Custodian knows their place and respects each others' authority.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/ShieldCaptain/Helmet/CustodesSCaptainHelmet_south</texPath>
+		</graphicData>
+		<apparel>
+			<tags>
+				<li>GW_ShieldCaptain</li>
+			</tags>
+			<wornGraphicPath>Things/CustodesArmors/ShieldCaptain/Helmet/CustodesSCaptainHelmet</wornGraphicPath>
+			<drawData>
+				<dataSouth>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
+					<layer>74</layer>
+				</dataSouth>
+				<dataNorth>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
+					<layer>70</layer>
+				</dataNorth>
+				<dataEast>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
+					<layer>70</layer>
+				</dataEast>
+				<dataWest>
+					<!-- <offset>(0, 0, 0.17)</offset> -->
+					<layer>70</layer>
+				</dataWest>
+				<!-- <scale>0.9</scale> -->
+			</drawData>
+		</apparel>
+		<equippedStatOffsets>
+			<AimingDelayFactor>-0.3</AimingDelayFactor>
+			<SocialImpact>1.00</SocialImpact>
+			<DecompressionResistance MayRequire="kentington.saveourship2">0.25</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</equippedStatOffsets>
+		<costList>
+			<ComponentSpacer>10</ComponentSpacer>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<GW_ComponentRelic>1</GW_ComponentRelic>
+			<Plasteel>400</Plasteel>
+			<Steel>600</Steel>
+			<Uranium>100</Uranium>
+			<HP_Ceramite>200</HP_Ceramite>
+			<HP_Adamantium>120</HP_Adamantium>
+			<HP_Auramite>50</HP_Auramite>
+		</costList>
+		<statBases>
+			<WorkToMake>60000</WorkToMake>
+			<MaxHitPoints>2500</MaxHitPoints>
+			<Mass>2</Mass>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>1.70</ArmorRating_Heat>
+			<Insulation_Cold>10</Insulation_Cold>
+			<Insulation_Heat>10</Insulation_Heat>
+			<EquipDelay>2</EquipDelay>
+		</statBases>
+		<recipeMaker>
+			<researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+		</recipeMaker>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+				<maskCount>2</maskCount>
+				<palettePresets>GW_CS_HelmetChapterPalettesCustodes</palettePresets>
+				<defaultPalette>
+					<colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+				</defaultPalette>
+			</li>
+			<li MayRequire="kentington.saveourship2">
+				<compClass>SaveOurShip2.CompEVA</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
 </Defs>

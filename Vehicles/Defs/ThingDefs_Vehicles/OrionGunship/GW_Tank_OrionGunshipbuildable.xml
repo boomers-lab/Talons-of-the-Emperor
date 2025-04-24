@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>OrionGunshipbuild</defName>
+		<label>Orion Gunship</label>
+		<description>A heavy gunship employed by the Heresy-era Legio Custodes. While its Arachnus Blaze Cannons unleash hellish laser-fire on the enemy, and its Lastrum Bolt Cannons perforate the survivors, its complement of twenty-four Custodian infantry can deploy to take control of the area and sweep away any remaining opposition. \n\nIf the Imperial forces should recover any vehicles of their own design from the "techno-barbarians" of the rimworld, they often retain them for further use or to be brought back to Imperial space in the future. The Custodians are particularly keen on capturing these gunships, as well as Caladius tanks - once the holy rituals and blessings of the Omnissiah are applied, those vehicles are quickly squirreled away in Adeptus Custodes voidships, for thorough examination on the Throneworld. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		
+		<designationCategory>GrimworldCategory</designationCategory>
+		
+		<graphicData>
+			<texPath>Things/Vehicles/Orion Gunship/OrionGunship</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(20,20)</drawSize>
+		</graphicData>
+		
+		<rotatable>true</rotatable>
+
+		<statBases>
+			<MaxHitPoints>1000</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.3</Flammability>
+		</statBases>
+		
+		<size>(3,10)</size>
+		
+		<researchPrerequisites>
+			<li>GW_ImperialAirMilitaryEliteVehicleResearch</li>
+		</researchPrerequisites>
+		
+		<costList>
+			<Steel>650</Steel>
+			<HP_Ceramite>350</HP_Ceramite>
+			<GW_VehicleCannon>2</GW_VehicleCannon>
+			<GW_JetEngine>4</GW_JetEngine>
+			<GW_VehicleExhaust>4</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>4</GW_VehicleSideTurret>
+			<ComponentIndustrial>25</ComponentIndustrial>
+			<ComponentSpacer>5</ComponentSpacer>
+		</costList>
+		
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>OrionGunshippawn</thingToSpawn>
+		
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

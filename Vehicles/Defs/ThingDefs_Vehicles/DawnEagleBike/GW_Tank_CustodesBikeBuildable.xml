@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<!--===== Chimera =====-->
+	
+	<Vehicles.VehicleBuildDef ParentName="VehicleBaseBuildable">
+		<defName>GW_DawnEagleBike_Blueprint</defName>
+		<label>Dawneagle Jetbike</label>
+		<description>An advanced, Heresy-era jetbike, built to the specifications of Vertus Praetors of the Legio Custodes. Fast and nimble, these jetbikes are suitable for cross-country travel and high-speed skirmishing, weaving in and out of the terrain with grace and elegance. \n\nThis particular version is armed with a Hurricane Bolter modified to accept 0.998 cal bolts, giving it more than enough firepower to shred enemy infantry. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
+		<designationCategory>GrimworldCategory</designationCategory>
+		<graphicData>
+			<texPath>Things/Vehicles/DawnEagleBike/Dawneagle</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(4.5, 4.5)</drawSize>
+		</graphicData>
+		<statBases>
+			<MaxHitPoints>500</MaxHitPoints>
+			<WorkToBuild>15000</WorkToBuild>
+			<Flammability>0.05</Flammability>
+		</statBases>
+		<size>(2, 3)</size>
+		<researchPrerequisites>
+			<li>GW_ImperialAirMilitaryVehicleResearch</li>
+		</researchPrerequisites>
+		<costList>
+			<Steel>425</Steel>
+			<HP_Ceramite>30</HP_Ceramite>
+			<GW_JetEngine>1</GW_JetEngine>
+			<GW_VehicleExhaust>2</GW_VehicleExhaust>
+			<GW_VehicleSideTurret>2</GW_VehicleSideTurret>
+			<ComponentIndustrial>12</ComponentIndustrial>
+			<ComponentSpacer>1</ComponentSpacer>
+		</costList>
+		<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+		<thingToSpawn>GW_DawnEagleBike</thingToSpawn>
+		<constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+	</Vehicles.VehicleBuildDef>
+</Defs>

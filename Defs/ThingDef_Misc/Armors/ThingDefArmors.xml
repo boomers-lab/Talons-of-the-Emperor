@@ -98,7 +98,7 @@
 	<ThingDef ParentName="GW_TotE_ArmorBase">
 		<defName>GW_TotE_CustodesGuardArmor</defName>
 		<label>Custodian Shield Host armor</label>
-        <description>A suit of Power Armor built for the Adeptus Custodes. Built from the golden material known as Auramite, its strength greatly exceeds that of a Space Marine's equivalent armor.\n\nThe Adeptus Custodes are, among other names, also known as the Ten Thousand. For most of their history, stretching back to the Unification Wars on Terra, there have indeed been ten thousand of them. However, during the War Within the Webway, the fighting was so brutal that their number was reduced down to a mere thousand, though they eventually recovered.</description>
+        <description>A suit of Power Armor built for the Adeptus Custodes, the right hand of the Talons of the Emperor. Built from the golden material known as Auramite, its strength greatly exceeds that of a Space Marine's equivalent armor.\n\nThe Adeptus Custodes are, among other names, also known as the Ten Thousand. For most of their history, stretching back to the Unification Wars on Terra, there have indeed been ten thousand of them. However, during the War Within the Webway, the fighting was so brutal that their number was reduced down to a mere thousand, though they eventually recovered.</description>
 		<graphicData>
 			<texPath>Things/CustodesArmors/Custodes/CGuard_torso_Male_south</texPath>
 		</graphicData>
@@ -337,4 +337,224 @@
             </li>
 		</modExtensions>
     </ThingDef>	
+	
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_SisterOfSilence</defName>
+		<label>Sister of Silence armor</label>
+        <description>A suit of Power Armor built for the Sisters of Silence, the left hand of the Talons of the Emperor. While it is of smaller stature than the Custodian equivalent, it is just as finely-crafted, and similarly protective. \n\nThe Sister of Silence are an ancient order of Blanks - a form of mutant that is utterly abhorrent to the Warp and to psykery. As such, the Sisterhood makes for excellent hunters of daemons and witches, as well as managing the psyker harvest of the Black Ships.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/SisterofSilence/CustodesSOS_Male_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>45</ComponentSpacer>
+			<ComponentIndustrial>80</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>280</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>90</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/SisterofSilence/CustodesSOS</wornGraphicPath>
+			<gender>Female</gender>
+			<tags>
+				<li>GW_SisterOfSilence</li>
+			</tags>
+			<drawData>
+				<dataNorth>
+					<layer>74</layer>
+				</dataNorth>
+				<dataWest>
+					<layer>30</layer>
+				</dataWest>
+				<dataEast>
+					<layer>30</layer>
+				</dataEast>
+				<!-- <dataSouth> -->
+					<!-- <layer>30</layer> -->
+				<!-- </dataSouth> -->
+				<scale>1.1</scale>
+                <childScale>1.1</childScale>
+            </drawData>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>1</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>
+    </ThingDef>	
+	
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_BladeOfChamp</defName>
+		<label>Blade Champion armor</label>
+        <description>Special Power Armor crafted for Blade Champions of the Adeptus Custodes. \n\nThe task of a Blade Champion is to seek and slay the enemy's commanders and heroes. For this task, they are bestowed with the mighty Vaultsword, and the expertise needed to wield them to great effect. Many names are inscribed upon the Tome Eternal, every one of them belonging to a Blade Champion.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/BladeChampion/CustodesBChampion_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>45</ComponentSpacer>
+			<ComponentIndustrial>80</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>280</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>90</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/BladeChampion/CustodesBChampion</wornGraphicPath>
+			<tags>
+				<li>GW_BladeOfChampion</li>
+			</tags>
+			<drawData>
+				<scale>1.1</scale>
+            </drawData>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>2</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>
+    </ThingDef>	
+	
+	<ThingDef ParentName="GW_TotE_ArmorBase">
+		<defName>GW_TotE_EyeOfTheEmperor</defName>
+		<label>Eye of the Emperor armor</label>
+        <description>A light suit of Power Armor worn on rare occasion by an Eye of the Emperor. \n\nEyes of the Emperor are Custodians that have "retired", due to advanced age or grievous, permanent wounds. Their role is to watch the galaxy for threats that may endanger the Emperor, and to report any such threats to the Captain-General of the Adeptus Custodes.</description>
+		<graphicData>
+			<texPath>Things/CustodesArmors/EyeoftheEmperor/CustodesEOTE_south</texPath>
+		</graphicData>
+		<recipeMaker>
+            <researchPrerequisite>GW_TotE_CustodesGuard</researchPrerequisite>
+        </recipeMaker>
+        <statBases>
+			<WorkToMake>150000</WorkToMake>
+			<MaxHitPoints>4000</MaxHitPoints>
+			<Mass>5</Mass>
+			<Flammability>0.0</Flammability>
+			<ArmorRating_Sharp>3.00</ArmorRating_Sharp>
+			<ArmorRating_Blunt>2.50</ArmorRating_Blunt>
+			<ArmorRating_Heat>2.20</ArmorRating_Heat>
+			<Insulation_Cold>60</Insulation_Cold>
+			<Insulation_Heat>60</Insulation_Heat>
+			<EquipDelay>15</EquipDelay>
+		</statBases>
+		<costList>
+			<ComponentSpacer>45</ComponentSpacer>
+			<ComponentIndustrial>80</ComponentIndustrial>
+			<GW_ComponentRelic>3</GW_ComponentRelic>
+			<Plasteel>500</Plasteel>
+			<Steel>900</Steel>
+			<Uranium>190</Uranium>
+			<HP_Ceramite>280</HP_Ceramite>
+			<HP_Adamantium>200</HP_Adamantium>
+			<HP_Auramite>90</HP_Auramite>
+		</costList>
+		<equippedStatOffsets>
+			<PawnBeauty>50</PawnBeauty>
+		</equippedStatOffsets>
+		<apparel>
+			<wornGraphicPath>Things/CustodesArmors/EyeoftheEmperor/CustodesEOTE</wornGraphicPath>
+			<tags>
+				<li>GW_EyeOfTheEmperor</li>
+			</tags>
+			<drawData>
+				<dataNorth>
+					<layer>74</layer>
+				</dataNorth>
+				<dataWest>
+					<layer>70</layer>
+				</dataWest>
+				<dataEast>
+					<layer>70</layer>
+				</dataEast>
+				<!-- <dataSouth> -->
+					<!-- <layer>70</layer> -->
+				<!-- </dataSouth> -->
+				<scale>1.1</scale>
+                <childScale>1.1</childScale>
+            </drawData>
+		</apparel>
+		<comps>
+			<li Class="GW4KArmor.CompProperties_TriColorMask">
+                <maskCount>2</maskCount>
+                <palettePresets>GW_CS_BodyChapterPalettesCustodes</palettePresets>
+                <defaultPalette>
+                    <colorA>(250, 176, 67)</colorA>
+					<colorB>(250, 176, 67)</colorB>
+					<colorC>(180, 65, 74)</colorC>
+                </defaultPalette>
+           	 </li>
+        </comps>
+		<modExtensions>
+			<li Class="VFECore.ApparelDrawPosExtension">
+                <isUnifiedApparel>true</isUnifiedApparel>
+				<hideHead>false</hideHead>
+            </li>
+		</modExtensions>
+    </ThingDef>	
+	
 </Defs>

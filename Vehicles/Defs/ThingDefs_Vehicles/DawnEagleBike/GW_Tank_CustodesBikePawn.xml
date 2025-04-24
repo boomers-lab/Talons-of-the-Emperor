@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <sustain>true</sustain>
+    <defName>jetbikelooper</defName>  
+    <context>MapOnly</context>  
+    <maxSimultaneous>1</maxSimultaneous>
+    <priorityMode>PrioritizeNearest</priorityMode>   
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>JetLoop</clipPath>
+          </li>
+        </grains>
+        <pitchRange>0.99~1.01</pitchRange>
+        <volumeRange>35~35</volumeRange>
+        <sustainAttack>2.5</sustainAttack>      
+        <sustainRelease>2.5</sustainRelease>
+      </li>
+    </subSounds>
+  </SoundDef>
+	<Vehicles.VehicleDef ParentName="BaseVehiclePawn">
+		<defName>GW_DawnEagleBike</defName>
+		<label>Dawn Eagle JetBike</label>
+		<description>An advanced, Heresy-era jetbike, built to the specifications of Vertus Praetors of the Legio Custodes. Fast and nimble, these jetbikes are suitable for cross-country travel and high-speed skirmishing, weaving in and out of the terrain with grace and elegance. \n\nThis particular version is armed with a Hurricane Bolter modified to accept 0.998 cal bolts, giving it more than enough firepower to shred enemy infantry. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Uranium</description>
+
+		<graphicData>
+			<texPath>Things/Vehicles/DawnEagleBike/Dawneagle</texPath>
+			<graphicClass>Vehicles.Graphic_Vehicle</graphicClass>
+			<shaderType>CutoutComplexPattern</shaderType>
+			<drawSize>(4.5, 4.5)</drawSize>
+			<color>(155, 155, 155)</color>
+			<colorTwo>(65, 75, 80)</colorTwo>
+			<colorThree>(45, 50, 45)</colorThree>
+		</graphicData>
+		<fillPercent>1</fillPercent>
+		<buildDef>GW_DawnEagleBike_Blueprint</buildDef>
+		<size>(2, 3)</size>
+		<vehicleCategory>Combat</vehicleCategory>
+		<techLevel>Spacer</techLevel>
+		<vehicleType>Land</vehicleType>
+		<statBases>
+			<ArmorRating_Blunt>1</ArmorRating_Blunt>
+			<ArmorRating_Sharp>1.7</ArmorRating_Sharp>
+			<ArmorRating_Heat>1.0</ArmorRating_Heat>
+			<Flammability>0</Flammability>
+			<MarketValue>7000</MarketValue>
+		</statBases>
+		<vehicleStats>
+			<Mass>400</Mass>
+			<MoveSpeed>12</MoveSpeed>
+			<CargoCapacity>250</CargoCapacity>
+			<RepairRate>0.3</RepairRate>
+			<AccelerationRate MayRequire="OskarPotocki.VanillaVehiclesExpanded">0.08</AccelerationRate>
+		</vehicleStats>
+		
+		<soundSustainersOnEvent>
+			<li>
+				<start>IgnitionOn</start>
+				<stop>IgnitionOff</stop>
+				<value>valkloop</value>
+			</li>
+		</soundSustainersOnEvent>
+		
+		<race>
+			<baseBodySize>4.0</baseBodySize>
+		</race>
+		<properties>
+			<customSnowCategoryTicks AssignDefaults="1" />
+			<customRoadCosts AssignDefaults="0.33" />
+			<winterSpeedMultiplier>0.95</winterSpeedMultiplier>
+			<worldSpeedMultiplier>2</worldSpeedMultiplier>
+			<offRoadMultiplier>0.95</offRoadMultiplier>
+			<customTerrainCosts AssignDefaults = "1"/>
+			<iconTexPath>UI/Icons/DefaultBoatIcon</iconTexPath>
+			<customBiomeCosts>
+				<li>
+					<key>Ocean</key>
+					<value>0.3</value>
+				</li>
+				<li>
+					<key>Lake</key>
+					<value>0.3</value>
+				</li>
+			</customBiomeCosts>
+			<vehicleJobLimitations>
+				<li>(RepairVehicle, 5)</li>
+			</vehicleJobLimitations>
+			<diagonalRotation>false</diagonalRotation>
+			<roles>
+				<li>
+		<key>rider</key>
+		<label>Rider</label>
+
+		<slots>1</slots>
+		<slotsToOperate>1</slotsToOperate>	
+
+		<handlingTypes>
+		<li>Movement</li>
+		<li>Turret</li>
+		</handlingTypes>
+			
+		<turretIds>
+		<li>mainTurret</li>
+		</turretIds>
+
+		<pawnRenderer>
+		<layer>1</layer>
+		<layerNorth>1</layerNorth>
+		<layerSouth>-1</layerSouth>
+		<angleNorth>0</angleNorth>
+		<angleEast>0</angleEast>
+		<angleNorthEast>0</angleNorthEast>
+		<angleSouthEast>0</angleSouthEast>
+		<drawOffsetNorth>(0,0,-0.01)</drawOffsetNorth>
+		<drawOffsetSouth>(0,0,-0.01)</drawOffsetSouth>
+		<drawOffsetEast>(-0.5,0,-0.15)</drawOffsetEast>
+		</pawnRenderer>
+				</li>
+			</roles>
+		</properties>
+		<components>
+			<li>
+				<key>Engine</key>
+				<label>Engine</label>
+				<health>150</health>
+				<priorityStatEfficiency>true</priorityStatEfficiency>
+				<depth>Internal</depth>
+				<reactors>
+					<li Class="Vehicles.Reactor_Explosive">
+						<indicator>VF_Explosive</indicator>
+						<chance>0.25</chance>
+						<radius>3</radius>
+						<damageDef>Bomb</damageDef>
+					</li>
+				</reactors>
+				<hitbox>
+					<cells>
+						<li>(0, 0)</li>
+					</cells>
+				</hitbox>
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>Gearbox</key>
+				<label>Gearbox</label>
+				<health>50</health>
+				<depth>Internal</depth>
+				<hitbox>
+					<cells>
+						<li>(0, 1)</li>
+					</cells>
+				</hitbox>
+				<categories>
+					<li>MoveSpeed</li>
+				</categories>
+			</li>
+			<li>
+				<key>FrontArmorPlating</key>
+				<label>Front Armor Plating</label>
+				<health>225</health>
+				<depth>External</depth>
+				<armor>
+					<ArmorRating_Blunt>1.64</ArmorRating_Blunt>
+					<ArmorRating_Sharp>2.84</ArmorRating_Sharp>
+				</armor>
+				<hitbox>
+					<side>Front</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>LeftArmorPlating</key>
+				<label>Left Armor Plating</label>
+				<health>225</health>
+				<depth>External</depth>
+				<armor>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
+				</armor>
+				<hitbox>
+					<side>Left</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>RightArmorPlating</key>
+				<label>Right Armor Plating</label>
+				<health>225</health>
+				<depth>External</depth>
+				<armor>
+					<ArmorRating_Blunt>1.05</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.84</ArmorRating_Sharp>
+				</armor>
+				<hitbox>
+					<side>Right</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>BackArmorPlating</key>
+				<label>Rear Armor Plating</label>
+				<health>200</health>
+				<depth>External</depth>
+				<armor>
+					<ArmorRating_Blunt>0.85</ArmorRating_Blunt>
+					<ArmorRating_Sharp>1.45</ArmorRating_Sharp>
+				</armor>
+				<hitbox>
+					<side>Back</side>
+				</hitbox>
+			</li>
+			<li>
+				<key>FuelTank</key>
+				<label>Fuel Tank</label>
+				<health>150</health>
+				<depth>Internal</depth>
+				<reactors>
+					<li Class="Vehicles.Reactor_FuelLeak" />
+				</reactors>
+				<hitbox>
+					<cells>
+						<li>(0, 0)</li>
+					</cells>
+				</hitbox>
+			</li>
+			<li>
+				<key>Dashboard</key>
+				<label>Dashboard</label>
+				<health>50</health>
+				<depth>Internal</depth>
+				<hitWeight>5</hitWeight>
+			</li>
+			<li>
+				<key>SteeringApparatus</key>
+				<label>Steering Apparatus</label>
+				<health>50</health>
+				<depth>Internal</depth>
+				<hitWeight>5</hitWeight>
+			</li>
+			<li>
+				<key>Alternator</key>
+				<label>Alternator</label>
+				<health>50</health>
+				<depth>Internal</depth>
+			</li>
+		</components>
+		<comps>
+			<li Class="Vehicles.CompProperties_FueledTravel">
+				<fuelType>Uranium</fuelType>
+				<leakDef>Filth_Fuel</leakDef>
+				<fuelConsumptionRate>36</fuelConsumptionRate>
+				<fuelConsumptionWorldMultiplier>0.2</fuelConsumptionWorldMultiplier>
+				<fuelCapacity>50</fuelCapacity>
+			</li>
+
+		<li Class="Vehicles.CompProperties_VehicleTurrets">
+		<turrets>
+				<li>
+		<turretDef>GW_DawnEagleBike_Main</turretDef>
+						
+		<renderProperties>
+		<north>(0, 0)</north>
+		<south>(0, 0)</south>
+		<east>(0.9, -0.5)</east>
+		</renderProperties>
+						
+
+		<gizmoLabel>Main Turret</gizmoLabel>
+						
+		<defaultAngleRotated>0</defaultAngleRotated>
+		<angleRestricted>(340,20)</angleRestricted>
+		<aimPieOffset>(0, 1.1)</aimPieOffset>
+						
+		<key>mainTurret</key>
+					</li>
+				</turrets>
+			</li>
+		</comps>
+	</Vehicles.VehicleDef>
+
+</Defs>

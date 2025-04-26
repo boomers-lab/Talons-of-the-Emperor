@@ -529,6 +529,16 @@
 				<cooldownTime>2</cooldownTime>
 			</li>
 		</tools>
+	<modExtensions>
+		<li Class="GW_PsyDamage.ModExtension_PsyToDamage">
+			<minimumPsySensitivityToApply>1</minimumPsySensitivityToApply>
+			<damagePerThresholdMark>0.05</damagePerThresholdMark> <!-- + 5% bonus per level -->
+			<applyBonusEveryPercent>0.20</applyBonusEveryPercent> <!-- + apply bonus every 10% above minimumPsySensitivityToApply -->
+			<showBonusDamageText>true</showBonusDamageText> <!-- show floating text on target pawn -->
+			<dealLessDamageIfBelowThreshold>false</dealLessDamageIfBelowThreshold>
+			<useUserPsySensitivityForScaling>false</useUserPsySensitivityForScaling>
+		</li>	
+	</modExtensions>
 	</ThingDef>
 	<ThingDef ParentName="BaseBullet">
 		<defName>GW_TotE_SOSBolter_Bullet</defName>

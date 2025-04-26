@@ -6,7 +6,7 @@
 		<label>Orion Gunship</label>
 		<description>A heavy gunship employed by the Heresy-era Legio Custodes. While its Arachnus Blaze Cannons unleash hellish laser-fire on the enemy, and its Lastrum Bolt Cannons perforate the survivors, its complement of twenty-four Custodian infantry can deploy to take control of the area and sweep away any remaining opposition. \n\nIf the Imperial forces should recover any vehicles of their own design from the "techno-barbarians" of the rimworld, they often retain them for further use or to be brought back to Imperial space in the future. The Custodians are particularly keen on capturing these gunships, as well as Caladius tanks - once the holy rituals and blessings of the Omnissiah are applied, those vehicles are quickly squirreled away in Adeptus Custodes voidships, for thorough examination on the Throneworld. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1\n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
 		
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		
 		<graphicData>
 			<texPath>Things/Vehicles/Orion Gunship/OrionGunship</texPath>

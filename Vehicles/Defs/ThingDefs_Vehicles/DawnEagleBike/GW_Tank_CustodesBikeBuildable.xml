@@ -6,7 +6,7 @@
 		<defName>GW_DawnEagleBike_Blueprint</defName>
 		<label>Dawneagle Jetbike</label>
 		<description>An advanced, Heresy-era jetbike, built to the specifications of Vertus Praetors of the Legio Custodes. Fast and nimble, these jetbikes are suitable for cross-country travel and high-speed skirmishing, weaving in and out of the terrain with grace and elegance. \n\nThis particular version is armed with a Hurricane Bolter modified to accept 0.998 cal bolts, giving it more than enough firepower to shred enemy infantry. \n\n&lt;color=#bb8f04&gt;Crew:&lt;/color&gt; Driver x1 \n&lt;color=#bb8f04&gt;Fuel type:&lt;/color&gt; Chemfuel</description>
-		<designationCategory>GrimworldCategory</designationCategory>
+		<designationCategory>VF_Vehicles</designationCategory>
 		<graphicData>
 			<texPath>Things/Vehicles/DawnEagleBike/Dawneagle</texPath>
 			<graphicClass>Graphic_Multi</graphicClass>

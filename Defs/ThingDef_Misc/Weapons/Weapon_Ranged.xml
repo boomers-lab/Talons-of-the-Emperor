@@ -456,7 +456,7 @@
 	<ThingDef ParentName="GW_TotE_BaseMakeableGun">
 		<defName>GW_TotE_SOSBolter</defName>
 		<label>Vratine Bolter</label>
-		<description>An ancient and ornate boltgun design, used by the Sisters of Silence during the Horus Heresy. They could be found in the hands of Questora cadres of the Chamber of Judgement and Eradicators cadres of the Chamber of Vigilance. \n\nThe Silent Sisterhood were no slouches during the Age of Darkness, regularly being fielded against the legions of Chaos and the Traitor forces who followed them. Since all daemons are beings of the Warp and the Traitor sorcerors called upon the Immaterium for their powers, the Sisters were a very strong counter against them.</description>
+		<description>An ancient and ornate boltgun design, used by the Sisters of Silence during the Horus Heresy. They could be found in the hands of Questora cadres of the Chamber of Judgement and Eradicators cadres of the Chamber of Vigilance. \n\nThe Silent Sisterhood were no slouches during the Age of Darkness, regularly being fielded against the legions of Chaos and the Traitor forces who followed them. Since all daemons are beings of the Warp and the Traitor sorcerors called upon the Immaterium for their powers, the Sisters were a very strong counter against them.\n\n&lt;color=#bb8f04&gt;Damage scales with psy sensitivity of target.&lt;/color&gt;</description>
 		<graphicData>
 			<texPath>Things/Weapons/CustodesSOS_Bolter</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
